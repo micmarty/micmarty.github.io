@@ -1,0 +1,33 @@
+---
+layout: layout
+---
+
+<%= partial 'header' %>
+
+<div class="container sections-wrapper">
+    <div class="row">
+        <div class="primary col-md-8 col-sm-12 col-xs-12">
+            <%= partial 'sections/main_sections/about_section' %>
+            <%= partial 'sections/main_sections/latest_section' %>
+            <%= partial 'sections/main_sections/projects_section' %>
+            <%= partial 'sections/main_sections/experience_section' %>
+            <%= partial 'sections/main_sections/github_section' %>
+        </div><!--//primary-->
+
+        <div class="secondary col-md-4 col-sm-12 col-xs-12">
+
+            <%= partial aside_partial_path('info') %>
+            <%= partial aside_partial_path('skills') %>
+            <%= partial aside_partial_path('testimonials') %>
+            <%= partial aside_partial_path('education') %>
+            <%= partial aside_partial_path('languages') %>
+            <%= partial aside_partial_path('blog') %>
+            <%= partial aside_partial_path('music') %>
+            <%= partial aside_partial_path('conferences') %>
+            <%= partial aside_partial_path('credits') %>
+
+        </div><!--//secondary-->
+    </div><!--//row-->
+</div><!--//masonry-->
+
+<%= partial 'footer' %>

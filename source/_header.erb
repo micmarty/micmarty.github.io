@@ -1,0 +1,27 @@
+<% full_name = 'Michał Martyniak' %>
+<% short_description = 'Computer science student | Machine learning adept | Ruby on Rails developer | Multi-instrumentalist' %>
+<% link_to_profile_on_linked_in = 'https://www.linkedin.com/in/micha%C5%82-martyniak-b2bba6125/' %>
+<% link_to_profile_on_github = 'https://github.com/micmarty' %>
+
+<% profile_image_name = 'wolf_logo.png' %>
+
+<header class="header">
+    <div class="container">
+        <img  class="profile-image img-responsive pull-left"
+              src="images/<%= profile_image_name %>"
+              alt="<%= full_name %>" />
+        <div class="profile-content pull-left">
+            <h1 class="name"><%= full_name %></h1>
+            <h2 class="desc"><%= short_description %></h2>
+            <ul class="social list-inline">
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="<%= link_to_profile_on_linked_in %>"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="<%= link_to_profile_on_github %>"><i class="fa fa-github-alt"></i></a></li>
+                <li class="last-item"><a href="#"><i class="fa fa-hacker-news"></i></a></li>
+            </ul>
+        </div><!--//profile-->
+        <a class="btn btn-cta-primary pull-right" href="http://themes.3rdwavemedia.com/" target="_blank">
+          <i class="fa fa-paper-plane"></i> Contact Me</a>
+    </div><!--//container-->
+</header><!--//header-->
