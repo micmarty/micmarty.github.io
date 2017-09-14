@@ -1,0 +1,57 @@
+main_intro: |
+  I really don't like expressing any skill with progress bars... but they show how much I know in general.
+  Those values are sincere, I tried not to under or overestimate.
+
+additional_intro: |
+  TODO
+
+main:
+  - name: Ruby
+    value: 70%
+    tooltip: Fluent with syntax, able to write daemons, scripts.
+    description: Pretty good
+
+  - name: Rails
+    value: 65%
+    tooltip: MVC, Active Record, popular gems (e.g. devise, administrate, cancan, rolify, awesome_print, better_errors, pry, factory_girl, rspec)
+    description: Junior level
+
+  - name: Linux, Bash, CLI
+    value: 90%
+    tooltip: "zsh, fish, vim, docker with compose, built-in like: man pages, grep, awk, tail, iptables, ... a lot of aliases, guake terminal, mc, every popular desktop environment"
+    description: Geeky - everything must be customized and comfortable - see the tooltip
+
+  - name: Python
+    value: 65%
+    description: Mainly in ML (e.g. numpy, matplotlib, librosa) or scripts
+    
+additional:
+  - name: Data Science
+    value: 20%
+    description: A member of GradientPG (student research group).
+
+  - name: Docker with docker-compose
+    value: 50%
+
+  - name: Java, Android SDK, C#, C++
+    description: I can write but I don't enjoy them that much right now
+
+  - name: Technologies Landscape
+    value: 80%
+    description: That's not a lie. I get my knowledge from podcasts, vlogs and blogs
+
+  - name: Self-organization
+    value: 10%
+
+  - name: Sense of style
+    value: 10%
+
+  - name: Fun from customizing my own environment, learning new things and using geeky tools
+    value: 99%
+    description: Jupyter notebooks for Python and Ruby, Zsh, ohmyzsh, fish, guake, ...
+
+  - name: Keyboard shortcuts ;)
+    value: 90%
+
+    
+
