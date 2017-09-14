@@ -1,0 +1,16 @@
+projects:
+  - title: TODO title,
+    short_description: TODO desc,
+    link: TODO link to source,
+    image_path: images/projects/project-5.png
+
+  - title: TODO title,
+    short_description: TODO desc,
+    link: TODO link to source,
+    image_path: images/projects/project-5.png
+    
+  - title: TODO title,
+    short_description: TODO desc,
+    link: TODO link to source,
+    image_path: images/projects/project-5.png
+  

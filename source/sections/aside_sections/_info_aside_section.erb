@@ -3,9 +3,11 @@
        <h2 class="heading sr-only">Basic Information</h2>
        <div class="content">
            <ul class="list-unstyled">
-               <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>San Francisco, US</li>
-               <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">jameslee@website.com</a></li>
-               <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">http://www.website.com</a></li>
+               <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span><%= data.aside_sections.info.location %></li>
+               <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#"><%= image_tag data.aside_sections.info.email_image_path %></a>
+               <%= image_tag data.aside_sections.info.email_image_explanation_image_path %>
+               </li>
+               <%= website_link 'TODO put some link' %>
            </ul>
        </div><!--//content-->
    </div><!--//section-inner-->
