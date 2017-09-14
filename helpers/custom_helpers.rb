@@ -4,4 +4,8 @@ module CustomHelpers
     postfix = '_aside_section'
     "#{prefix}#{name}#{postfix}"
   end
+
+  def website_link(link)
+    '<li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">' + link + '</a></li>'
+  end
 end

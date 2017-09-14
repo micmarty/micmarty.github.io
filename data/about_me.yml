@@ -1,13 +1,14 @@
 
-title: 'About me'
+title: About me
 
-first_part: 'Write'
+first_part: Write
     
-second_part: "It's a good idea to include your personal interests and hobbies as well. 
+second_part: |
+              It's a good idea to include your personal interests and hobbies as well. 
               Commodo ligula eget dolor. 
               Aenean massa. 
               Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
               Donec quam felis, ultricies nec.
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium, 
               totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi 
-              architecto beatae vitae dicta sunt explicabo."
+              architecto beatae vitae dicta sunt explicabo.
