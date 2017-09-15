@@ -1,0 +1,37 @@
+<div class="item featured text-center">
+    <h3 class="title">
+        <a href="<%= project.link %>" target="_blank">
+            <!-- Project Title -->
+            <%= project.project_title %>
+        </a>
+    </h3>
+
+    <p class="summary">
+        <!-- Short Description -->
+        <%= project.short_description %>
+    </p>
+
+    <div class="featured-image">
+        <!-- Image with link to project -->
+        <a href="<%= project.link %>" target="_blank">
+                     <img class="img-responsive project-image" src="<%= project.image_path %>" alt="project name" />
+                     </a>
+        <div class="ribbon">
+            <div class="text">
+                <!-- Badge in the top-right corner of image-->
+                <%= project.badge %>
+            </div>
+        </div>
+    </div>
+
+    <div class="desc text-left">
+        <!-- 1 upto x Long Description Paragraphs -->
+        <% project.long_description.each do |description| %>
+            <p><%= description %></p>
+        <% end %>
+    </div>
+    
+    
+    <a class="btn btn-cta-secondary" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/"
+        target="_blank"><i class="fa fa-thumbs-o-up"></i><p><%= project.button %></p></a>
+</div>

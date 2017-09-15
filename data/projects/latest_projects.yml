@@ -1,0 +1,30 @@
+section_title: Latest Projects
+first:
+  project_title: Using Librosa for audio signal analysis
+  short_description: |
+    I was doing some research about choosing best model for my neural network.
+    The whole purpose was to try a library which transforms an audio excerpt into an image and draws some graphs, spectograms.
+
+  image_path: images/projects/main/librosa_chroma.png
+  project_name: TODO github link
+  link: https://github.com/micmarty/audio-preprocessing-exercises-with-librosa/blob/master/librosa_sandbox_1.ipynb
+  long_description:
+    - TODO first part
+    - TODO sec part
+    - TODO third part
+  badge: currently
+  button: TODO give me a star
+
+second:
+  project_title: TODO
+  short_description: TODO
+
+  image_path: TODO
+  project_name: TODO
+  link: TODO
+  long_description:
+    - TODO first part
+    - TODO sec part
+    - TODO third part
+  badge: Recently
+  button: TODO give me a star

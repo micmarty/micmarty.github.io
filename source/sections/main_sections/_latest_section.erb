@@ -1,66 +1,26 @@
+<%# Aliases %>
+<% latest_projects = data.projects.latest_projects %>
+<% other_projects = data.projects.other_projects %>
+
 <section class="latest section">
     <div class="section-inner">
         <h2 class="heading">
-            <%= data.latest_project.section_title %>
+            <!-- Latest Section Title -->
+            <%= latest_projects.section_title %>
         </h2>
-        <script type="text/javascript" src="https://asciinema.org/a/5MfzIEfGCmfkglavK0EoN8Mv0.js" id="asciicast-5MfzIEfGCmfkglavK0EoN8Mv0" data-rows="10" async></script>
         <div class="content">
-
-            <div class="item featured text-center">
-                <h3 class="title">
-                    <a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/"
-                        target="_blank">
-                        <%= data.latest_project.project_title %>
-                    </a>
-                </h3>
-                <p class="summary">
-                    <%= data.latest_project.short_description %>
-                </p>
-                <div class="featured-image">
-                    <a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/" target="_blank">
-                     <img class="img-responsive project-image" src="<%= data.latest_project.image_path %>" alt="project name" />
-                     </a>
-                    <div class="ribbon">
-                        <div class="text">
-                            <%= data.latest_project.new %>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="desc text-left">
-                    <% data.latest_project.long_description.each do |description| %>
-                        <p>
-                            <%= description %>
-                        </p>
-                        <% end %>
-                </div>
-                <!--//desc-->
-                <a class="btn btn-cta-secondary" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/"
-                    target="_blank"><i class="fa fa-thumbs-o-up"></i><p><%= data.latest_project.button %></p></a>
-            </div>
-            <!--//item-->
+            <!-- First Latest Project -->
+            <%= partial project_partial_path('main_project_template'), locals: { project: latest_projects[:first] } %>
             <hr class="divider" />
-            <% data.other_projects.projects.each do |project| %>
-            
-            <div class="item row">
-                <a class="col-md-4 col-sm-4 col-xs-12" href="<%= project.link %>"
-                    target="_blank">
-                 <img class="img-responsive project-image" src="<%= project.image_path %>" alt="project name" />
-                 </a>
-                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                    <h3 class="title"><a href="<%= project.link %>"
-                            target="_blank"><%= project.title %></a></h3>
-                    <p><%= project.short_description %></p>
-                    <p><a class="more-link" href="<%= project.link %>"
-                            target="_blank"><i class="fa fa-external-link"></i><%= project.link %></a></p>
-                </div>
-                <!--//desc-->
-            </div>
-            <!--//item-->
+
+            <!-- Second Latest Project -->
+            <%= partial project_partial_path('main_project_template'), locals: { project: latest_projects[:second] } %>
+            <hr class="divider" />
+
+            <!-- Other Recent Projects -->
+            <% other_projects.projects.each do |project| %>
+                <%= partial project_partial_path('other_project_template'), locals: { project: project } %>
             <% end %>
         </div>
-        <!--//content-->
     </div>
-    <!--//section-inner-->
 </section>
-<!--//section-->
