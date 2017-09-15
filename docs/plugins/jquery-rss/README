@@ -1,28 +1,28 @@
-<h1 id="jqueryrss">jquery.rss</h1>
+<h1>jquery.rss</h1>
 
 <p>This plugin can be used to read a RSS feed and transform it into a custom piece of HTML.</p>
 
-<h2 id="note-about-feedrappinfo">Note about feedrapp.info</h2>
+<h2>Note about feedrapp.info</h2>
 
 <p>Chances are that you are experiencing a downtime on feedrapp.info. Please update to the latest version which uses www.feedrapp.info and which might support SSL in the near future.</p>
 
-<h2 id="setup">Setup</h2>
+<h2>Setup</h2>
 
 <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
     &lt;title&gt;jquery.rss example&lt;/title&gt;
-    &lt;script src="lib/jquery-1.6.4.min.js"&gt;&lt;/script&gt;
-    &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"&gt;&lt;/script&gt;
-    &lt;script src="src/jquery.rss.js"&gt;&lt;/script&gt;
+    &lt;script src=&quot;lib/jquery-1.6.4.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;src/jquery.rss.js&quot;&gt;&lt;/script&gt;
     &lt;script&gt;
       jQuery(function($) {
-        $("#rss-feeds").rss("http://feeds.feedburner.com/premiumpixels")
+        $(&quot;#rss-feeds&quot;).rss(&quot;http://feeds.feedburner.com/premiumpixels&quot;)
       })
     &lt;/script&gt;
   &lt;/head&gt;
   &lt;body&gt;
-    &lt;div id="rss-feeds"&gt;&lt;/div&gt;
+    &lt;div id=&quot;rss-feeds&quot;&gt;&lt;/div&gt;
   &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
@@ -32,10 +32,10 @@
 <p>Note: Moment.js is <em>optional</em>. If you include it, jquery.rss will use it to format dates.
 If you do not want to include Moment.js, you may opt for providing your own date formatting function, or for not formatting dates at all.</p>
 
-<h2 id="options">Options</h2>
+<h2>Options</h2>
 
-<pre><code>$("#rss-feeds").rss(
-  "http://feeds.feedburner.com/premiumpixels",
+<pre><code>$(&quot;#rss-feeds&quot;).rss(
+  &quot;http://feeds.feedburner.com/premiumpixels&quot;,
   {
     // how many entries do you want?
     // default: 4
@@ -57,49 +57,49 @@ If you do not want to include Moment.js, you may opt for providing your own date
     // the server implementation is here: https://github.com/sdepold/feedr
     // default: feedrapp.info
     // valid values: any string
-    host: 'my-own-feedr-instance.com',
+    host: &#39;my-own-feedr-instance.com&#39;,
 
     // outer template for the html transformation
-    // default: "&lt;ul&gt;{entries}&lt;/ul&gt;"
+    // default: &quot;&lt;ul&gt;{entries}&lt;/ul&gt;&quot;
     // valid values: any string
-    layoutTemplate: "&lt;div class='feed-container'&gt;{entries}&lt;/div&gt;",
+    layoutTemplate: &quot;&lt;div class=&#39;feed-container&#39;&gt;{entries}&lt;/div&gt;&quot;,
 
     // inner template for each entry
-    // default: '&lt;li&gt;&lt;a href="{url}"&gt;[{author}@{date}] {title}&lt;/a&gt;&lt;br/&gt;{shortBodyPlain}&lt;/li&gt;'
+    // default: &#39;&lt;li&gt;&lt;a href=&quot;{url}&quot;&gt;[{author}@{date}] {title}&lt;/a&gt;&lt;br/&gt;{shortBodyPlain}&lt;/li&gt;&#39;
     // valid values: any string
-    entryTemplate: '&lt;p&gt;{title}&lt;/p&gt;',
+    entryTemplate: &#39;&lt;p&gt;{title}&lt;/p&gt;&#39;,
 
     // additional token definition for in-template-usage
     // default: {}
     // valid values: any object/hash
     tokens: {
-      foo: 'bar',
+      foo: &#39;bar&#39;,
       bar: function(entry, tokens) { return entry.title }
     },
 
     // formats the date with moment.js (optional)
-    // default: 'dddd MMM Do'
+    // default: &#39;dddd MMM Do&#39;
     // valid values: see http://momentjs.com/docs/#/displaying/
-    dateFormat: 'MMMM Do, YYYY',
+    dateFormat: &#39;MMMM Do, YYYY&#39;,
 
     // localizes the date with moment.js (optional)
-    // default: 'en'
-    dateLocale: 'de',
+    // default: &#39;en&#39;
+    dateLocale: &#39;de&#39;,
 
     // formats the date in whatever manner you choose. (optional)
     // this function should return your formatted date.
     // this is useful if you want to format dates without moment.js.
-    // if you don't use moment.js and don't define a dateFormatFunction, the dates will
+    // if you don&#39;t use moment.js and don&#39;t define a dateFormatFunction, the dates will
     // not be formatted; they will appear exactly as the RSS feed gives them to you.
     dateFormatFunction: function(date){},
 
     // the effect, which is used to let the entries appear
-    // default: 'show'
-    // valid values: 'show', 'slide', 'slideFast', 'slideSynced', 'slideFastSynced'
-    effect: 'slideFastSynced',
+    // default: &#39;show&#39;
+    // valid values: &#39;show&#39;, &#39;slide&#39;, &#39;slideFast&#39;, &#39;slideSynced&#39;, &#39;slideFastSynced&#39;
+    effect: &#39;slideFastSynced&#39;,
 
     // a callback, which gets triggered when an error occurs
-    // default: function() { throw new Error("jQuery RSS: url don't link to RSS-Feed") }
+    // default: function() { throw new Error(&quot;jQuery RSS: url don&#39;t link to RSS-Feed&quot;) }
     error: function(){},
 
     // a callback, which gets triggered when everything was loaded successfully
@@ -118,26 +118,26 @@ If you do not want to include Moment.js, you may opt for providing your own date
 )
 </code></pre>
 
-<h3 id="note-about-the-host-option">Note about the host option</h3>
+<h3>Note about the host option</h3>
 
 <p>Since version 3.0.0 the plugin is no longer using the Google Feed API but a drop-in replacement called <a href="https://github.com/sdepold/feedr">feedr</a>. That server is currently running on Heroku and might have some downtimes, interruptions or unexpected issues. While I will try to keep those problems as rare as possible, it can totally happen from time to time. I might move the service to some other provide or even improve the infrastructure.</p>
 
-<p>If you don't want to rely on the <a href="http://feedrapp.info">provided server</a> and instead run your own version, you can just download feedr, install the dependencies and run it. As written above, you can specify the host which is used to parse the feeds with the <code>host</code> option.</p>
+<p>If you don&#39;t want to rely on the <a href="http://feedrapp.info">provided server</a> and instead run your own version, you can just download feedr, install the dependencies and run it. As written above, you can specify the host which is used to parse the feeds with the <code>host</code> option.</p>
 
-<h2 id="templating">Templating</h2>
+<h2>Templating</h2>
 
 <p>As seen in the options, you can specify a template in order to transform the json objects into HTML. In order to that, you can either define the outer template (which describes the html around the entries) or the entry template (which describes the html of an entry).</p>
 
 <p>The basic format of those templates are:</p>
 
 <pre><code># layoutTemplate:
-"&lt;outer-html&gt;{entries}&lt;/outer-html&gt;"
+&quot;&lt;outer-html&gt;{entries}&lt;/outer-html&gt;&quot;
 
 # entryTemplate:
-"&lt;any-html&gt;{token1}{token2}&lt;/any-html&gt;"
+&quot;&lt;any-html&gt;{token1}{token2}&lt;/any-html&gt;&quot;
 </code></pre>
 
-<p>So, let's say you have specified a limit of 2, using the upper pseudo html. This will result in the following:</p>
+<p>So, let&#39;s say you have specified a limit of 2, using the upper pseudo html. This will result in the following:</p>
 
 <pre><code>&lt;outer-html&gt;
   &lt;any-html&gt;{token1}{token2}&lt;/any-html&gt;
@@ -148,37 +148,37 @@ If you do not want to include Moment.js, you may opt for providing your own date
 <p>There are some predefined tokens:</p>
 
 <ul>
-  <li>url: the url to the post</li>
-  <li>author: the author of the post</li>
-  <li>date: the publishing date</li>
-  <li>title: the title of the post</li>
-  <li>body: the complete content of the post</li>
-  <li>shortBody: the shortened content of the post</li>
-  <li>bodyPlain: the complete content of the post without html</li>
-  <li>shortBodyPlain: the shortened content of the post without html</li>
-  <li>teaserImage: the first image in the post's body</li>
-  <li>teaserImageUrl: the url of the first image in the post's body</li>
-  <li>index: the index of the current entry</li>
-  <li>totalEntries: the total count of the entries</li>
-  <li>feed: contains high level information of the feed (e.g. title of the website)</li>
+<li>url: the url to the post</li>
+<li>author: the author of the post</li>
+<li>date: the publishing date</li>
+<li>title: the title of the post</li>
+<li>body: the complete content of the post</li>
+<li>shortBody: the shortened content of the post</li>
+<li>bodyPlain: the complete content of the post without html</li>
+<li>shortBodyPlain: the shortened content of the post without html</li>
+<li>teaserImage: the first image in the post&#39;s body</li>
+<li>teaserImageUrl: the url of the first image in the post&#39;s body</li>
+<li>index: the index of the current entry</li>
+<li>totalEntries: the total count of the entries</li>
+<li>feed: contains high level information of the feed (e.g. title of the website)</li>
 </ul>
 
 <p>You can also define custom tokens using the <code>tokens</code> option:</p>
 
-<pre><code>$('#foo').rss(url, {
-  entryTemplate: "{dynamic}, {static}, {re-use}",
+<pre><code>$(&#39;#foo&#39;).rss(url, {
+  entryTemplate: &quot;{dynamic}, {static}, {re-use}&quot;,
   tokens: {
-    dynamic: function(entry, tokens){ return "dynamic-stuff: " + entry.title },
-    "re-use": function(entry, tokens){ return encodeURIComponent(tokens.teaserImageUrl) },
-    static: "static"
+    dynamic: function(entry, tokens){ return &quot;dynamic-stuff: &quot; + entry.title },
+    &quot;re-use&quot;: function(entry, tokens){ return encodeURIComponent(tokens.teaserImageUrl) },
+    static: &quot;static&quot;
   }
 })
 </code></pre>
 
 <p>Please make sure to NOT define infinite loops. The following example is really BAD:</p>
 
-<pre><code>$('#foo').rss(url, {
-  entryTemplate: "{loop}",
+<pre><code>$(&#39;#foo&#39;).rss(url, {
+  entryTemplate: &quot;{loop}&quot;,
   tokens: {
     whoops: function(entry, tokens) { return tokens.loop() }
     loop: function(entry, tokens) { return tokens.whoops() }
@@ -188,60 +188,40 @@ If you do not want to include Moment.js, you may opt for providing your own date
 
 <p>Here is a real-world example:</p>
 
-<pre><code>$('#foo').rss(url, {
-  layoutTemplate: "&lt;table&gt;&lt;tr&gt;&lt;th&gt;Title&lt;/th&gt;&lt;/tr&gt;{entries}&lt;/table&gt;",
-  entryTemplate:  "&lt;tr&gt;&lt;td&gt;{title}&lt;/td&gt;&lt;/tr&gt;"
+<pre><code>$(&#39;#foo&#39;).rss(url, {
+  layoutTemplate: &quot;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Title&lt;/th&gt;&lt;/tr&gt;{entries}&lt;/table&gt;&quot;,
+  entryTemplate:  &quot;&lt;tr&gt;&lt;td&gt;{title}&lt;/td&gt;&lt;/tr&gt;&quot;
 })
 </code></pre>
 
-<h2 id="filtering">Filtering</h2>
+<h2>Filtering</h2>
 
 <p>The plugin also allows you to filter specific entries in order to only print them:</p>
 
-<pre><code>$("#foo").rss(url, {
+<pre><code>$(&quot;#foo&quot;).rss(url, {
   limit: 100,
   filterLimit: 10,
   filter: function(entry, tokens) {
-    return tokens.title.indexOf('my filter') &gt; -1
+    return tokens.title.indexOf(&#39;my filter&#39;) &gt; -1
   }
 })
 </code></pre>
 
 <p>This will request 100 entries via the Feed API and renders the first 10 matching entries.</p>
 
-<h2 id="testing">Testing</h2>
+<h2>Testing</h2>
 
 <p>The test suite is using BusterJS. In order to successfully run the tests you will need <a href="http://phantomjs.org/">phantomjs</a>.
 If that is installed you only have to run <code>npm test</code>.</p>
 
-<h2 id="authorscontributors">Authors/Contributors</h2>
+<h2>Authors/Contributors</h2>
 
 <ul>
-  <li>DaWanda GmbH (<a href="http://dawanda.com">Website</a>)</li>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td>Sascha Depold (<a href="http://twitter.com/sdepold">Twitter</a></td>
-          <td><a href="http://github.com/sdepold">Github</a></td>
-          <td><a href="http://depold.com">Website</a>)</td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
-  <li>
-    <table>
-      <tbody>
-        <tr>
-          <td>Steffen Schröder  (<a href="http://twitter.com/ChaosSteffen">Twitter</a></td>
-          <td><a href="http://github.com/ChaosSteffen">Github</a></td>
-          <td><a href="http://schroeder-blog.de">Website</a>)</td>
-        </tr>
-      </tbody>
-    </table>
-  </li>
+<li>DaWanda GmbH (<a href="http://dawanda.com">Website</a>)</li>
+<li>Sascha Depold (<a href="http://twitter.com/sdepold">Twitter</a> | <a href="http://github.com/sdepold">Github</a> | <a href="http://depold.com">Website</a>)</li>
+<li>Steffen Schröder  (<a href="http://twitter.com/ChaosSteffen">Twitter</a> | <a href="http://github.com/ChaosSteffen">Github</a> | <a href="http://schroeder-blog.de">Website</a>)</li>
 </ul>
 
-<h2 id="misc">Misc</h2>
+<h2>Misc</h2>
 
 <p><a href="https://bitdeli.com/free" title="Bitdeli Badge"><img src="https://d2weczhvl823v0.cloudfront.net/sdepold/jquery-rss/trend.png" alt="Bitdeli Badge" /></a></p>
