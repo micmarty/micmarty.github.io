@@ -1,3 +1,16 @@
+
 p {
-    white-space: pre-wrap;
+    /* 
+    Force using newlines as they are in YML data files
+    Without this, text is wrapping to container, not preserving line breaks 
+    */
+    white-space: pre-wrap; 
+}
+
+#codewars-badge {
+    /* 
+    Use the same value as in .header .btn inside styles.css
+    It makes those two elements at the same height
+    */
+    margin-top: 10px; 
 }

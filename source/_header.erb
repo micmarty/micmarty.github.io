@@ -1,28 +1,33 @@
 <header class="header">
     <div class="container">
+        <!-- Profile Picture -->
         <img class="profile-image img-responsive pull-left" src="<%= data.header.profile_image_path %>" alt="<%= data.header.full_name %>'s profile picture" />
+        
+
         <div class="profile-content pull-left">
+            <!-- My name and short description -->
             <h1 class="name">
                 <%= data.header.full_name %>
             </h1>
             <h2 class="desc">
                 <%= data.header.short_description %>
             </h2>
+
+            <!-- Links to socials -->
             <ul class="social list-inline">
-                <li><a href="<%= data.header.link_to_profile_on_github %>"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+                <li><a href="<%= data.header.link_to_profile_on_github %>"><i class="fa fa-github" aria-hidden="true"></i></a></li>
                 <li><a href="<%= data.header.link_to_profile_on_linked_in %>"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                 <li><a href="<%= data.header.link_to_wordpress_blog %>"><i class="fa fa-wordpress" aria-hidden="true"></i></a></li>
                 <li><a href="<%= data.header.link_to_profile_on_codewars %>"><i class="fa fa-diamond" aria-hidden="true"></i></a></li>
                 <li><a href="<%= data.header.link_to_profile_on_soundcloud %>"><i class="fa fa-soundcloud" aria-hidden="true"></i></a></li>
                 
             </ul>
-            <img class="profile-image img-responsive pull-left" src="<%= data.header.link_to_codewars_badge %>" alt="Codewars bar" />
         </div>
-        <!--//profile-->
 
         <a class="btn btn-cta-primary pull-right" href="<%= data.header.link_to_profile_on_linked_in %>" target="_blank">
           <i class="fa fa-paper-plane"></i>Contact me on LinkedIn
         </a>
+        <img id="codewars-badge" class="profile-image img-responsive pull-right" src="<%= data.header.link_to_codewars_badge %>" alt="Codewars badge" />
 
     </div>
     <!--//container-->
