@@ -10,11 +10,11 @@
         </h2>
         <div class="content">
             <!-- First Latest Project -->
-            <%= partial project_partial_path('main_project_template'), locals: { project: latest_projects[:first] } %>
+            <%= partial project_partial_path('main_project_template'), locals: { project: latest_projects[:first_project] } %>
             <hr class="divider" />
 
             <!-- Second Latest Project -->
-            <%= partial project_partial_path('main_project_template'), locals: { project: latest_projects[:second] } %>
+            <%= partial project_partial_path('main_project_template'), locals: { project: latest_projects[:second_project] } %>
             <hr class="divider" />
 
             <!-- Other Recent Projects -->
