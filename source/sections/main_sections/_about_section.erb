@@ -1,9 +1,16 @@
+<% more_about_me_path = 'more_about_me.html' %>
 <section class="about section">
     <div class="section-inner">
         <h2 class="heading"><%= data.main_sections.about_me.title %></h2>
         <div class="content">
             <p><%= data.main_sections.about_me.first_part %></p>
             <p><%= data.main_sections.about_me.second_part %></p>
-        </div><!--//content-->
-    </div><!--//section-inner-->
-</section><!--//section-->
+
+            <!-- TODO Figure out how to move it to the right side (pull-right or float: right not working)-->
+            <a class="btn btn-cta-primary" href="<%= more_about_me_path %>" target="_blank">
+                <i class="fa fa-info-circle" aria-hidden="true"></i>
+                More about me
+            </a>
+        </div>
+    </div>
+</section>

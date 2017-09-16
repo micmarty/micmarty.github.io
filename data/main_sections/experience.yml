@@ -1,0 +1,60 @@
+jobs:
+  - position: Ruby on Rails Developer (full-stack)
+    at: Cirrus
+    time_range: May 2017 - Sep 2017
+    short_description: |
+                        Developing an app for a buisness client.
+
+    full_description: |
+                  <hr class='divider'>
+                  It consisted of 4 important parts: 
+                  <ul>
+                    <li>Dashboard for administrators - Web app for managing users and their access, additionaly WYSIWYG editors, email sending, ACL logs</li>
+                    <li>Web interface for clients - displays responsive, platform-specific content (iOS, Android, PC) prepared by an admin in WYSIWYG editor before</li>
+                    <li>Linux daemon - my own iptables manager written in Ruby, which controls the life of every rule and talks to the database periodically</li>
+                    <li>Database</li>
+                  </ul>
+                  <br>
+                  I've learned a little bit:
+                  <ul>
+                    <li>How to containerize Rails application with Docker (docker-compose), how neat it is in deployment and maintainance</li>
+                    <li>Managing my time</li>
+                    <li>Customizing gem's source code</li>
+                    <li>Ruby Metaprogramming</li>
+                    <li>That automating my work really matters</li>
+                    <li>What real-world clients might expect from the end product</li>
+                  </ul>
+
+  - position: Apprentice Backend Developer, mainly in Ruby on Rails
+    at: Cirrus
+    time_range: Jul 2016 - Sep 2016
+    short_description: |
+                      Working on web interface for managing e-mails caught in a Spam Trap, analyzing and profiling Perl scripts, digging around PHP code.
+
+    full_description: |
+                  <hr class='divider'>
+                  I've learned a little bit about:
+                  <ul>
+                    <li>SMTP</li>
+                    <li>Bash and Perl scripting</li>
+                    <li>My fear from PHP syntax</li>
+                  </ul>
+
+  - position: Apprentice
+    at: Cirrus
+    time_range: Jul 2015 - Sep 2015
+    short_description: |
+                        Working in small team with peers, trying to make a web module for prehistoric Rails 3 and jQuery.
+                        
+    full_description: |
+                  <hr class='divider'>
+                  It was looking prety good, even working, but was difficult to merge into original codebase.
+                  Additionaly we were working with refactoring hardware's firmware written in C.
+
+                  I've learned a little bit about:
+                  <ul>
+                    <li>Git</li>
+                    <li>MVC architecture</li>
+                    <li>Using rake, Active Record, templating html and much, much more</li>
+                  </ul>
+                  

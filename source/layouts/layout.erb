@@ -51,7 +51,10 @@
     <!-- github activity plugin -->
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
     <script type="text/javascript" src="plugins/github-activity/src/github-activity.js"></script>
-    <!-- custom js -->
     <script type="text/javascript" src="javascripts/main.js"></script>
+    
+    <%= javascript_include_tag 'min/jquery-ui.min' %>
+    <!-- custom js -->
+    <%= javascript_include_tag 'application' %>
 </body>
 </html>
