@@ -1,0 +1,1 @@
+$(".show-more a").on("click",function(){var t=$(this),o=t.parent().prev("div.content"),e=t.text();"Show more"===e?(e="Show less",o.switchClass("hideContent","showContent",400)):(e="Show more",o.switchClass("showContent","hideContent",400)),t.context.text=e});
