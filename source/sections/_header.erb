@@ -1,0 +1,53 @@
+<% index_path = 'index.html' %>
+<% current_projects_page_path = 'current_projects.html' %>
+<% recent_projects_page_path = 'recent_projects.html' %>
+
+
+<header class="header">
+    <div class="container">
+        <!-- Profile Picture -->
+        <a  href="<%= index_path %>">
+            <img data-toggle="tooltip" 
+                 data-placement="bottom" 
+                 data-animation="true" 
+                 title="Back to the Homepage" 
+                 class="profile-image img-responsive pull-left level-label" 
+                 src="<%= data.header.profile_image_path %>" 
+                 alt="<%= data.header.full_name %>'s profile picture" />
+        </a>
+        
+
+        <div class="profile-content pull-left">
+            <!-- My name and short description -->
+            <h1 class="name">
+                <%= data.header.full_name %>
+            </h1>
+            <h2 class="desc">
+                <%= data.header.short_description %>
+            </h2>
+
+            <!-- Links to socials -->
+            <!-- TODO move styles to application.css -->
+            <ul class="social list-inline">
+                <li><%= social_link_icon 'github', bg_color: '#24292E', fg_color: 'white', open_in_new_tab: true %></li>
+                <li><%= social_link_icon 'linkedin', bg_color: '#0077B5', fg_color: 'white', open_in_new_tab: true %></li>
+                <li><%= social_link_icon 'wordpress', bg_color: '#464442', fg_color: 'white', open_in_new_tab: true %></li>
+                <li><%= social_link_icon 'codewars', bg_color: '#EC1622', fg_color: 'white', open_in_new_tab: true %></li>
+                <li><%= social_link_icon 'soundcloud', bg_color: '#ff6b00', fg_color: 'white', open_in_new_tab: true %></li>
+            </ul>
+        </div>
+        <a class="btn btn-cta-primary pull-left" style="margin-right: 20px;margin-left: 20px" href="<%= current_projects_page_path %>">
+          <i class="fa fa-coffee" aria-hidden="true"></i>Current Projects
+        </a>
+        <a class="btn btn-cta-primary pull-left" href="<%= recent_projects_page_path %>">
+          <i class="fa fa-archive" aria-hidden="true"></i>Recent Projects
+        </a>
+        <a class="btn btn-cta-primary pull-right" href="<%= data.header.link_to_profile_on_linked_in %>" target="_blank">
+          <i class="fa fa-paper-plane"></i>Contact me on LinkedIn
+        </a>
+        <img id="codewars-badge" class="profile-image img-responsive pull-right" src="<%= data.header.link_to_codewars_badge %>" alt="Codewars badge" />
+
+    </div>
+    <!--//container-->
+</header>
+<!--//header-->

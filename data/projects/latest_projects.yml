@@ -22,15 +22,18 @@ second_project:
   short_description: App which renders a single chart from market shares data (as CSV file) and calculates the benefit from bank deposit.
   long_description:
     - |
-      One of my very first apps, but now I know what was wrong.
-      There's not much Ruby, sadly - mostly vanilla JavaScript
+      One of my very first apps, but now I know <b>what was wrong</b>.
+      There's not much Ruby, sadly - mostly vanilla JavaScript.
+      It has bugs <i class="fa fa-smile-o" aria-hidden="true"></i>
     - |
-      Next time I would pick:
-      - TypeScript
-      - Middleman -> static site generator
-      - simple_form gem
-      - Google Charts
-      - Material Design + CSS Grid, not Bootstrap
+      <h4 class="level-title">Next time I would pick:</h4>
+      <ul>
+        <li>TypeScript</li>
+        <li>Middleman -> static site generator</li>
+        <li>simple_form gem</li>
+        <li>Google Charts</li>
+        <li>Material Design + CSS Grid instead of Bootstrap</li>
+      </ul>
   image_path: images/projects/main/fund_tracker_chart.png
   project_name: https://github.com/micmarty/fund_tracker
   link: https://github.com/micmarty/fund_tracker

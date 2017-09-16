@@ -12,4 +12,15 @@ module CustomHelpers
   def project_partial_path(name)
     "sections/main_sections/latest_section/#{name}"
   end
+
+  def social_link_icon service_name, **hash
+    link = data.header.method("link_to_profile_on_#{service_name}").call
+    target = 'target="' + (hash.key?(:open_in_new_tab) ? '_blank' : '_self') + ';"'
+    bg_color = 'style="background: ' + (hash[:bg_color] || 'white') + ';"'
+    fg_color = 'style="color: ' + (hash[:fg_color] || 'black') + ';"'
+    icon_name = (service_name == 'codewars') ? 'diamond' : service_name
+      
+    "<a href=\"#{link}\" #{bg_color} #{target}><i class=\"fa fa-#{icon_name}\" aria-hidden=\"true\" #{fg_color}></i></a>"
+  end
+
 end

@@ -1,9 +1,6 @@
 ---
 layout: layout
 ---
-
-<%= partial 'header' %>
-
 <div class="container sections-wrapper" style="padding-top: 30px">
     <div class="row">
         <div class="primary col-md-8 col-sm-12 col-xs-12">
@@ -12,10 +9,9 @@ layout: layout
             <%= partial 'sections/main_sections/projects_section' %>
             <%= partial 'sections/main_sections/experience_section' %>
             <%= partial 'sections/main_sections/github_section' %>
-        </div><!--//primary-->
+        </div>
 
         <div class="secondary col-md-4 col-sm-12 col-xs-12">
-
             <%= partial aside_partial_path('info') %>
             <%= partial aside_partial_path('skills') %>
             <%= partial aside_partial_path('testimonials') %>
@@ -25,9 +21,8 @@ layout: layout
             <%= partial aside_partial_path('music') %>
             <%= partial aside_partial_path('conferences') %>
             <%= partial aside_partial_path('credits') %>
+        </div>
+    </div>
+</div>
 
-        </div><!--//secondary-->
-    </div><!--//row-->
-</div><!--//masonry-->
-
-<%= partial 'footer' %>
+<%= partial 'sections/footer' %>
