@@ -3,14 +3,37 @@
         <h2 class="heading">Languages</h2>
         <div class="content">
             <ul class="list-unstyled">
-                <li class="item">
-                    <span class="title"><strong>English:</strong></span>
-                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
-                </li><!--//item-->
-                <li class="item">
-                    <span class="title"><strong>Spanish:</strong></span>
-                    <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i></span>
-                </li><!--//item-->
+                <!-- Language Element-->
+                <% data.aside_sections.languages.list.each do |language| %>
+                    
+                    <li class="item">
+                        <span class="title"><strong><%= language.name %>:</strong></span>
+                        <span class="level"><%= language.level %> 
+                            <br class="visible-xs"/>
+                        </span>
+                    </li>
+                    
+                    
+                    <!-- Force line break -->
+                    <li class="item">
+                        <!-- Tooltip -->
+                        <span class="level level-label" data-toggle="tooltip" 
+                                    data-placement="left" 
+                                    data-animation="true" 
+                                    title="<%= language.tooltip %>">
+                            <% if language.tooltip %>
+                                <i class="fa fa-info-circle" aria-hidden="true"></i>
+                            <% end %>
+
+                            <% language.stars.times do %>
+                                <i class="fa fa-star"></i>
+                            <% end %>
+                            <% (data.aside_sections.languages.max_stars_amout - language.stars).times do %>
+                                <i class="fa fa-star-o"></i>
+                            <% end %>
+                        </span>
+                    </li>
+                <% end %>
             </ul>
         </div><!--//content-->
     </div><!--//section-inner-->

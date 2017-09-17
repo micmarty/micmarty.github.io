@@ -18,7 +18,10 @@ first_project:
 # --------------------------------------------------------------------------------------------------------------------
 # 2. Kainos Fund Tracker 2016
 second_project:
-  project_title: <i class="fa fa-area-chart" aria-hidden="true"></i>&nbsp;Fund Tracker 
+  project_title: |
+                  <i class="fa fa-area-chart" aria-hidden="true"></i>&nbsp;
+                  Fund Tracker
+
   short_description: App which renders a single chart from market shares data (as CSV file) and calculates the benefit from bank deposit.
   long_description:
     - |
@@ -34,9 +37,9 @@ second_project:
         <li>Google Charts</li>
         <li>Material Design + CSS Grid instead of Bootstrap</li>
       </ul>
-  image_path: images/projects/main/fund_tracker_chart.png
+  image_path: images/projects/major/fund_tracker_chart.png
   project_name: https://github.com/micmarty/fund_tracker
   link: https://github.com/micmarty/fund_tracker
 
-  badge: Old
+  badge: toy app
   button: Source Code

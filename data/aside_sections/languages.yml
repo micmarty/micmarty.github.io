@@ -1,0 +1,21 @@
+max_stars_amout: 6
+list:
+  - name: Polish
+    level: Native Speaker
+    stars: 6 
+    tooltip: 
+
+  - name: English
+    level: Advanced Proficiency (C1)
+    stars: 4
+    tooltip: |
+              I feel quite comfortable speaking, especially about tech. 
+              No problems with watching videocasts, reading or writing documentation. 
+              I constantly improve myself by watching TV series (more in #about section)
+
+  - name: German
+    level: Intermediate (B1)
+    stars: 2
+    tooltip: |
+              I used to be somewhere around B2/C1 but since I graduated my High School, didn't really have to use that skill.
+              Reading is feasable, writing needs more focus, talk can be a little bit chaotic.

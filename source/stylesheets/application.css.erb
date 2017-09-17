@@ -1,5 +1,30 @@
+<% light_blue = data.settings.colors.header.button_background %>
 
-p {
+a.btn-cta-primary, 
+.btn-cta-primary
+{
+    border: none;
+    background: <%= light_blue %>;
+}
+
+a.btn-cta-primary:hover, 
+.btn-cta-primary:hover
+{
+    border: none;
+    background: <%= light_blue %>;
+}
+
+a.btn-cta-secondary, .btn-cta-secondary{
+    border: none;
+    background: <%= light_blue %>;
+}
+
+a.btn-cta-secondary:hover, .btn-cta-secondary:hover{
+    border: none;
+    background: <%= light_blue %>;
+}
+
+p, p.summary{
     /* 
     Force using newlines as they are in YML data files
     Without this, text is wrapping to container, not preserving line breaks 

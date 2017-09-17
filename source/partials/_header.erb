@@ -34,18 +34,36 @@
                 <li><%= social_link_icon 'wordpress', bg_color: '#464442', fg_color: 'white', open_in_new_tab: true %></li>
                 <li><%= social_link_icon 'codewars', bg_color: '#EC1622', fg_color: 'white', open_in_new_tab: true %></li>
                 <li><%= social_link_icon 'soundcloud', bg_color: '#ff6b00', fg_color: 'white', open_in_new_tab: true %></li>
+                <!-- GradientPG Student Research Group -->
+                <li><a href="http://gradient.eti.pg.gda.pl/" style="background: white;padding-top: 8px"><img src="images/gradient_logo_small.png"></a></li>
             </ul>
         </div>
-        <a class="btn btn-cta-primary pull-left" style="margin-right: 20px;margin-left: 20px" href="<%= current_projects_page_path %>">
+
+        <!-- Current Projects Button -->
+        <a class="btn btn-cta-primary pull-left" 
+            style="margin-right: 20px;margin-left: 20px;" 
+            href="<%= current_projects_page_path %>">
           <i class="fa fa-coffee" aria-hidden="true"></i>Current Projects
         </a>
-        <a class="btn btn-cta-primary pull-left" href="<%= recent_projects_page_path %>">
-          <i class="fa fa-archive" aria-hidden="true"></i>Recent Projects
+
+        <!-- Recent Projects Button -->
+        <a class="btn btn-cta-primary pull-left" 
+            href="<%= recent_projects_page_path %>">
+          <i class="fa fa-archive" aria-hidden="true"></i>
+          Recent Projects
         </a>
-        <a class="btn btn-cta-primary pull-right" href="<%= data.header.link_to_profile_on_linked_in %>" target="_blank">
-          <i class="fa fa-paper-plane"></i>Contact me on LinkedIn
+
+        <!-- LinkedIn Contact Button -->
+        <a class="btn btn-cta-primary pull-right" 
+            href="<%= data.header.link_to_profile_on_linked_in %>"
+            target="_blank">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          Contact me on LinkedIn
         </a>
+
+        <!-- Codewars Badge -->
         <img id="codewars-badge" class="profile-image img-responsive pull-right" src="<%= data.header.link_to_codewars_badge %>" alt="Codewars badge" />
+
 
     </div>
     <!--//container-->

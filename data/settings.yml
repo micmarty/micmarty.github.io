@@ -1,0 +1,6 @@
+colors:
+  header:
+    button_background: rgba(0, 119, 181, 0.6)
+  projects:
+    major:
+      button_background: rgba(0, 119, 181, 0.6)
