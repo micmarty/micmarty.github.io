@@ -1,22 +1,22 @@
-section_title: Latest Projects
-# Librosa, Jupyter Notebook
+section_title: Recent Major Projects
+
+# --------------------------------------------------------------------------------------------------------------------
+# 1.
 first_project:
-  project_title: Audio signal analysis in Python with Librosa
-  short_description: |
-                      I had to do some research about choosing the best model for my neural network.
-                      My journey started with librosa - it can transform an audio excerpt into many visual representations, e.g. spectogram or chroma and 
-                      has very useful features like beat detection.
+  project_title: 
+  short_description: 
   long_description:
     - "" # NO DESCRIPTION
+    
+  image_path: 
+  project_name: 
+  link: 
 
-  image_path: images/projects/main/librosa_chroma.png
-  project_name: TODO github link
-  link: https://github.com/micmarty/audio-preprocessing-exercises-with-librosa/blob/master/librosa_sandbox_1.ipynb
+  badge: 
+  button: 
 
-  badge: currently
-  button: Source Code
-
-# Kainos Fund Tracker 2016
+# --------------------------------------------------------------------------------------------------------------------
+# 2. Kainos Fund Tracker 2016
 second_project:
   project_title: <i class="fa fa-area-chart" aria-hidden="true"></i>&nbsp;Fund Tracker 
   short_description: App which renders a single chart from market shares data (as CSV file) and calculates the benefit from bank deposit.
@@ -40,4 +40,3 @@ second_project:
 
   badge: Old
   button: Source Code
-
