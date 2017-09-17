@@ -14,25 +14,25 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <!-- Global CSS -->
-    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min-b3e5c05c.css">
+    <link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min-b3e5c05c.css">
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome-facbad97.css">
+    <link rel="stylesheet" href="/plugins/font-awesome/css/font-awesome-facbad97.css">
 
     <!-- github calendar css -->
-    <link rel="stylesheet" href="plugins/github-calendar/dist/github-calendar-c6c6456d.css"/>
+    <link rel="stylesheet" href="/plugins/github-calendar/dist/github-calendar-c6c6456d.css"/>
     <!-- github acitivity css -->
-    <link rel="stylesheet" href="plugins/github-activity/src/github-activity-34a893d6.css">
+    <link rel="stylesheet" href="/plugins/github-activity/src/github-activity-34a893d6.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
 
     <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="stylesheets/styles-a9f03d57.css">
+    <link href="/stylesheets/styles-a9f03d57.css" rel="stylesheet" />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-    <link href="/stylesheets/application-ce82781f.css" rel="stylesheet" />
+    <link href="/stylesheets/application-8def19ff.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -41,7 +41,7 @@
 <header class="header">
     <div class="container">
         <!-- Profile Picture -->
-        <a  href="index.html">
+        <a  href="/index.html">
             <img data-toggle="tooltip" 
                  data-placement="bottom" 
                  data-animation="true" 
@@ -69,18 +69,36 @@
                 <li><a href="https://micmarty.wordpress.com" style="background: #464442;" target="_blank;"><i class="fa fa-wordpress" aria-hidden="true" style="color: white;"></i></a></li>
                 <li><a href="https://www.codewars.com/users/micmarty/stats" style="background: #EC1622;" target="_blank;"><i class="fa fa-diamond" aria-hidden="true" style="color: white;"></i></a></li>
                 <li><a href="https://soundcloud.com/miczi-the-wolfer" style="background: #ff6b00;" target="_blank;"><i class="fa fa-soundcloud" aria-hidden="true" style="color: white;"></i></a></li>
+                <!-- GradientPG Student Research Group -->
+                <li><a href="http://gradient.eti.pg.gda.pl/" style="background: white;padding-top: 8px"><img src="images/gradient_logo_small-628ed211.png"></a></li>
             </ul>
         </div>
-        <a class="btn btn-cta-primary pull-left" style="margin-right: 20px;margin-left: 20px" href="current_projects.html">
+
+        <!-- Current Projects Button -->
+        <a class="btn btn-cta-primary pull-left" 
+            style="margin-right: 20px;margin-left: 20px;" 
+            href="/current_projects.html">
           <i class="fa fa-coffee" aria-hidden="true"></i>Current Projects
         </a>
-        <a class="btn btn-cta-primary pull-left" href="recent_projects.html">
-          <i class="fa fa-archive" aria-hidden="true"></i>Recent Projects
+
+        <!-- Recent Projects Button -->
+        <a class="btn btn-cta-primary pull-left" 
+            href="/recent_projects.html">
+          <i class="fa fa-archive" aria-hidden="true"></i>
+          Recent Projects
         </a>
-        <a class="btn btn-cta-primary pull-right" href="" target="_blank">
-          <i class="fa fa-paper-plane"></i>Contact me on LinkedIn
+
+        <!-- LinkedIn Contact Button -->
+        <a class="btn btn-cta-primary pull-right" 
+            href=""
+            target="_blank">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          Contact me on LinkedIn
         </a>
+
+        <!-- Codewars Badge -->
         <img id="codewars-badge" class="profile-image img-responsive pull-right" src="https://www.codewars.com/users/micmarty/badges/large" alt="Codewars badge" />
+
 
     </div>
     <!--//container-->
@@ -433,102 +451,95 @@ Those values are sincere, I tried not to under or overestimate.
 </aside><!--//section-->
 
 
-            <aside class="testimonials aside section">
-    <div class="section-inner">
-        <h2 class="heading">Testimonials</h2>
-        <div class="content">
-            <div class="item">
-                <blockquote class="quote">
-                    <p><i class="fa fa-quote-left"></i>James is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!</p>
-                </blockquote>
-                <p class="source"><span class="name">Tim Adams</span><br /><span class="title">Curabitur commodo</span></p>
-            </div><!--//item-->
-
-            <p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on Linkedin</a></p>
-
-        </div><!--//content-->
-    </div><!--//section-inner-->
-</aside><!--//section-->
-
             <aside class="languages aside section">
     <div class="section-inner">
         <h2 class="heading">Languages</h2>
         <div class="content">
             <ul class="list-unstyled">
-                <li class="item">
-                    <span class="title"><strong>English:</strong></span>
-                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
-                </li><!--//item-->
-                <li class="item">
-                    <span class="title"><strong>Spanish:</strong></span>
-                    <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i></span>
-                </li><!--//item-->
+                <!-- Language Element-->
+                    
+                    <li class="item">
+                        <span class="title"><strong>Polish:</strong></span>
+                        <span class="level">Native Speaker 
+                            <br class="visible-xs"/>
+                        </span>
+                    </li>
+                    
+                    
+                    <!-- Force line break -->
+                    <li class="item">
+                        <!-- Tooltip -->
+                        <span class="level level-label" data-toggle="tooltip" 
+                                    data-placement="left" 
+                                    data-animation="true" 
+                                    title="">
+
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                        </span>
+                    </li>
+                    
+                    <li class="item">
+                        <span class="title"><strong>English:</strong></span>
+                        <span class="level">Advanced Proficiency (C1) 
+                            <br class="visible-xs"/>
+                        </span>
+                    </li>
+                    
+                    
+                    <!-- Force line break -->
+                    <li class="item">
+                        <!-- Tooltip -->
+                        <span class="level level-label" data-toggle="tooltip" 
+                                    data-placement="left" 
+                                    data-animation="true" 
+                                    title="I feel quite comfortable speaking, especially about tech. 
+No problems with watching videocasts, reading or writing documentation. 
+I constantly improve myself by watching TV series (more in #about section)
+">
+                                <i class="fa fa-info-circle" aria-hidden="true"></i>
+
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                        </span>
+                    </li>
+                    
+                    <li class="item">
+                        <span class="title"><strong>German:</strong></span>
+                        <span class="level">Intermediate (B1) 
+                            <br class="visible-xs"/>
+                        </span>
+                    </li>
+                    
+                    
+                    <!-- Force line break -->
+                    <li class="item">
+                        <!-- Tooltip -->
+                        <span class="level level-label" data-toggle="tooltip" 
+                                    data-placement="left" 
+                                    data-animation="true" 
+                                    title="I used to be somewhere around B2/C1 but since I graduated my High School, didn't really have to use that skill.
+Reading is feasable, writing needs more focus, talk can be a little bit chaotic.
+">
+                                <i class="fa fa-info-circle" aria-hidden="true"></i>
+
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                        </span>
+                    </li>
             </ul>
-        </div><!--//content-->
-    </div><!--//section-inner-->
-</aside><!--//section-->
-
-            <aside class="blog aside section">
-    <div class="section-inner">
-        <h2 class="heading">Latest Blog Posts</h2>
-        <p>You can use Sascha Depold's <a href="https://github.com/sdepold/jquery-rss" target="_blank">jQuery RSS plugin</a> to pull in your blog post feeds.</p>
-        <div id="rss-feeds" class="content">
-
-        </div><!--//content-->
-    </div><!--//section-inner-->
-</aside><!--//section-->
-
-            <aside class="list music aside section">
-    <div class="section-inner">
-        <h2 class="heading">Favourite coding music</h2>
-        <div class="content">
-            <ul class="list-unstyled">
-                <li><i class="fa fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li>
-                <li><i class="fa fa-headphones"></i> <a href="#">Ut sollicitudin in mauris non auctor</a></li>
-                <li><i class="fa fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li>
-                <li><i class="fa fa-headphones"></i> <a href="#">Duis et felis bibendum</a></li>
-            </ul>
-        </div><!--//content-->
-    </div><!--//section-inner-->
-</aside><!--//section-->
-
-            <aside class="list conferences aside section">
-    <div class="section-inner">
-        <h2 class="heading">Conferences</h2>
-        <div class="content">
-            <ul class="list-unstyled">
-                <li><i class="fa fa-calendar"></i> <a href="https://developer.apple.com/wwdc/" target="_blank">WWDC 2014</a> (San Francisco)</li>
-                <li><i class="fa fa-calendar"></i> <a href="http://hive.aigaseattle.org/">Hive</a> (Seattle)</li>
-            </ul>
-        </div><!--//content-->
-    </div><!--//section-inner-->
-</aside><!--//section-->
-
-            <aside class="credits aside section">
-    <div class="section-inner">
-        <h2 class="heading">Credits</h2>
-        <div class="content">
-            <ul class="list-unstyled">
-                <li><a href="http://getbootstrap.com/" target="_blank"><i class="fa fa-external-link"></i> Bootstrap</a></li>
-                <li><a href="http://fortawesome.github.io/Font-Awesome/" target="_blank"><i class="fa fa-external-link"></i> FontAwesome</a></li>
-                <li><a href="http://jquery.com/" target="_blank"><i class="fa fa-external-link"></i> jQuery</a></li>
-                <li><a href="https://github.com/IonicaBizau/github-calendar" target="_blank"><i class="fa fa-external-link"></i> GitHub Calendar Plugin</a></li>
-
-                <li><a href="http://caseyscarborough.com/projects/github-activity/" target="_blank"><i class="fa fa-external-link"></i> GitHub Activity Stream</a></li>
-
-                <li><a href="https://github.com/sdepold/jquery-rss" target="_blank"><i class="fa fa-external-link"></i> jQuery RSS</a></li>
-
-                <li>Profile image: <a href="https://www.flickr.com/photos/dotbenjamin/2577394151" target="_blank">Ben Smith</a></li>
-                <li>iPad and iPhone mocks: <a href="https://dribbble.com/perlerar" target="_blank">Regy Perlera</a></li>
-
-            </ul>
-
-            <hr/>
-
-             <p>This responsive portfolio template is handcrafted by UX designer <a href="https://www.linkedin.com/in/xiaoying" target="_blank">Xiaoying Riley</a> at <a href="http://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a> for developers and is <strong>FREE</strong> under the <a class="dotted-link" href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0 License</a></p>
-             <p>We will improve or add new features to this template based on users' feedback so follow us on twitter to get notified when a new version is out!</p>
-            <a class="btn btn-cta-secondary btn-follow" href="https://twitter.com/3rdwave_themes" target="_blank"><i class="fa fa-twitter"></i> Follow us</a>
-            <a class="btn btn-cta-primary btn-download" href="http://themes.3rdwavemedia.com/website-templates/free-responsive-website-template-for-developers/" target="_blank"><i class="fa fa-download"></i> I want to download</a>
         </div><!--//content-->
     </div><!--//section-inner-->
 </aside><!--//section-->
@@ -537,19 +548,13 @@ Those values are sincere, I tried not to under or overestimate.
     </div>
 </div>
 
-<footer class="footer">
-    <div class="container text-center">
-        <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
-        <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-    </div>
-</footer>
 
 
 
     <!-- Javascript -->
-    <script type="text/javascript" src="plugins/jquery-1.11.3.min-276c87ff.js"></script>
-    <script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min-791aa054.js"></script>
-    <script type="text/javascript" src="plugins/jquery-rss/dist/jquery.rss.min-50084131.js"></script>
+    <script type="text/javascript" src="/plugins/jquery-1.11.3.min-276c87ff.js"></script>
+    <script type="text/javascript" src="/plugins/bootstrap/js/bootstrap.min-791aa054.js"></script>
+    <script type="text/javascript" src="/plugins/jquery-rss/dist/jquery.rss.min-50084131.js"></script>
     <!-- github calendar plugin -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
@@ -557,11 +562,18 @@ Those values are sincere, I tried not to under or overestimate.
     
     <!-- github activity plugin -->
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-    <script type="text/javascript" src="plugins/github-activity/src/github-activity-f78a1d48.js"></script>
-    <script type="text/javascript" src="javascripts/main-5fdbea93.js"></script>
-    
+    <script type="text/javascript" src="/plugins/github-activity/src/github-activity-f78a1d48.js"></script>
+    <script src="/javascripts/main-5fdbea93.js"></script>
     <script src="/javascripts/min/jquery-ui.min-51ebbcdb.js"></script>
     <!-- custom js -->
     <script src="/javascripts/application-015746cb.js"></script>
+
+    <footer class="footer">
+    <div class="container text-center">
+        <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+        <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+    </div>
+</footer>
+
 </body>
 </html>
