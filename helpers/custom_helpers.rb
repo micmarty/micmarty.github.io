@@ -21,4 +21,10 @@ module CustomHelpers
     "<a href=\"#{link}\" #{bg_color} #{target}><i class=\"fa fa-#{icon_name}\" aria-hidden=\"true\" #{fg_color}></i></a>"
   end
 
+  def yt_thumbnail_image(link)
+    video_id = link.match(/v=(.*)$/)[1]             # truncate youtube link
+    video_id.sub!(/\?t.*$/, '')                     # truncate "start from"
+    "https://img.youtube.com/vi/#{video_id}/mqdefault.jpg"  # return small thumbnail
+  end
+
 end

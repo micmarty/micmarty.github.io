@@ -3,11 +3,10 @@
         <h2 class="heading">Favourite coding music</h2>
         <div class="content">
             <ul class="list-unstyled">
-                <li><i class="fa fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li>
-                <li><i class="fa fa-headphones"></i> <a href="#">Ut sollicitudin in mauris non auctor</a></li>
-                <li><i class="fa fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li>
-                <li><i class="fa fa-headphones"></i> <a href="#">Duis et felis bibendum</a></li>
+                <% data.aside_sections.music.playlist.each do |song| %>
+                    <li><%= image_tag yt_thumbnail_image(song.link), style: 'width: 30%; height: auto' %><%= link_to song.title, song.link %></li>
+                <% end %>
             </ul>
-        </div><!--//content-->
-    </div><!--//section-inner-->
-</aside><!--//section-->
+        </div>
+    </div>
+</aside>
