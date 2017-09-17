@@ -1,8 +1,6 @@
 module CustomHelpers
-  def aside_partial_path(name)
-    prefix = 'sections/aside_sections/'
-    postfix = '_aside_section'
-    "#{prefix}#{name}#{postfix}"
+  def aside_partial(name)
+    "partials/aside/#{name}"
   end
 
   def website_link(link)
@@ -10,7 +8,7 @@ module CustomHelpers
   end
 
   def project_partial_path(name)
-    "sections/main_sections/latest_section/#{name}"
+    "partials/projects/templates/#{name}"
   end
 
   def social_link_icon service_name, **hash

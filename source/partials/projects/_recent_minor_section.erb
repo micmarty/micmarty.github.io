@@ -1,0 +1,16 @@
+<%# Aliases %>
+<% recent_minor_projects = data.projects.minor_projects %>
+
+<section class="latest section">
+    <div class="section-inner">
+        <h2 class="heading">
+            <!-- Recent Minor Section Title -->
+            Recent minor projects
+        </h2>
+        <div class="content">
+            <% recent_minor_projects.projects.each do |project| %>
+                <%= partial project_partial_path('minor_project_template'), locals: { project: project } %>
+            <% end %>
+        </div>
+    </div>
+</section>

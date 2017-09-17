@@ -4,25 +4,23 @@ layout: layout
 <div class="container sections-wrapper" style="padding-top: 30px">
     <div class="row">
         <div class="primary col-md-8 col-sm-12 col-xs-12">
-            <%= partial 'sections/main_sections/about_section' %>
-            <%#= partial 'sections/main_sections/latest_section' %>
-            <%#= partial 'sections/main_sections/projects_section' %>
-            <%= partial 'sections/main_sections/experience_section' %>
-            <%= partial 'sections/main_sections/github_section' %>
+            <%= partial 'partials/main/about_section' %>
+            <%= partial 'partials/main/experience_section' %>
+            <%= partial 'partials/main/github_section' %>
         </div>
 
         <div class="secondary col-md-4 col-sm-12 col-xs-12">
-            <%= partial aside_partial_path('info') %>
-            <%= partial aside_partial_path('education') %>
-            <%= partial aside_partial_path('skills') %>
-            <%= partial aside_partial_path('testimonials') %>
-            <%= partial aside_partial_path('languages') %>
-            <%= partial aside_partial_path('blog') %>
-            <%= partial aside_partial_path('music') %>
-            <%= partial aside_partial_path('conferences') %>
-            <%= partial aside_partial_path('credits') %>
+            <%= partial aside_partial('info') %>
+            <%= partial aside_partial('education') %>
+            <%= partial aside_partial('skills') %>
+            <%= partial aside_partial('testimonials') %>
+            <%= partial aside_partial('languages') %>
+            <%= partial aside_partial('blog') %>
+            <%= partial aside_partial('music') %>
+            <%= partial aside_partial('conferences') %>
+            <%= partial aside_partial('credits') %>
         </div>
     </div>
 </div>
 
-<%= partial 'sections/footer' %>
+
