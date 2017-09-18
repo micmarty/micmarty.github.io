@@ -16,12 +16,15 @@
         <a href="<%= project.link %>" target="_blank">
                      <img class="img-responsive project-image" src="<%= project.image_path %>" alt="project name" />
                      </a>
-        <div class="ribbon">
-            <div class="text">
-                <!-- Badge in the top-right corner of image-->
-                <%= project.badge %>
+        
+        <!-- Badge in the top-right corner of image-->
+        <% if project.badge %>
+            <div class="ribbon">
+                <div class="text">
+                    <%= project.badge %>
+                </div>
             </div>
-        </div>
+        <% end %>
     </div>
 
     <div class="desc text-left">

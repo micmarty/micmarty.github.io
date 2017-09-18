@@ -21,7 +21,7 @@ first_project:
   project_name: TODO github link
   link: https://github.com/roscisz/TensorHive
 
-  badge: in developement
+  badge: false
   button: Source Code
   
 # --------------------------------------------------------------------------------------------------------------------
