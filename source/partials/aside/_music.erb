@@ -1,10 +1,16 @@
 <aside class="list music aside section">
     <div class="section-inner">
-        <h2 class="heading">Favourite coding music</h2>
+        <h2 class="heading"><%= data.aside_sections.music.section_title %></h2>
         <div class="content">
+            <!-- Playlist -->
             <ul class="list-unstyled">
-                <% data.aside_sections.music.playlist.each do |song| %>
-                    <li><%= image_tag yt_thumbnail_image(song.link), style: 'width: 30%; height: auto' %><%= link_to song.title, song.link %></li>
+                <!-- Playlist Item -->
+                <% data.aside_sections.music.playlist.each_with_index do |song, index| %>
+                    <li>
+                        <%= yt_iframe song.link %>
+                        <%= link_to "#{index + 1}. #{song.title}", song.link %>
+                        <hr class='divider'>
+                    </li>
                 <% end %>
             </ul>
         </div>
