@@ -8,7 +8,7 @@
                 <% data.aside_sections.music.playlist.each_with_index do |song, index| %>
                     <li>
                         <%= yt_iframe song.link %>
-                        <%= link_to "#{index + 1}. #{song.title}", song.link %>
+                        <%= link_to "#{index + 1}. #{song.title}", song.link, target: '_blank' %>
                         <hr class='divider'>
                     </li>
                 <% end %>

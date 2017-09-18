@@ -1,18 +1,38 @@
 section_title: Recent Minor Projects
 
-projects:
-  - title: TODO title
-    short_description: TODO desc
-    link: TODO link to source
-    image_path: images/projects/project-5.png
 
-  - title: TODO title,
-    short_description: TODO desc
-    link: TODO link to source
-    image_path: images/projects/project-5.png
+projects:
+  - title: Wild world simulator
+    short_description: |
+                        Game written in Python 3. 
+                        There are animals and plants with varieties of skills fighting for their lifes. 
+                        Player is a human, marked as 'C' and can be controlled by W, S, A, D. 
+                        He needs to avoid Wolves ('W') and should eat Guarana '$' in order to get more strength and defeat nearby dangerous creatures.
+                        All of the rules are described in README file.
+
+    link: https://github.com/micmarty/WildWorld-the-Game
+    image_path: images/projects/minor/wildworld.png
     
-  - title: TODO title
-    short_description: TODO desc
-    link: TODO link to source
-    image_path: images/projects/project-5.png
-  
+  - title: Disk usage color list
+    short_description: Bash & Awk scripts that makes my terminal nicer
+    link: https://github.com/micmarty/disk_usage_color_list
+    image_path: |
+                  <script type="text/javascript" 
+                          src="https://asciinema.org/a/MWzYLmZ1k56i6WL2f5UvbaVsg.js" 
+                          id="asciicast-MWzYLmZ1k56i6WL2f5UvbaVsg" 
+                          async
+                          data-rows="14"
+                          data-autoplay="0">
+                  </script>
+
+  - title: Column rainbower
+    short_description: Prints column formatted output or file in a pretty way
+    link: https://github.com/micmarty/column_rainbower
+    image_path: <script type="text/javascript" 
+                  src="https://asciinema.org/a/JryYxFsRYb73mhk0R7RgKOxXF.js" 
+                  id="asciicast-JryYxFsRYb73mhk0R7RgKOxXF" 
+                  async
+                  data-rows="16"
+                  data-autoplay="0">
+                </script>
+    
