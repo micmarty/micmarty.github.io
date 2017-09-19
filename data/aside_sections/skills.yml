@@ -1,6 +1,6 @@
 main_intro: |
-  I really don't like expressing any skill with progress bars... but they show how much I know in general.
-  Those values are sincere, I tried not to under or overestimate.
+  I really <b>don't like</b> expressing any skill with progress bars... but they show how much I know <b>in general</b>.
+  These values are not perfectly accurate, obviously.
 
 additional_intro: |
   TODO
@@ -17,13 +17,16 @@ main:
     description: Junior level
 
   - name: Linux, Bash, CLI
-    value: 90%
+    value: 80%
     tooltip: "zsh, fish, vim, docker with compose, built-in like: man pages, grep, awk, tail, iptables, ... a lot of aliases, guake terminal, mc, every popular desktop environment"
-    description: Geeky - everything must be customized and comfortable - see the tooltip
+    description: Geeky - everything must be customized and comfortable
 
   - name: Python
-    value: 65%
-    description: Mainly in ML (e.g. numpy, matplotlib, librosa) or scripts
+    value: 60%
+    tooltip: I'm not top-notch but learning with ease and pleasure
+    description: |
+                  Mainly in ML 
+                  (e.g. numpy, matplotlib, librosa, tkinter, flask)
     
 additional:
   - name: Data Science

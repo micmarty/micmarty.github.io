@@ -7,7 +7,7 @@
         <!-- Profile Picture -->
         <a  href="<%= index_path %>">
             <img data-toggle="tooltip" 
-                 data-placement="bottom" 
+                data-placement="bottom"
                  data-animation="true" 
                  title="Back to the Homepage" 
                  class="profile-image img-responsive pull-left level-label" 
@@ -15,14 +15,17 @@
                  alt="<%= data.header.full_name %>'s profile picture" />
         </a>
         
-
         <div class="profile-content pull-left">
             <!-- My name and short description -->
             <h1 class="name">
                 <%= data.header.full_name %>
             </h1>
             <h2 class="desc">
-                <%= data.header.short_description %>
+                <% data.header.short_description.each do |desc| %>
+                    <div style="display: inline-block;white-space: nowrap;">
+                        <%= desc %>
+                    </div>
+                <% end %>
             </h2>
 
             <!-- Links to socials -->

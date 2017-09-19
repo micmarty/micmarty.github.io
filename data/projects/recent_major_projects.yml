@@ -13,7 +13,7 @@ first_project:
       There is generated ISO image, which is enough to run inside QEMU + debugger (like gdb).
 
       <b>I proud of it</b>, but for those, who haven't experienced writing own OS firsthand, it may look crappy and straightforward.
-      Even my lecturer wasn't 100% sure if it's feasable in Rust.
+      Even my lecturer wasn't 100% sure if it's feasable in Rust <i class="fa fa-smile-o" aria-hidden="true"></i>.
     
   image_path: false
   video_path: images/projects/major/rustos_in_qemu.mp4

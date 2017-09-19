@@ -15,7 +15,7 @@ first_project:
         <li>Communicate over ssh</li>
         <li>Monitor resources, like: GPU, Memory load, etc.</li>
       </ul>
-      The project has started within <a href="http://gradient.eti.pg.gda.pl/"><img src="images/gradient_logo_small.png" style="margin-bottom: 0px"><b>GradientPG</b></a> (Student Research Group I participate in).
+      The project has started within <a href="http://gradient.eti.pg.gda.pl/" target="_blank"><img src="images/gradient_logo_small.png" style="margin-bottom: 0px"><b>GradientPG</b></a> (Student Research Group I participate in).
     
   image_path: images/projects/major/tensorhive_dashboard.png
   project_name: TODO github link

@@ -12,12 +12,12 @@ jobs:
                     <li>Dashboard for administrators - Web app for managing users and their access, additionaly WYSIWYG editors, email sending, ACL logs</li>
                     <li>Web interface for clients - displays responsive, platform-specific content (iOS, Android, PC) prepared by an admin in WYSIWYG editor before</li>
                     <li>Linux daemon - my own iptables manager written in Ruby, which controls the life of every rule and talks to the database periodically</li>
-                    <li>Database</li>
+                    <li>Database project</li>
                   </ul>
                   <br>
-                  I've learned a little bit:
+                  I've learned a little bit about:
                   <ul>
-                    <li>How to containerize Rails application with Docker (docker-compose), how neat it is in deployment and maintainance</li>
+                    <li>How to containerize Rails applications with Docker (docker-compose), how neat it is in deployment and maintainance</li>
                     <li>Managing my time</li>
                     <li>Customizing gem's source code</li>
                     <li>Ruby Metaprogramming</li>
@@ -55,6 +55,6 @@ jobs:
                   <ul>
                     <li>Git</li>
                     <li>MVC architecture</li>
-                    <li>Using rake, Active Record, templating html and much, much more</li>
+                    <li>Using rake, Active Record, templating html and much much more</li>
                   </ul>
                   
