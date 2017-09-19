@@ -13,9 +13,16 @@
 
     <div class="featured-image">
         <!-- Image with link to project -->
-        <a href="<%= project.link %>" target="_blank">
-                     <img class="img-responsive project-image" src="<%= project.image_path %>" alt="project name" />
-                     </a>
+        <% unless project.image_path %>
+            <video class="img-responsive project-image" controls>
+                <source src="<%= project.video_path %>" type="video/mp4">Your browser does not support the video tag.
+            </video> 
+        <% else %>
+            <a href="<%= project.link %>" target="_blank">
+                <img class="img-responsive project-image" src="<%= project.image_path %>" alt="project name" />
+            </a>
+        <% end %>
+
         
         <!-- Badge in the top-right corner of image-->
         <% if project.badge %>

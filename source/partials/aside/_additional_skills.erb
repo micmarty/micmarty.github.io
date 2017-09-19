@@ -1,14 +1,14 @@
-<!-- Main Skills -->
+<!-- Additional Skills -->
 <aside class="skills aside section">
     <div class="section-inner">
-        <h2 class="heading">Main Skills</h2>
+        <h2 class="heading">Additional Skills</h2>
         <div class="content">
-            <p class="intro"><%= data.aside_sections.skills.main_intro %></p>
+            <p class="intro"><%= data.aside_sections.skills.additional_intro %></p>
 
             <div class="skillset">
-                <% data.aside_sections.skills.main.each do |skill| %>
+                <% data.aside_sections.skills.additional.each do |skill| %>
                 <div class="item">
-                    <h3 class="level-title"><%= skill.name %><span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Someone who isn't surprised how it works, someone fluent with syntax, methodologies">Advanced</span></h3>
+                    <h3 class="level-title"><%= skill.name %><span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Someone above Senior">Highly Advanced</span></h3>
                     <div class="level-bar">
                         <span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="<%= skill&.tooltip%>">
                         <div class="level-bar-inner" data-level="<%= skill.value %>"></div>
@@ -22,6 +22,3 @@
         </div><!--//content-->
     </div><!--//section-inner-->
 </aside><!--//section-->
-
-
-

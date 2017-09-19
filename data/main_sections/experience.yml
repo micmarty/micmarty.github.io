@@ -3,7 +3,7 @@ jobs:
     at: Cirrus
     time_range: May 2017 - Sep 2017
     short_description: |
-                        Developing an app for a buisness client.
+                        Developing an app for a business client.
 
     full_description: |
                   <hr class='divider'>

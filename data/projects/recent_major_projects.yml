@@ -3,17 +3,25 @@ section_title: Recent Major Projects
 # --------------------------------------------------------------------------------------------------------------------
 # 1.
 first_project:
-  project_title: 
-  short_description: 
+  project_title: RustOS
+  short_description: A proof-of-concept operating system written in awesome Rust language + some assembly code.
   long_description:
-    - "" # NO DESCRIPTION
-    
-  image_path: 
-  project_name: 
-  link: 
+    - |
+      <br>
+      It is capable of reading scancodes (keys), dealing with the text mode. 
+      I was able to turn on paging, protected 64-bit mode and execute Rust unsafe code (which runs even on barebone metal, without kernel libraries obviously).
+      There is generated ISO image, which is enough to run inside QEMU + debugger (like gdb).
 
-  badge: 
-  button: 
+      <b>I proud of it</b>, but for those, who haven't experienced writing own OS firsthand, it may look crappy and straightforward.
+      Even my lecturer wasn't 100% sure if it's feasable in Rust.
+    
+  image_path: false
+  video_path: images/projects/major/rustos_in_qemu.mp4
+  project_name: RustOS
+  link: https://github.com/micmarty/RustOS_toy_project
+
+  badge: low-level
+  button: Source Code
 
 # --------------------------------------------------------------------------------------------------------------------
 # 2. Kainos Fund Tracker 2016
