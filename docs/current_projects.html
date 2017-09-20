@@ -40,7 +40,7 @@
         <!-- Profile Picture -->
         <a  href="/index.html">
             <img data-toggle="tooltip" 
-                data-placement="bottom"
+                data-placement="auto bottom"
                  data-animation="true" 
                  title="Back to the Homepage" 
                  class="profile-image img-responsive pull-left level-label" 
@@ -104,7 +104,9 @@
         </a>
 
         <!-- Codewars Badge -->
-        <img id="codewars-badge" class="profile-image img-responsive pull-right" src="https://www.codewars.com/users/micmarty/badges/large" alt="Codewars badge" />
+        <a href="https://www.codewars.com/users/micmarty/stats">
+            <img id="codewars-badge" class="profile-image img-responsive pull-right" src="https://www.codewars.com/users/micmarty/badges/large" alt="Codewars badge" />
+        </a>
 
 
     </div>
@@ -224,9 +226,12 @@ e.g. spectogram or chroma and has very useful features like beat detection.
        <h2 class="heading sr-only">Basic Information</h2>
        <div class="content">
            <ul class="list-unstyled">
-               <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Tczew/Gdańsk, Poland</li>
-               <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#"><img src="/images/email_address-56bc5142.png" alt="Email address" /></a>
-               <img src="/images/email_image_explanation-e62c469b.png" alt="Email image explanation" />
+                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Tczew/Gdańsk, Poland</li>
+                <li>
+                    <i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span>
+                    <a href="#">
+                        <img src="/images/email_address-56bc5142.png" class="level-label" data-toggle="tooltip" data-original-title="it's an image because it saves me from spam/web crawlers" data-placement="auto bottom" alt="Email address" />
+                    </a>
                </li>
            </ul>
        </div><!--//content-->
@@ -308,7 +313,7 @@ these artists in spare time
     <footer class="footer">
     <div class="container text-center">
         <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
-        <small class="copyright">Site arranged by Michał Martyniak in Middleman and the template designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a></small>
+        <small class="copyright">Site built in <a href="https://middlemanapp.com/">Middleman</a> by Michał Martyniak, the template designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a></small>
     </div>
 </footer>
 
