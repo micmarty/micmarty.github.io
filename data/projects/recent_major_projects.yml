@@ -12,7 +12,7 @@ first_project:
       I was able to turn on paging, protected 64-bit mode and execute Rust unsafe code (which runs even on barebone metal, without kernel libraries obviously).
       There is generated ISO image, which is enough to run inside QEMU + debugger (like gdb).
 
-      <b>I proud of it</b>, but for those, who haven't experienced writing own OS firsthand, it may look crappy and straightforward.
+      <b>I'm proud of it</b>, but for those, who haven't experienced writing own OS firsthand, it may look crappy and straightforward.
       Even my lecturer wasn't 100% sure if it's feasable in Rust <i class="fa fa-smile-o" aria-hidden="true"></i>.
     
   image_path: false

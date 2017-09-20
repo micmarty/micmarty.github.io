@@ -3,9 +3,16 @@
        <h2 class="heading sr-only">Basic Information</h2>
        <div class="content">
            <ul class="list-unstyled">
-               <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span><%= data.aside_sections.info.location %></li>
-               <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#"><%= image_tag data.aside_sections.info.email_image_path %></a>
-               <%= image_tag data.aside_sections.info.email_image_explanation_image_path %>
+                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span><%= data.aside_sections.info.location %></li>
+                <li>
+                    <i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span>
+                    <a href="#">
+                        <%= image_tag data.aside_sections.info.email_image_path, 
+                                        'class': 'level-label',
+                                        'data-toggle': 'tooltip',
+                                        'data-original-title': data.aside_sections.info.email_explanation,
+                                        'data-placement': 'auto bottom' %>
+                    </a>
                </li>
                <%#= website_link 'TODO put some link here' %>
            </ul>
