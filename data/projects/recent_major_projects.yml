@@ -1,10 +1,10 @@
 section_title: Recent Major Projects
 
 # --------------------------------------------------------------------------------------------------------------------
-# 0. Instroznizer
+# 0. Instronizer
 first_project:
-  project_title: Instronizer
-  short_description: Musical instruments identification system based on usage of Deep Neural Networks.
+  project_title: Instronizer <span class="label label-theme">machine learning</span>
+  short_description: Musical instruments identification system based on usage of Deep Neural Networks
   long_description:
     - 
       expandable: false
@@ -12,10 +12,9 @@ first_project:
         <br>
         <b>Engineer's diploma project</b> made in cooperation with Maciej Rutkowski and Filip Schodowski.
         A lightweight convolutional neural network was trained, achieving <b>86%</b> accuracy on our test set.
-    - 
-      expandable: false
-      paragraph: |
+
         It can identify 6 predominant instruments right now, but adding more of them would be just upgrading the same system.
+
         1 second is enough to get an accurate classification result but 3s segments are performing a little bit better.
         The neural network is fed with mel-scaled spectrograms instead of raw audio.
     - 
@@ -56,7 +55,7 @@ first_project:
 # 1. RustOS
 second_project:
   project_title: RustOS
-  short_description: A proof-of-concept operating system written in awesome Rust language + some assembly code.
+  short_description: A proof-of-concept operating system written in awesome Rust language + some assembly code
   long_description:
     - 
       expandable: false
@@ -64,7 +63,7 @@ second_project:
         <br>
         It is capable of reading scancodes (keys), dealing with the text mode. 
         I was able to turn on paging, protected 64-bit mode and execute Rust unsafe code (which runs even on barebone metal, without kernel libraries obviously).
-        There is generated ISO image, which is enough to run inside QEMU + debugger (like gdb).
+        There is generated ISO image, which is enough to run inside QEMU + debugger (e.g. gdb).
 
         <b>I'm proud of it</b>, but for those, who haven't experienced writing own OS firsthand, it may look crappy and straightforward.
         Even my lecturer wasn't 100% sure if it's feasable in Rust <i class="fa fa-smile-o" aria-hidden="true"></i>.
@@ -90,7 +89,7 @@ third_project:
       expandable: false
       paragraph: |
         One of my very first apps, but now I know <b>what was wrong</b>.
-        There's not much Ruby, sadly - mostly vanilla JavaScript.
+        There's not much Ruby code, mostly vanilla JavaScript.
         It has bugs <i class="fa fa-smile-o" aria-hidden="true"></i>
     - 
       expandable: false

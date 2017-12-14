@@ -1,7 +1,9 @@
 title: More about me
 
-first_part: |
-            TODO part one
-    
-second_part: |
-            TODO part two
+parts:
+  - |
+    <b>Favourites:</b> classy, jazz and soul music, podcasts, Linux (not popular distros included), buying/playing instruments and recording new tracks.
+
+  - |
+    <b>Musical background:</b> cello classes in music school as a kid, trombone practices in orchestra as a teenager.
+    At some point I used to have 7 instruments at home, now it's only 4.

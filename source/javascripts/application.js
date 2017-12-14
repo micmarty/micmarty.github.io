@@ -1,18 +1,9 @@
-$(function() {
-    $("div.content").each(function() {
-        classes = this.classList;
-        if (["showContent"].indexOf(classes) >= 0) {
-            $(this).data("hidden", false);
-        } else if (["hideContent"].indexOf(classes) >= 0) {
-            $(this).data("hidden", true);
-        }
-    });
-});
 $(".show-more a").on("click", function() {
     var $anchor = $(this);
     var $content = $anchor.parent().prev('div.content');
     var linkText = $anchor.text();
-    if ($anchor.data("hidden") === true) {
+
+    if ($anchor.data("hidden") == true || linkText.startsWith("Expand")) {
         linkText = "Collapse ▲";
         $content.switchClass("hideContent", "showContent", 400);
         $anchor.data("hidden", false);

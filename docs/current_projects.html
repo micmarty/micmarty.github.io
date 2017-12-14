@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
 <head>
     <title>Michał Martyniak - Portfolio Page</title>
     <!-- Meta -->
@@ -29,31 +32,25 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
+
     <link href="/stylesheets/application-8def19ff.css" rel="stylesheet" />
 </head>
 
 <body>
-    
-<header class="header">
-    <div class="container">
-        <!-- Profile Picture -->
-        <a  href="/index.html">
-            <img data-toggle="tooltip" 
-                data-placement="auto bottom"
-                 data-animation="true" 
-                 title="Back to the Homepage" 
-                 class="profile-image img-responsive pull-left level-label" 
-                 src="images/wolf_logo-297aed3c.png" 
-                 alt="Michał Martyniak's profile picture" />
-        </a>
-        
-        <div class="profile-content pull-left">
-            <!-- My name and short description -->
-            <h1 class="name">
-                Michał Martyniak
-            </h1>
-            <h2 class="desc">
+
+    <header class="header">
+        <div class="container">
+            <!-- Profile Picture -->
+            <a href="/index.html">
+                <img data-toggle="tooltip" data-placement="auto bottom" data-animation="true" title="Back to the Homepage" class="profile-image img-responsive pull-left level-label" src="images/wolf_logo-297aed3c.png" alt="Michał Martyniak's profile picture" />
+            </a>
+
+            <div class="profile-content pull-left">
+                <!-- My name and short description -->
+                <h1 class="name">
+                    Michał Martyniak
+                </h1>
+                <h2 class="desc">
                     <div style="display: inline-block;white-space: nowrap;">
                         Computer Science student |
                     </div>
@@ -66,244 +63,237 @@
                     <div style="display: inline-block;white-space: nowrap;">
                         Multi-instrumentalist
                     </div>
-            </h2>
+                </h2>
 
-            <!-- Links to socials -->
-            <!-- TODO move styles to application.css -->
-            <ul class="social list-inline">
-                <li><a href="https://github.com/micmarty" style="background: #24292E;" target="_blank;"><i class="fa fa-github" aria-hidden="true" style="color: white;"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/micha%C5%82-martyniak-b2bba6125/" style="background: #0077B5;" target="_blank;"><i class="fa fa-linkedin" aria-hidden="true" style="color: white;"></i></a></li>
-                <li><a href="https://micmarty.wordpress.com" style="background: #464442;" target="_blank;"><i class="fa fa-wordpress" aria-hidden="true" style="color: white;"></i></a></li>
-                <li><a href="https://www.codewars.com/users/micmarty/stats" style="background: #EC1622;" target="_blank;"><i class="fa fa-diamond" aria-hidden="true" style="color: white;"></i></a></li>
-                <li><a href="https://soundcloud.com/miczi-the-wolfer" style="background: #ff6b00;" target="_blank;"><i class="fa fa-soundcloud" aria-hidden="true" style="color: white;"></i></a></li>
-                <!-- GradientPG Student Research Group -->
-                <li><a href="http://gradient.eti.pg.gda.pl/" style="background: white;padding-top: 8px"><img src="images/gradient_logo_small-628ed211.png"></a></li>
-            </ul>
-        </div>
-
-        <!-- Current Projects Button -->
-        <a class="btn btn-cta-primary pull-left" 
-            style="margin-right: 20px;margin-left: 20px;" 
-            href="/current_projects.html">
-          <i class="fa fa-coffee" aria-hidden="true"></i>Current Projects
-        </a>
-
-        <!-- Recent Projects Button -->
-        <a class="btn btn-cta-primary pull-left" 
-            href="/recent_projects.html">
-          <i class="fa fa-archive" aria-hidden="true"></i>
-          Recent Projects
-        </a>
-
-        <!-- LinkedIn Contact Button -->
-        <a class="btn btn-cta-primary pull-right" 
-            href="https://www.linkedin.com/in/micha%C5%82-martyniak-b2bba6125/"
-            target="_blank">
-          <i class="fa fa-envelope" aria-hidden="true"></i>
-          Contact me on LinkedIn
-        </a>
-
-        <!-- Codewars Badge -->
-        <a href="https://www.codewars.com/users/micmarty/stats">
-            <img id="codewars-badge" class="profile-image img-responsive pull-right" src="https://www.codewars.com/users/micmarty/badges/large" alt="Codewars badge" />
-        </a>
-
-
-    </div>
-    <!--//container-->
-</header>
-<!--//header-->
-    <div class="container sections-wrapper" style="padding-top: 30px">
-    <div class="row">
-        <div class="primary col-md-8 col-sm-12 col-xs-12">
-            
-<section class="latest section">
-    <div class="section-inner">
-        <h2 class="heading">
-            <!-- Current Major Section Title -->
-            Current Projects
-        </h2>
-        <div class="content">
-            <!-- First Current Project -->
-            <div class="item featured text-center">
-    <h3 class="title">
-        <a href="https://github.com/roscisz/TensorHive" target="_blank">
-            <!-- Project Title -->
-            TensorHive <span class="label label-theme">open source</span>
-        </a>
-    </h3>
-
-    <p class="summary">
-        <!-- Short Description -->
-        Lightweight computing resource management tool for executing machine learning applications in distributed TensorFlow
-    </p>
-
-    <div class="featured-image">
-        <!-- Image with link to project -->
-            <a href="https://github.com/roscisz/TensorHive" target="_blank">
-                <img class="img-responsive project-image" src="images/projects/major/tensorhive_dashboard-ff26908d.png" alt="project name" />
-            </a>
-
-        
-        <!-- Badge in the top-right corner of image-->
-    </div>
-
-    <div class="desc text-left">
-        <!-- 1 upto x Long Description Paragraphs -->
-            <p>We've just started making an open-source solution for distributed trainings in TensorFlow.
-It will:
-<ul>
-  <li>Launch with a single command</li>
-  <li>Have a dashboard built with Material Design components (Google Android style)
-  <li>Communicate over ssh</li>
-  <li>Monitor resources, like: GPU, Memory load, etc.</li>
-</ul>
-The project has started within <a href="http://gradient.eti.pg.gda.pl/" target="_blank"><img src="images/gradient_logo_small-628ed211.png" style="margin-bottom: 0px"><b>GradientPG</b></a> (Student Research Group I participate in).
-</p>
-    </div>
-    
-    
-    <a class="btn btn-cta-secondary" href="https://github.com/roscisz/TensorHive"
-        target="_blank"><i class="fa fa-github" aria-hidden="true"></i><p>Source Code</p></a>
-        
-</div>
-            <hr class="divider" />
-
-            <!-- Second Current Project -->
-            <div class="item featured text-center">
-    <h3 class="title">
-        <a href="https://github.com/micmarty/audio-preprocessing-exercises-with-librosa/blob/master/librosa_sandbox_1.ipynb" target="_blank">
-            <!-- Project Title -->
-            Audio signal analysis in Python with Librosa 
-<span class="label label-theme">machine learning</span> 
-<span class="label label-theme">own research</span>
-
-        </a>
-    </h3>
-
-    <p class="summary">
-        <!-- Short Description -->
-        I had to do some research about choosing the best model for my neural network.
-My journey started with librosa - it can transform an audio excerpt into many visual representations, 
-e.g. spectogram or chroma and has very useful features like beat detection.
-
-    </p>
-
-    <div class="featured-image">
-        <!-- Image with link to project -->
-            <a href="https://github.com/micmarty/audio-preprocessing-exercises-with-librosa/blob/master/librosa_sandbox_1.ipynb" target="_blank">
-                <img class="img-responsive project-image" src="images/projects/major/librosa_chroma-d677d004.png" alt="project name" />
-            </a>
-
-        
-        <!-- Badge in the top-right corner of image-->
-            <div class="ribbon">
-                <div class="text">
-                    hobby
-                </div>
+                <!-- Links to socials -->
+                <!-- TODO move styles to application.css -->
+                <ul class="social list-inline">
+                    <li><a href="https://github.com/micmarty" style="background: #24292E;" target="_blank;"><i class="fa fa-github" aria-hidden="true" style="color: white;"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/micha%C5%82-martyniak-b2bba6125/" style="background: #0077B5;" target="_blank;"><i class="fa fa-linkedin" aria-hidden="true" style="color: white;"></i></a></li>
+                    <li><a href="https://micmarty.wordpress.com" style="background: #464442;" target="_blank;"><i class="fa fa-wordpress" aria-hidden="true" style="color: white;"></i></a></li>
+                    <li><a href="https://www.codewars.com/users/micmarty/stats" style="background: #EC1622;" target="_blank;"><i class="fa fa-diamond" aria-hidden="true" style="color: white;"></i></a></li>
+                    <li><a href="https://soundcloud.com/miczi-the-wolfer" style="background: #ff6b00;" target="_blank;"><i class="fa fa-soundcloud" aria-hidden="true" style="color: white;"></i></a></li>
+                    <!-- GradientPG Student Research Group -->
+                    <li>
+                        <a href="http://gradient.eti.pg.gda.pl/" style="background: white;padding-top: 8px"><img src="images/gradient_logo_small-628ed211.png"></a>
+                    </li>
+                </ul>
             </div>
-    </div>
 
-    <div class="desc text-left">
-        <!-- 1 upto x Long Description Paragraphs -->
-            <p></p>
-    </div>
-    
-    
-    <a class="btn btn-cta-secondary" href="https://github.com/micmarty/audio-preprocessing-exercises-with-librosa/blob/master/librosa_sandbox_1.ipynb"
-        target="_blank"><i class="fa fa-github" aria-hidden="true"></i><p>Source Code</p></a>
-        
-</div>
-            <hr class="divider" />
+            <!-- Current Projects Button -->
+            <a class="btn btn-cta-primary pull-left" style="margin-right: 20px;margin-left: 20px;" href="/current_projects.html">
+                <i class="fa fa-coffee" aria-hidden="true"></i>Current Projects
+            </a>
+
+            <!-- Recent Projects Button -->
+            <a class="btn btn-cta-primary pull-left" href="/recent_projects.html">
+                <i class="fa fa-archive" aria-hidden="true"></i> Recent Projects
+            </a>
+
+            <!-- LinkedIn Contact Button -->
+            <a class="btn btn-cta-primary pull-right" href="https://www.linkedin.com/in/micha%C5%82-martyniak-b2bba6125/" target="_blank">
+                <i class="fa fa-envelope" aria-hidden="true"></i> Contact me on LinkedIn
+            </a>
+
+            <!-- Codewars Badge -->
+            <a href="https://www.codewars.com/users/micmarty/stats">
+                <img id="codewars-badge" class="profile-image img-responsive pull-right" src="https://www.codewars.com/users/micmarty/badges/large" alt="Codewars badge" />
+            </a>
+
+
         </div>
-    </div>
-</section>
-        </div>
+        <!--//container-->
+    </header>
+    <!--//header-->
+    <div class="container sections-wrapper" style="padding-top: 30px">
+        <div class="row">
+            <div class="primary col-md-8 col-sm-12 col-xs-12">
 
-        <div class="secondary col-md-4 col-sm-12 col-xs-12">
-            <aside class="info aside section">
-   <div class="section-inner">
-       <h2 class="heading sr-only">Basic Information</h2>
-       <div class="content">
-           <ul class="list-unstyled">
-                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Tczew/Gdańsk, Poland</li>
-                <li>
-                    <i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span>
-                    <a href="#">
-                        <img src="/images/email_address-56bc5142.png" class="level-label" data-toggle="tooltip" data-original-title="it's an image because it saves me from spam/web crawlers" data-placement="auto bottom" alt="Email address" />
-                    </a>
-               </li>
-           </ul>
-       </div><!--//content-->
-   </div><!--//section-inner-->
-</aside><!--//aside-->
+                <section class="latest section">
+                    <div class="section-inner">
+                        <h2 class="heading">
+                            <!-- Current Major Section Title -->
+                            Current Projects
+                        </h2>
+                        <div class="content">
+                            <!-- First Current Project -->
+                            <div class="item featured text-center">
+                                <h3 class="title">
+                                    <a href="https://github.com/roscisz/TensorHive" target="_blank">
+                                        <!-- Project Title -->
+                                        TensorHive <span class="label label-theme">open-source</span>
+                                    </a>
+                                </h3>
 
-            <aside class="list music aside section">
-    <div class="section-inner">
-        <h2 class="heading"><i class="fa fa-coffee" aria-hidden="true"></i>
-Favourite while coding
-</h2>
+                                <p class="summary">
+                                    <!-- Short Description -->
+                                    Lightweight computing resource management tool for executing machine learning applications in distributed TensorFlow
+                                </p>
 
-        <div class="footer" style="background: none">
-            <small class="copyright">I highly recommend listening to 
+                                <div class="featured-image">
+                                    <!-- Image with link to project -->
+                                    <a href="https://github.com/roscisz/TensorHive" target="_blank">
+                                        <img class="img-responsive project-image" src="images/projects/major/tensorhive_dashboard-ff26908d.png" alt="project name" />
+                                    </a>
+
+
+                                    <!-- Badge in the top-right corner of image-->
+                                </div>
+
+                                <div class="desc text-left">
+                                    <!-- 1 upto x Long Description Paragraphs -->
+                                    <p>We've just started making an open-source solution for distributed trainings in TensorFlow. It will:
+                                        <ul>
+                                            <li>Launch with a single command</li>
+                                            <li>Have a dashboard built with Material Design components (Google Android style)
+                                                <li>Communicate over ssh</li>
+                                                <li>Monitor resources, like: GPU, Memory load, etc.</li>
+                                        </ul>
+                                        The project has started within
+                                        <a href="http://gradient.eti.pg.gda.pl/" target="_blank"><img src="images/gradient_logo_small-628ed211.png" style="margin-bottom: 0px"><b>GradientPG</b></a> (Student Research Group I participate in).
+                                    </p>
+                                </div>
+
+
+                                <a class="btn btn-cta-secondary" href="https://github.com/roscisz/TensorHive" target="_blank"><i class="fa fa-github" aria-hidden="true"></i><p>Source Code</p></a>
+
+                            </div>
+                            <hr class="divider" />
+
+                            <!-- Second Current Project -->
+                            <div class="item featured text-center">
+                                <h3 class="title">
+                                    <a href="https://github.com/micmarty/audio-preprocessing-exercises-with-librosa/blob/master/librosa_sandbox_1.ipynb" target="_blank">
+                                        <!-- Project Title -->
+                                        Audio signal analysis in Python with Librosa
+                                        <span class="label label-theme">machine learning</span>
+                                        <span class="label label-theme">own research</span>
+
+                                    </a>
+                                </h3>
+
+                                <p class="summary">
+                                    <!-- Short Description -->
+                                    I had to do some research about choosing the best model for my neural network. My journey started with librosa - it can transform an audio excerpt into many visual representations, e.g. spectogram or chroma and has very useful features like beat detection.
+
+                                </p>
+
+                                <div class="featured-image">
+                                    <!-- Image with link to project -->
+                                    <a href="https://github.com/micmarty/audio-preprocessing-exercises-with-librosa/blob/master/librosa_sandbox_1.ipynb" target="_blank">
+                                        <img class="img-responsive project-image" src="images/projects/major/librosa_chroma-d677d004.png" alt="project name" />
+                                    </a>
+
+
+                                    <!-- Badge in the top-right corner of image-->
+                                    <div class="ribbon">
+                                        <div class="text">
+                                            hobby
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="desc text-left">
+                                    <!-- 1 upto x Long Description Paragraphs -->
+                                    <p></p>
+                                </div>
+
+
+                                <a class="btn btn-cta-secondary" href="https://github.com/micmarty/audio-preprocessing-exercises-with-librosa/blob/master/librosa_sandbox_1.ipynb" target="_blank"><i class="fa fa-github" aria-hidden="true"></i><p>Source Code</p></a>
+
+                            </div>
+                            <hr class="divider" />
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                <aside class="info aside section">
+                    <div class="section-inner">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Tczew/Gdańsk, Poland</li>
+                                <li>
+                                    <i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span>
+                                    <a href="#">
+                                        <img src="/images/email_address-56bc5142.png" class="level-label" data-toggle="tooltip" data-original-title="it's an image because it saves me from spam/web crawlers" data-placement="auto bottom" alt="Email address" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//aside-->
+
+                <aside class="list music aside section">
+                    <div class="section-inner">
+                        <h2 class="heading"><i class="fa fa-coffee" aria-hidden="true"></i> Favourite while coding
+                        </h2>
+
+                        <div class="footer" style="background: none">
+                            <small class="copyright">I highly recommend listening to 
 these artists in spare time 
 (at least a few seconds)
 </small>
-        </div>
-        
-        <div class="content">
-            <!-- Playlist -->
-            <ul class="list-unstyled">
-                <!-- Playlist Item -->
-                    <li>
-                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/v6HBnrJ0rVg?start=64&rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
-                        <a href="https://www.youtube.com/watch?v=v6HBnrJ0rVg?t=1m4s" target="_blank">1. Trombone Shorty & Orleans Avenue - Jazzwoche Burghausen 2011 Concert</a>
-                        <hr class='divider'>
-                    </li>
-                    <li>
-                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/vDb4RakK1DU?start=688&rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
-                        <a href="https://www.youtube.com/watch?v=vDb4RakK1DU?t=11m28s" target="_blank">2. Chassol - Pipornitholhoy part.2</a>
-                        <hr class='divider'>
-                    </li>
-                    <li>
-                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/Tnf_Brn-zdA?start=151&rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
-                        <a href="https://www.youtube.com/watch?v=Tnf_Brn-zdA?t=2m31s" target="_blank">3. Tom Misch - Wake Up This Day | Mahogany Session</a>
-                        <hr class='divider'>
-                    </li>
-                    <li>
-                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/vh0SWTVwXxw?start=151&rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
-                        <a href="https://www.youtube.com/watch?v=vh0SWTVwXxw?t=2m31s" target="_blank">4. Aurora - Murder Song (5,4,3,2,1) - Nobel Prize Concert</a>
-                        <hr class='divider'>
-                    </li>
-                    <li>
-                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/iTTfyQOqThM?start=146&rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
-                        <a href="https://www.youtube.com/watch?v=iTTfyQOqThM?t=2m26s" target="_blank">5. Leszek Mozdzer - Sleep safe and warm (Komeda)</a>
-                        <hr class='divider'>
-                    </li>
-                    <li>
-                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/2IWUJpZwpeQ?start=9&rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
-                        <a href="https://www.youtube.com/watch?v=2IWUJpZwpeQ?t=9s" target="_blank">6. Henryk Wieniawski - Scherzo Tarantelle Op. 16</a>
-                        <hr class='divider'>
-                    </li>
-                    <li>
-                        <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/9HUV5a7MgS4?start=317&rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
-                        <a href="https://www.youtube.com/watch?v=9HUV5a7MgS4?t=5m17s" target="_blank">7. Lianne La Havas - NPR Music Tiny Desk Concert</a>
-                        <hr class='divider'>
-                    </li>
-            </ul>
+                        </div>
+
+                        <div class="content">
+                            <!-- Playlist -->
+                            <ul class="list-unstyled">
+                                <!-- Playlist Item -->
+                                <li>
+                                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/v6HBnrJ0rVg?start=64&rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+                                    <a href="https://www.youtube.com/watch?v=v6HBnrJ0rVg?t=1m4s" target="_blank">1. Trombone Shorty & Orleans Avenue - Jazzwoche Burghausen 2011 Concert</a>
+                                    <hr class='divider'>
+                                </li>
+                                <li>
+                                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/vDb4RakK1DU?start=688&rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+                                    <a href="https://www.youtube.com/watch?v=vDb4RakK1DU?t=11m28s" target="_blank">2. Chassol - Pipornitholhoy part.2</a>
+                                    <hr class='divider'>
+                                </li>
+                                <li>
+                                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/Tnf_Brn-zdA?start=151&rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+                                    <a href="https://www.youtube.com/watch?v=Tnf_Brn-zdA?t=2m31s" target="_blank">3. Tom Misch - Wake Up This Day | Mahogany Session</a>
+                                    <hr class='divider'>
+                                </li>
+                                <li>
+                                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/vh0SWTVwXxw?start=151&rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+                                    <a href="https://www.youtube.com/watch?v=vh0SWTVwXxw?t=2m31s" target="_blank">4. Aurora - Murder Song (5,4,3,2,1) - Nobel Prize Concert</a>
+                                    <hr class='divider'>
+                                </li>
+                                <li>
+                                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/iTTfyQOqThM?start=146&rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+                                    <a href="https://www.youtube.com/watch?v=iTTfyQOqThM?t=2m26s" target="_blank">5. Leszek Mozdzer - Sleep safe and warm (Komeda)</a>
+                                    <hr class='divider'>
+                                </li>
+                                <li>
+                                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/2IWUJpZwpeQ?start=9&rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+                                    <a href="https://www.youtube.com/watch?v=2IWUJpZwpeQ?t=9s" target="_blank">6. Henryk Wieniawski - Scherzo Tarantelle Op. 16</a>
+                                    <hr class='divider'>
+                                </li>
+                                <li>
+                                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/9HUV5a7MgS4?start=317&rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+                                    <a href="https://www.youtube.com/watch?v=9HUV5a7MgS4?t=5m17s" target="_blank">7. Lianne La Havas - NPR Music Tiny Desk Concert</a>
+                                    <hr class='divider'>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+            </div>
         </div>
     </div>
-</aside>
-        </div>
-    </div>
-</div>
 
 
     <!-- Javascript -->
     <script type="text/javascript" src="/plugins/jquery-1.11.3.min-276c87ff.js"></script>
     <script type="text/javascript" src="/plugins/bootstrap/js/bootstrap.min-791aa054.js"></script>
     <!-- github calendar plugin -->
-    
+
     <!-- github activity plugin -->
     <script src="/javascripts/main-5fdbea93.js"></script>
     <script src="/javascripts/min/jquery-ui.min-51ebbcdb.js"></script>
@@ -311,11 +301,12 @@ these artists in spare time
     <script src="/javascripts/application-015746cb.js"></script>
 
     <footer class="footer">
-    <div class="container text-center">
-        <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
-        <small class="copyright">Site built in <a href="https://middlemanapp.com/">Middleman</a> by Michał Martyniak, the template designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a></small>
-    </div>
-</footer>
+        <div class="container text-center">
+            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+            <small class="copyright">Site built in <a href="https://middlemanapp.com/">Middleman</a> by Michał Martyniak, the template designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a></small>
+        </div>
+    </footer>
 
 </body>
+
 </html>

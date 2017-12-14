@@ -3,7 +3,7 @@ section_title: Current Projects
 # --------------------------------------------------------------------------------------------------------------------
 # 1.
 first_project:
-  project_title: TensorHive <span class="label label-theme">open source</span>
+  project_title: TensorHive <span class="label label-theme">open-source</span>
   short_description: Lightweight computing resource management tool for executing machine learning applications in distributed TensorFlow
   long_description:
     - 
