@@ -1,0 +1,1 @@
+$(".show-more a").on("click",function(){var t=$(this),n=t.parent().prev("div.content"),e=t.text();1==t.data("hidden")||e.startsWith("Expand")?(e="Collapse \u25b2",n.switchClass("hideContent","showContent",400),t.data("hidden",!1)):(e="Expand \u25bc",n.switchClass("showContent","hideContent",400),t.data("hidden",!0)),t.context.text=e});
