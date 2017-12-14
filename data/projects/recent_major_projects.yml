@@ -1,19 +1,72 @@
 section_title: Recent Major Projects
 
 # --------------------------------------------------------------------------------------------------------------------
-# 1.
+# 0. Instronizer
 first_project:
-  project_title: RustOS
-  short_description: A proof-of-concept operating system written in awesome Rust language + some assembly code.
+  project_title: Instronizer <span class="label label-theme">machine learning</span>
+  short_description: Musical instruments identification system based on usage of Deep Neural Networks
   long_description:
-    - |
-      <br>
-      It is capable of reading scancodes (keys), dealing with the text mode. 
-      I was able to turn on paging, protected 64-bit mode and execute Rust unsafe code (which runs even on barebone metal, without kernel libraries obviously).
-      There is generated ISO image, which is enough to run inside QEMU + debugger (like gdb).
+    - 
+      expandable: false
+      paragraph: |
+        <br>
+        <b>Engineer's diploma project</b> made in cooperation with Maciej Rutkowski and Filip Schodowski.
+        A lightweight convolutional neural network was trained, achieving <b>86%</b> accuracy on our test set.
 
-      <b>I'm proud of it</b>, but for those, who haven't experienced writing own OS firsthand, it may look crappy and straightforward.
-      Even my lecturer wasn't 100% sure if it's feasable in Rust <i class="fa fa-smile-o" aria-hidden="true"></i>.
+        It can identify 6 predominant instruments right now, but adding more of them would be just upgrading the same system.
+
+        1 second is enough to get an accurate classification result but 3s segments are performing a little bit better.
+        The neural network is fed with mel-scaled spectrograms instead of raw audio.
+    - 
+      expandable: true
+      paragraph: |
+        At the beginning we were using IRMAS dataset which turned out later to be not good quality:
+        <ul>
+          <li>Small and unbalanced training set - 19 to 39 minutes per instrument</li>
+          <li>Many wrong annotated labels</li>
+          <li>Multiple excerpts from one song were extracted, decreasing diversity of the data</li>
+          <li>Testing set has completely different strategy of labeling than the training one</li>
+        </ul>
+        Because of this a <b>new dataset</b> consisting of YouTube clips was created:
+        <ul>
+          <li>Almost 4 times bigger
+            <ul>
+              <li>2 hours for training
+              <li>30 minutes for validation
+              <li>30 minutes for testing
+            </ul>
+          </li>
+          <li>Fully handmade work</li>
+        </ul>
+        For the purpose of this project 3 main components were designed:
+        <ul>
+        <li>Data processor (audio excerpt -> spectrogram)</li>
+        <li>Google's MobileNet CNN architecture</li>
+        <li>Material Design webapp written in Python (Flask), JavaScript</li>
+  image_path: false
+  video_path: https://drive.google.com/uc?export=download&id=16lWAnKBLpJX2q6TF5IhN_g_R7hfFom8Y
+  project_name: Instronizer
+  link: false
+
+  badge: ML
+  button: more details with source code
+
+# --------------------------------------------------------------------------------------------------------------------
+# 1. RustOS
+second_project:
+  project_title: RustOS
+  short_description: A proof-of-concept operating system written in awesome Rust language + some assembly code
+  long_description:
+    - 
+      expandable: false
+      paragraph: |
+        <br>
+        It is capable of reading scancodes (keys), dealing with the text mode. 
+        I was able to turn on paging, protected 64-bit mode and execute Rust unsafe code (which runs even on barebone metal, without kernel libraries obviously).
+        There is generated ISO image, which is enough to run inside QEMU + debugger (e.g. gdb).
+
+        <b>I'm proud of it</b>, but for those, who haven't experienced writing own OS firsthand, it may look crappy and straightforward.
+        Even my lecturer wasn't 100% sure if it's feasable in Rust <i class="fa fa-smile-o" aria-hidden="true"></i>.
     
   image_path: false
   video_path: images/projects/major/rustos_in_qemu.mp4
@@ -25,26 +78,30 @@ first_project:
 
 # --------------------------------------------------------------------------------------------------------------------
 # 2. Kainos Fund Tracker 2016
-second_project:
+third_project:
   project_title: |
                   <i class="fa fa-area-chart" aria-hidden="true"></i>&nbsp;
                   Fund Tracker
 
   short_description: App which renders a single chart from market shares data (as CSV file) and calculates the benefit from bank deposit.
   long_description:
-    - |
-      One of my very first apps, but now I know <b>what was wrong</b>.
-      There's not much Ruby, sadly - mostly vanilla JavaScript.
-      It has bugs <i class="fa fa-smile-o" aria-hidden="true"></i>
-    - |
-      <h4 class="level-title">Next time I would pick:</h4>
-      <ul>
-        <li>TypeScript</li>
-        <li>Middleman -> static site generator</li>
-        <li>simple_form gem</li>
-        <li>Google Charts</li>
-        <li>Material Design + CSS Grid instead of Bootstrap</li>
-      </ul>
+    - 
+      expandable: false
+      paragraph: |
+        One of my very first apps, but now I know <b>what was wrong</b>.
+        There's not much Ruby code, mostly vanilla JavaScript.
+        It has bugs <i class="fa fa-smile-o" aria-hidden="true"></i>
+    - 
+      expandable: false
+      paragraph: |
+        <h4 class="level-title">Next time I would pick:</h4>
+        <ul>
+          <li>TypeScript</li>
+          <li>Middleman -> static site generator</li>
+          <li>simple_form gem</li>
+          <li>Google Charts</li>
+          <li>Material Design + CSS Grid instead of Bootstrap</li>
+        </ul>
   image_path: images/projects/major/fund_tracker_chart.png
   project_name: https://github.com/micmarty/fund_tracker
   link: https://github.com/micmarty/fund_tracker

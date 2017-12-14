@@ -10,7 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Responsive HTML5 Website Landing Page for Developers">
     <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
-    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="shortcut icon" type="image/png" href="images/wolf_logo-297aed3c.png"/>
+
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <!-- Global CSS -->
@@ -30,7 +32,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-    <link href="/stylesheets/application-8def19ff.css" rel="stylesheet" />
+    <link href="/stylesheets/application-d5950a7a.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -73,7 +75,7 @@
             <ul class="social list-inline">
                 <li><a href="https://github.com/micmarty" style="background: #24292E;" target="_blank;"><i class="fa fa-github" aria-hidden="true" style="color: white;"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/micha%C5%82-martyniak-b2bba6125/" style="background: #0077B5;" target="_blank;"><i class="fa fa-linkedin" aria-hidden="true" style="color: white;"></i></a></li>
-                <li><a href="https://micmarty.wordpress.com" style="background: #464442;" target="_blank;"><i class="fa fa-wordpress" aria-hidden="true" style="color: white;"></i></a></li>
+                <li><a href="https://micmarty.wordpress.com/category/computer_and_nerdy/" style="background: #464442;" target="_blank;"><i class="fa fa-wordpress" aria-hidden="true" style="color: white;"></i></a></li>
                 <li><a href="https://www.codewars.com/users/micmarty/stats" style="background: #EC1622;" target="_blank;"><i class="fa fa-diamond" aria-hidden="true" style="color: white;"></i></a></li>
                 <li><a href="https://soundcloud.com/miczi-the-wolfer" style="background: #ff6b00;" target="_blank;"><i class="fa fa-soundcloud" aria-hidden="true" style="color: white;"></i></a></li>
                 <!-- GradientPG Student Research Group -->
@@ -115,7 +117,7 @@
 <!--//header-->
     <div class="container sections-wrapper" style="padding-top: 30px">
     <div class="row">
-        <div class="primary col-md-6 col-sm-12 col-xs-12">
+        <div class="primary col-md-7 col-sm-12 col-xs-12">
             
 <section class="latest section">
     <div class="section-inner">
@@ -127,6 +129,87 @@
             <!-- First Recent Major Project -->
             <div class="item featured text-center">
     <h3 class="title">
+        <a href="false" target="_blank">
+            <!-- Project Title -->
+            Instronizer <span class="label label-theme">machine learning</span>
+        </a>
+    </h3>
+
+    <p class="summary">
+        <!-- Short Description -->
+        Musical instruments identification system based on usage of Deep Neural Networks
+    </p>
+
+    <div class="featured-image">
+        <!-- Image with link to project -->
+            <video class="img-responsive project-image" controls>
+                <source src="https://drive.google.com/uc?export=download&id=16lWAnKBLpJX2q6TF5IhN_g_R7hfFom8Y" type="video/mp4">Your browser does not support the video tag.
+            </video> 
+
+        
+        <!-- Badge in the top-right corner of image-->
+            <div class="ribbon">
+                <div class="text">
+                    ML
+                </div>
+            </div>
+    </div>
+
+    <div class="desc text-left">
+        <!-- 1 upto x Long Description Paragraphs -->
+            <div class="content showContent">
+                <p><br>
+<b>Engineer's diploma project</b> made in cooperation with Maciej Rutkowski and Filip Schodowski.
+A lightweight convolutional neural network was trained, achieving <b>86%</b> accuracy on our test set.
+
+It can identify 6 predominant instruments right now, but adding more of them would be just upgrading the same system.
+
+1 second is enough to get an accurate classification result but 3s segments are performing a little bit better.
+The neural network is fed with mel-scaled spectrograms instead of raw audio.
+</p>
+            </div>
+
+            <div class="content hideContent">
+                <p>At the beginning we were using IRMAS dataset which turned out later to be not good quality:
+<ul>
+  <li>Small and unbalanced training set - 19 to 39 minutes per instrument</li>
+  <li>Many wrong annotated labels</li>
+  <li>Multiple excerpts from one song were extracted, decreasing diversity of the data</li>
+  <li>Testing set has completely different strategy of labeling than the training one</li>
+</ul>
+Because of this a <b>new dataset</b> consisting of YouTube clips was created:
+<ul>
+  <li>Almost 4 times bigger
+    <ul>
+      <li>2 hours for training
+      <li>30 minutes for validation
+      <li>30 minutes for testing
+    </ul>
+  </li>
+  <li>Fully handmade work</li>
+</ul>
+For the purpose of this project 3 main components were designed:
+<ul>
+<li>Data processor (audio excerpt -> spectrogram)</li>
+<li>Google's MobileNet CNN architecture</li>
+<li>Material Design webapp written in Python (Flask), JavaScript</li>
+</p>
+            </div>
+
+                <div class="show-more">
+                    <a class="more-link">Expand ▼</a>
+                </div>
+    </div>
+    
+    <a class="btn btn-cta-secondary" href="false"
+        target="_blank"><i class="fa fa-github" aria-hidden="true"></i><p>more details with source code</p></a>
+        
+</div>
+            <hr class="divider" />
+
+            <!-- Second Recent Major Project -->
+            <div class="item featured text-center">
+    <h3 class="title">
         <a href="https://github.com/micmarty/RustOS_toy_project" target="_blank">
             <!-- Project Title -->
             RustOS
@@ -135,7 +218,7 @@
 
     <p class="summary">
         <!-- Short Description -->
-        A proof-of-concept operating system written in awesome Rust language + some assembly code.
+        A proof-of-concept operating system written in awesome Rust language + some assembly code
     </p>
 
     <div class="featured-image">
@@ -155,16 +238,18 @@
 
     <div class="desc text-left">
         <!-- 1 upto x Long Description Paragraphs -->
-            <p><br>
+            <div class="content showContent">
+                <p><br>
 It is capable of reading scancodes (keys), dealing with the text mode. 
 I was able to turn on paging, protected 64-bit mode and execute Rust unsafe code (which runs even on barebone metal, without kernel libraries obviously).
-There is generated ISO image, which is enough to run inside QEMU + debugger (like gdb).
+There is generated ISO image, which is enough to run inside QEMU + debugger (e.g. gdb).
 
 <b>I'm proud of it</b>, but for those, who haven't experienced writing own OS firsthand, it may look crappy and straightforward.
 Even my lecturer wasn't 100% sure if it's feasable in Rust <i class="fa fa-smile-o" aria-hidden="true"></i>.
 </p>
+            </div>
+
     </div>
-    
     
     <a class="btn btn-cta-secondary" href="https://github.com/micmarty/RustOS_toy_project"
         target="_blank"><i class="fa fa-github" aria-hidden="true"></i><p>Source Code</p></a>
@@ -172,7 +257,7 @@ Even my lecturer wasn't 100% sure if it's feasable in Rust <i class="fa fa-smile
 </div>
             <hr class="divider" />
 
-            <!-- Second Recent Major Project -->
+            <!-- Third Recent Major Project -->
             <div class="item featured text-center">
     <h3 class="title">
         <a href="https://github.com/micmarty/fund_tracker" target="_blank">
@@ -205,11 +290,15 @@ Fund Tracker
 
     <div class="desc text-left">
         <!-- 1 upto x Long Description Paragraphs -->
-            <p>One of my very first apps, but now I know <b>what was wrong</b>.
-There's not much Ruby, sadly - mostly vanilla JavaScript.
+            <div class="content showContent">
+                <p>One of my very first apps, but now I know <b>what was wrong</b>.
+There's not much Ruby code, mostly vanilla JavaScript.
 It has bugs <i class="fa fa-smile-o" aria-hidden="true"></i>
 </p>
-            <p><h4 class="level-title">Next time I would pick:</h4>
+            </div>
+
+            <div class="content showContent">
+                <p><h4 class="level-title">Next time I would pick:</h4>
 <ul>
   <li>TypeScript</li>
   <li>Middleman -> static site generator</li>
@@ -218,8 +307,9 @@ It has bugs <i class="fa fa-smile-o" aria-hidden="true"></i>
   <li>Material Design + CSS Grid instead of Bootstrap</li>
 </ul>
 </p>
+            </div>
+
     </div>
-    
     
     <a class="btn btn-cta-secondary" href="https://github.com/micmarty/fund_tracker"
         target="_blank"><i class="fa fa-github" aria-hidden="true"></i><p>Source Code</p></a>
@@ -230,7 +320,7 @@ It has bugs <i class="fa fa-smile-o" aria-hidden="true"></i>
 </section>
         </div>
 
-        <div class="secondary col-md-6 col-sm-12 col-xs-12">
+        <div class="secondary col-md-5 col-sm-12 col-xs-12">
             <aside class="info aside section">
    <div class="section-inner">
        <h2 class="heading sr-only">Basic Information</h2>
@@ -264,11 +354,9 @@ It has bugs <i class="fa fa-smile-o" aria-hidden="true"></i>
         <h3 class="title"><a href="https://github.com/micmarty/WildWorld-the-Game" target="_blank"> Wild world simulator</a></h3>
 
         <!-- Short Description -->
-        <p>Game written in Python 3. 
-There are animals and plants with varieties of skills fighting for their lifes. 
-Player is a human, marked as 'C' and can be controlled by W, S, A, D. 
-He needs to avoid Wolves ('W') and should eat Guarana '$' in order to get more strength and defeat nearby dangerous creatures.
-All of the rules are described in README file.
+        <p>Animals and plants are fighting for their lifes using their unique skills.
+Game written in Python 3. 
+All of the rules and instructions are described in README file.
 </p>
 
         <!-- Link -->
@@ -287,7 +375,7 @@ All of the rules are described in README file.
         <h3 class="title"><a href="https://github.com/micmarty/disk_usage_color_list" target="_blank"> Disk usage color list</a></h3>
 
         <!-- Short Description -->
-        <p>Bash & Awk scripts that makes my terminal nicer</p>
+        <p>Bash & Awk scripts which makes my terminal nicer</p>
 
         <!-- Link -->
         <p><a class="more-link" href="https://github.com/micmarty/disk_usage_color_list" target="_blank"><i class="fa fa-external-link"></i>https://github.com/micmarty/disk_usage_color_list</a></p>
@@ -312,7 +400,7 @@ All of the rules are described in README file.
         <h3 class="title"><a href="https://github.com/micmarty/column_rainbower" target="_blank"> Column rainbower</a></h3>
 
         <!-- Short Description -->
-        <p>Prints column formatted output or file in a pretty way</p>
+        <p>Prints out column output in a colorful way</p>
 
         <!-- Link -->
         <p><a class="more-link" href="https://github.com/micmarty/column_rainbower" target="_blank"><i class="fa fa-external-link"></i>https://github.com/micmarty/column_rainbower</a></p>
@@ -336,10 +424,10 @@ All of the rules are described in README file.
     <!-- github calendar plugin -->
     
     <!-- github activity plugin -->
-    <script src="/javascripts/main-5fdbea93.js"></script>
+    <script src="/javascripts/main-0b5f0576.js"></script>
     <script src="/javascripts/min/jquery-ui.min-51ebbcdb.js"></script>
     <!-- custom js -->
-    <script src="/javascripts/application-015746cb.js"></script>
+    <script src="/javascripts/application-196e4042.js"></script>
 
     <footer class="footer">
     <div class="container text-center">

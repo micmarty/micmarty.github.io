@@ -37,10 +37,18 @@
     <div class="desc text-left">
         <!-- 1 upto x Long Description Paragraphs -->
         <% project.long_description.each do |description| %>
-            <p><%= description %></p>
+            <% visibility = description.expandable ? "hideContent" : "showContent" %>
+            <div class="content <%= visibility %>">
+                <p><%= description.paragraph %></p>
+            </div>
+
+            <% if description.expandable? %>
+                <div class="show-more">
+                    <a class="more-link">Expand ▼</a>
+                </div>
+            <% end %>
         <% end %>
     </div>
-    
     
     <a class="btn btn-cta-secondary" href="<%= project.link %>"
         target="_blank"><i class="fa fa-github" aria-hidden="true"></i><p><%= project.button %></p></a>

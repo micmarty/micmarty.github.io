@@ -3,19 +3,21 @@ section_title: Current Projects
 # --------------------------------------------------------------------------------------------------------------------
 # 1.
 first_project:
-  project_title: TensorHive <span class="label label-theme">open source</span>
+  project_title: TensorHive <span class="label label-theme">open-source</span>
   short_description: Lightweight computing resource management tool for executing machine learning applications in distributed TensorFlow
   long_description:
-    - |
-      We've just started making an open-source solution for distributed trainings in TensorFlow.
-      It will:
-      <ul>
-        <li>Launch with a single command</li>
-        <li>Have a dashboard built with Material Design components (Google Android style)
-        <li>Communicate over ssh</li>
-        <li>Monitor resources, like: GPU, Memory load, etc.</li>
-      </ul>
-      The project has started within <a href="http://gradient.eti.pg.gda.pl/" target="_blank"><img src="images/gradient_logo_small.png" style="margin-bottom: 0px"><b>GradientPG</b></a> (Student Research Group I participate in).
+    - 
+      expandable: false
+      paragraph: |
+        We've just started making an open-source solution for distributed trainings in TensorFlow.
+        It will:
+        <ul>
+          <li>Launch with a single command</li>
+          <li>Have a dashboard built with Material Design components (Google Android style)
+          <li>Communicate over ssh</li>
+          <li>Monitor resources, like: GPU, Memory load, etc.</li>
+        </ul>
+        The project has started within <a href="http://gradient.eti.pg.gda.pl/" target="_blank"><img src="images/gradient_logo_small.png" style="margin-bottom: 0px"><b>GradientPG</b></a> (Student Research Group I participate in).
     
   image_path: images/projects/major/tensorhive_dashboard.png
   project_name: TODO github link
@@ -36,7 +38,9 @@ second_project:
                       My journey started with librosa - it can transform an audio excerpt into many visual representations, 
                       e.g. spectogram or chroma and has very useful features like beat detection.
   long_description:
-    - "" # NO DESCRIPTION
+    - 
+      expandable: false
+      paragraph: "" # NO DESCRIPTION
 
   image_path: images/projects/major/librosa_chroma.png
   project_name: TODO github link
