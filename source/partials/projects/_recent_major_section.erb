@@ -14,6 +14,10 @@
 
             <!-- Second Recent Major Project -->
             <%= partial project_partial_path('major_project_template'), locals: { project: recent_major_projects[:second_project] } %>
+            <hr class="divider" />
+
+            <!-- Third Recent Major Project -->
+            <%= partial project_partial_path('major_project_template'), locals: { project: recent_major_projects[:third_project] } %>
         </div>
     </div>
 </section>

@@ -1,14 +1,25 @@
 main_intro: |
-  I really <b>don't like</b> expressing any skill with progress bars... but they show how much I know <b>in general</b>.
+  It shows how much I know <b>in general</b>.
   These values are not perfectly accurate, obviously.
 
 additional_intro: |
   TODO
 
 main:
+  - name: Python
+    value: 75%
+    tooltip: I'm not top-notch but using with ease and pleasure
+    description: |
+                  Mainly in ML 
+                  (e.g. pytorch, flask, sphinx, underscore methods, decorators)
+  - name: Linux, Bash, CLI
+    value: 70%
+    tooltip: "zsh, fish, vim, docker with compose, built-in like: man pages, grep, awk, tail, iptables, ... a lot of aliases, guake terminal, mc, every popular desktop environment"
+    description: Geeky - everything must be customized and comfortable
+
   - name: Ruby
     value: 70%
-    tooltip: Fluent with syntax, able to write daemons, scripts.
+    tooltip: Fluent with syntax, able to write daemons, scripts
     description: Pretty good
 
   - name: Rails
@@ -16,38 +27,30 @@ main:
     tooltip: MVC, Active Record, popular gems (e.g. devise, administrate, cancan, rolify, awesome_print, better_errors, pry, factory_girl, rspec)
     description: Junior level
 
-  - name: Linux, Bash, CLI
-    value: 80%
-    tooltip: "zsh, fish, vim, docker with compose, built-in like: man pages, grep, awk, tail, iptables, ... a lot of aliases, guake terminal, mc, every popular desktop environment"
-    description: Geeky - everything must be customized and comfortable
+  - name: Docker with docker-compose
+    value: 65%
+    tooltip: Deployed Rails, Flask and .NET core 2.0 applications
+    description: Commonly used tool
 
-  - name: Python
-    value: 60%
-    tooltip: I'm not top-notch but learning with ease and pleasure
-    description: |
-                  Mainly in ML 
-                  (e.g. numpy, matplotlib, librosa, tkinter, flask)
-    
+
+# Disabled section right now
 additional:
-  - name: Data Science
-    value: 20%
+  - name: Machine Learning
+    value: 40%
     description: A member of GradientPG (student research group).
 
-  - name: Docker with docker-compose
-    value: 50%
-
   - name: Java, Android SDK, C#, C++
-    description: I can write but I don't enjoy them that much right now
+    description: I can use them but not really fascinated that much right now
 
   - name: Technologies Landscape
     value: 80%
-    description: That's not a lie. I get my knowledge from podcasts, vlogs and blogs
+    description: IT podcasts, vlogs and blogs
 
   - name: Self-organization
-    value: 10%
+    value: 70%
 
   - name: Sense of style
-    value: 10%
+    value: 80%
 
   - name: Fun from customizing my own environment, learning new things and using geeky tools
     value: 99%
