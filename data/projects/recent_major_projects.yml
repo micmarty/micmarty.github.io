@@ -44,7 +44,8 @@ first_project:
         <li>Google's MobileNet CNN architecture</li>
         <li>Material Design webapp written in Python (Flask), JavaScript</li>
   image_path: false
-  video_path: https://drive.google.com/uc?export=download&id=16lWAnKBLpJX2q6TF5IhN_g_R7hfFom8Y
+  video_path: https://videos2.sendvid.com/bb/61/40740549.mp4
+  # Edit link: http://sendvid.com/40740549?secret=2140d27f-7f80-4e36-bfaf-4c3943f3b61a
   project_name: Instronizer
   link: false
 
