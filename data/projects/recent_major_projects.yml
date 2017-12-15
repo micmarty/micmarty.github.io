@@ -9,7 +9,7 @@ first_project:
     - 
       expandable: false
       paragraph: |
-        <br>
+        <br/>
         <b>Engineer's diploma project</b> made in cooperation with Maciej Rutkowski and Filip Schodowski.
         A lightweight convolutional neural network was trained, achieving <b>86%</b> accuracy on our test set.
 
@@ -20,6 +20,7 @@ first_project:
     - 
       expandable: true
       paragraph: |
+        <hr class='divider'>
         At the beginning we were using IRMAS dataset which turned out later to be not good quality:
         <ul>
           <li>Small and unbalanced training set - 19 to 39 minutes per instrument</li>
@@ -29,7 +30,7 @@ first_project:
         </ul>
         Because of this a <b>new dataset</b> consisting of YouTube clips was created:
         <ul>
-          <li>Almost 4 times bigger
+          <li>Almost 4 times bigger (per instrument)
             <ul>
               <li>2 hours for training
               <li>30 minutes for validation
@@ -38,19 +39,19 @@ first_project:
           </li>
           <li>Fully handmade work</li>
         </ul>
-        For the purpose of this project 3 main components were designed:
+        For the purpose of this project 3 main components were designed and implemented:
         <ul>
         <li>Data processor (audio excerpt -> spectrogram)</li>
-        <li>Google's MobileNet CNN architecture</li>
-        <li>Material Design webapp written in Python (Flask), JavaScript</li>
+        <li>Classifier based on Google's MobileNet CNN architecture</li>
+        <li>Material Design web app written in Python (Flask) and JavaScript</li>
   image_path: false
   video_path: https://videos2.sendvid.com/bb/61/40740549.mp4
   # Edit link: http://sendvid.com/40740549?secret=2140d27f-7f80-4e36-bfaf-4c3943f3b61a
-  project_name: Instronizer
-  link: false
+  link: https://www.researchgate.net/project/Musical-instruments-recognition-in-polyphonic-audio-deep-neural-network
 
   badge: ML
-  button: more details with source code
+  button: Instronizer on ResearchGate (public github repo will be available soon)
+  # TODO Update link and button to github repo
 
 # --------------------------------------------------------------------------------------------------------------------
 # 1. RustOS
@@ -61,7 +62,7 @@ second_project:
     - 
       expandable: false
       paragraph: |
-        <br>
+        <br/>
         It is capable of reading scancodes (keys), dealing with the text mode. 
         I was able to turn on paging, protected 64-bit mode and execute Rust unsafe code (which runs even on barebone metal, without kernel libraries obviously).
         There is generated ISO image, which is enough to run inside QEMU + debugger (e.g. gdb).
@@ -71,7 +72,6 @@ second_project:
     
   image_path: false
   video_path: images/projects/major/rustos_in_qemu.mp4
-  project_name: RustOS
   link: https://github.com/micmarty/RustOS_toy_project
 
   badge: low-level
@@ -104,7 +104,6 @@ third_project:
           <li>Material Design + CSS Grid instead of Bootstrap</li>
         </ul>
   image_path: images/projects/major/fund_tracker_chart.png
-  project_name: https://github.com/micmarty/fund_tracker
   link: https://github.com/micmarty/fund_tracker
 
   badge: toy app

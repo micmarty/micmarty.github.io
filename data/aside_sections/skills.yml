@@ -3,7 +3,7 @@ main_intro: |
   These values are not perfectly accurate, obviously.
 
 additional_intro: |
-  TODO
+  TODO Leave blank (for clarity)
 
 main:
   - name: Python

@@ -15,12 +15,11 @@ first_project:
           <li>Launch with a single command</li>
           <li>Have a dashboard built with Material Design components (Google Android style)
           <li>Communicate over ssh</li>
-          <li>Monitor resources, like: GPU, Memory load, etc.</li>
+          <li>Monitor resources like: GPU, memory load, etc.</li>
         </ul>
         The project has started within <a href="http://gradient.eti.pg.gda.pl/" target="_blank"><img src="images/gradient_logo_small.png" style="margin-bottom: 0px"><b>GradientPG</b></a> (Student Research Group I participate in).
     
   image_path: images/projects/major/tensorhive_dashboard.png
-  project_name: TODO github link
   link: https://github.com/roscisz/TensorHive
 
   badge: false
@@ -43,7 +42,6 @@ second_project:
       paragraph: "" # NO DESCRIPTION
 
   image_path: images/projects/major/librosa_chroma.png
-  project_name: TODO github link
   link: https://github.com/micmarty/audio-preprocessing-exercises-with-librosa/blob/master/librosa_sandbox_1.ipynb
 
   badge: hobby

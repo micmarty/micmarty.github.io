@@ -14,7 +14,7 @@ jobs:
                     <li>Linux daemon - my own iptables manager written in Ruby, which controls the life of every rule and talks to the database periodically</li>
                     <li>Database project</li>
                   </ul>
-                  <br>
+                  <br/>
                   I've learned a little bit about:
                   <ul>
                     <li>How to containerize Rails applications with Docker (docker-compose), how neat it is in deployment and maintainance</li>

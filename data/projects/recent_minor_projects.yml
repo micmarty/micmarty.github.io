@@ -4,9 +4,9 @@ section_title: Recent Minor Projects
 projects:
   - title: Wild world simulator
     short_description: |
-                        Animals and plants are fighting for their lifes using their unique skills.
-                        Game written in Python 3. 
-                        All of the rules and instructions are described in README file.
+                        Animals and plants are fighting for their lifes using their unique skills
+                        Game written in Python 3
+                        All of the rules and instructions are described in README file
 
     link: https://github.com/micmarty/WildWorld-the-Game
     image_path: images/projects/minor/wildworld.png
