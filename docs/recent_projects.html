@@ -71,7 +71,7 @@
             </h2>
 
             <!-- Links to socials -->
-            <!-- TODO move styles to application.css -->
+            <!-- TODO Move circle button styles to application.css -->
             <ul class="social list-inline">
                 <li><a href="https://github.com/micmarty" style="background: #24292E;" target="_blank;"><i class="fa fa-github" aria-hidden="true" style="color: white;"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/micha%C5%82-martyniak-b2bba6125/" style="background: #0077B5;" target="_blank;"><i class="fa fa-linkedin" aria-hidden="true" style="color: white;"></i></a></li>
@@ -129,7 +129,7 @@
             <!-- First Recent Major Project -->
             <div class="item featured text-center">
     <h3 class="title">
-        <a href="false" target="_blank">
+        <a href="https://www.researchgate.net/project/Musical-instruments-recognition-in-polyphonic-audio-deep-neural-network" target="_blank">
             <!-- Project Title -->
             Instronizer <span class="label label-theme">machine learning</span>
         </a>
@@ -158,7 +158,7 @@
     <div class="desc text-left">
         <!-- 1 upto x Long Description Paragraphs -->
             <div class="content showContent">
-                <p><br>
+                <p><br/>
 <b>Engineer's diploma project</b> made in cooperation with Maciej Rutkowski and Filip Schodowski.
 A lightweight convolutional neural network was trained, achieving <b>86%</b> accuracy on our test set.
 
@@ -170,7 +170,8 @@ The neural network is fed with mel-scaled spectrograms instead of raw audio.
             </div>
 
             <div class="content hideContent">
-                <p>At the beginning we were using IRMAS dataset which turned out later to be not good quality:
+                <p><hr class='divider'>
+At the beginning we were using IRMAS dataset which turned out later to be not good quality:
 <ul>
   <li>Small and unbalanced training set - 19 to 39 minutes per instrument</li>
   <li>Many wrong annotated labels</li>
@@ -179,7 +180,7 @@ The neural network is fed with mel-scaled spectrograms instead of raw audio.
 </ul>
 Because of this a <b>new dataset</b> consisting of YouTube clips was created:
 <ul>
-  <li>Almost 4 times bigger
+  <li>Almost 4 times bigger (per instrument)
     <ul>
       <li>2 hours for training
       <li>30 minutes for validation
@@ -188,11 +189,11 @@ Because of this a <b>new dataset</b> consisting of YouTube clips was created:
   </li>
   <li>Fully handmade work</li>
 </ul>
-For the purpose of this project 3 main components were designed:
+For the purpose of this project 3 main components were designed and implemented:
 <ul>
 <li>Data processor (audio excerpt -> spectrogram)</li>
-<li>Google's MobileNet CNN architecture</li>
-<li>Material Design webapp written in Python (Flask), JavaScript</li>
+<li>Classifier based on Google's MobileNet CNN architecture</li>
+<li>Material Design web app written in Python (Flask) and JavaScript</li>
 </p>
             </div>
 
@@ -201,8 +202,8 @@ For the purpose of this project 3 main components were designed:
                 </div>
     </div>
     
-    <a class="btn btn-cta-secondary" href="false"
-        target="_blank"><i class="fa fa-github" aria-hidden="true"></i><p>more details with source code</p></a>
+    <a class="btn btn-cta-secondary" href="https://www.researchgate.net/project/Musical-instruments-recognition-in-polyphonic-audio-deep-neural-network"
+        target="_blank"><i class="fa fa-github" aria-hidden="true"></i><p>Instronizer on ResearchGate (public github repo will be available soon)</p></a>
         
 </div>
             <hr class="divider" />
@@ -239,7 +240,7 @@ For the purpose of this project 3 main components were designed:
     <div class="desc text-left">
         <!-- 1 upto x Long Description Paragraphs -->
             <div class="content showContent">
-                <p><br>
+                <p><br/>
 It is capable of reading scancodes (keys), dealing with the text mode. 
 I was able to turn on paging, protected 64-bit mode and execute Rust unsafe code (which runs even on barebone metal, without kernel libraries obviously).
 There is generated ISO image, which is enough to run inside QEMU + debugger (e.g. gdb).
@@ -354,9 +355,9 @@ It has bugs <i class="fa fa-smile-o" aria-hidden="true"></i>
         <h3 class="title"><a href="https://github.com/micmarty/WildWorld-the-Game" target="_blank"> Wild world simulator</a></h3>
 
         <!-- Short Description -->
-        <p>Animals and plants are fighting for their lifes using their unique skills.
-Game written in Python 3. 
-All of the rules and instructions are described in README file.
+        <p>Animals and plants are fighting for their lifes using their unique skills
+Game written in Python 3
+All of the rules and instructions are described in README file
 </p>
 
         <!-- Link -->
