@@ -49,8 +49,13 @@
             <% end %>
         <% end %>
     </div>
-    
-    <a class="btn btn-cta-secondary" href="<%= project.link %>"
-        target="_blank"><i class="fa fa-github" aria-hidden="true"></i><p><%= project.button %></p></a>
+
+    <% project.buttons.each do |button| %>
+        <a class="btn btn-cta-secondary" 
+            href="<%= button.link %>"
+            target="_blank"><i class="fa fa-github" aria-hidden="true"></i>
+            <p><%= button.name %></p>
+        </a>
+    <% end %>
         
 </div>

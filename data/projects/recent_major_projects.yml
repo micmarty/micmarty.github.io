@@ -47,11 +47,22 @@ first_project:
   image_path: false
   video_path: https://videos2.sendvid.com/bb/61/40740549.mp4
   # Edit link: http://sendvid.com/40740549?secret=2140d27f-7f80-4e36-bfaf-4c3943f3b61a
-  link: https://www.researchgate.net/project/Musical-instruments-recognition-in-polyphonic-audio-deep-neural-network
+  link: https://github.com/micmarty/Instronizer 
 
   badge: ML
-  button: Instronizer on ResearchGate (public github repo will be available soon)
-  # TODO Update link and button to github repo
+  buttons:
+    -
+      name: ResearchGate
+      link: https://www.researchgate.net/project/Musical-instruments-recognition-in-polyphonic-audio-deep-neural-network
+
+    -
+      name: Thesis PDF (PL)
+      link: https://www.researchgate.net/profile/Michal_Martyniak/project/Musical-instruments-recognition-in-polyphonic-audio-deep-neural-network/attachment/5aa2d5dfb53d2f0bba570d1d/AS:602342382649345@1520621023460/download/Instronizer_Thesis_PL.pdf?context=ProjectUpdatesLog
+
+    - 
+      name: Source code
+      link: https://github.com/micmarty/Instronizer
+   
 
 # --------------------------------------------------------------------------------------------------------------------
 # 1. RustOS
@@ -75,7 +86,10 @@ second_project:
   link: https://github.com/micmarty/RustOS_toy_project
 
   badge: low-level
-  button: Source Code
+  buttons:
+    - 
+      name: Source code
+      link: https://github.com/micmarty/RustOS_toy_project
 
 # --------------------------------------------------------------------------------------------------------------------
 # 2. Kainos Fund Tracker 2016
@@ -107,4 +121,7 @@ third_project:
   link: https://github.com/micmarty/fund_tracker
 
   badge: toy app
-  button: Source Code
+  buttons: 
+    - 
+      name: Source Code
+      link: https://github.com/micmarty/fund_tracker

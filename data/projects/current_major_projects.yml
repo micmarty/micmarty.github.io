@@ -23,7 +23,11 @@ first_project:
   link: https://github.com/roscisz/TensorHive
 
   badge: false
-  button: Source Code
+  buttons: 
+    - 
+      name: Source Code
+      link: https://github.com/roscisz/TensorHive
+
   
 # --------------------------------------------------------------------------------------------------------------------
 # 2. Librosa, Jupyter Notebook
@@ -45,5 +49,8 @@ second_project:
   link: https://github.com/micmarty/audio-preprocessing-exercises-with-librosa/blob/master/librosa_sandbox_1.ipynb
 
   badge: hobby
-  button: Source Code
+  buttons: 
+    - 
+      name: Source Code
+      link: https://github.com/micmarty/audio-preprocessing-exercises-with-librosa/blob/master/librosa_sandbox_1.ipynb
 
