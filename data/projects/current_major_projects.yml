@@ -3,6 +3,28 @@ section_title: Current Projects
 # --------------------------------------------------------------------------------------------------------------------
 # 1.
 first_project:
+  project_title: Self-driving car in a simulated environment
+  short_description: My Master's thesis research about lane keeping, obstacle avoidance and overtaking maneuver using Imitation Learning and Reinforcement Learning methods
+  long_description:
+    - 
+      expandable: false
+      paragraph: |
+
+        My work is at the very beginning - having to choose the most appropriate environement, modify it, build it and train on it.
+        As of now I am getting my hands dirty with multiple environments: <b>DeepDrive/Carla/Microsoft AirSim</b> (all of them are built using Unreal Engine 4)
+        <h4>Progress about this project will be regularly updated over the next few months.</h4>
+  video_path: |
+    <video width="100%" height="auto" controls loop>
+      <source src="videos/carla.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+  badge: SDC
+  buttons: []
+
+# --------------------------------------------------------------------------------------------------------------------
+# 2.
+second_project:
   project_title: TensorHive <span class="label label-theme">open-source</span>
   short_description: Lightweight computing resource management tool for executing machine learning applications in distributed TensorFlow
   long_description:
@@ -34,10 +56,10 @@ first_project:
       name: Article (ENG)
       link: https://gradient.eti.pg.gda.pl/en/projects/2017/10/07/projekt-tensor-hive.html
 
-  
+
 # --------------------------------------------------------------------------------------------------------------------
-# 2. Librosa, Jupyter Notebook
-second_project:
+# 3. Librosa, Jupyter Notebook
+third_project:
   project_title: |
                   Audio signal analysis in Python with Librosa 
                   <span class="label label-theme">machine learning</span> 
@@ -59,4 +81,3 @@ second_project:
     - 
       name: Source Code
       link: https://github.com/micmarty/audio-preprocessing-exercises-with-librosa/blob/master/librosa_sandbox_1.ipynb
-
