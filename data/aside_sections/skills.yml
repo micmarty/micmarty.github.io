@@ -1,37 +1,40 @@
 main_intro: |
-  It shows how much I know <b>in general</b>.
-  These values are not perfectly accurate, obviously.
+  It only shows which technologies I prefer or feel comfortable with. 
+  <b>(not how skilled I am, because using progress bars is not adequate for that purpose)</b>
 
 additional_intro: |
   TODO Leave blank (for clarity)
 
 main:
   - name: Python
-    value: 75%
-    tooltip: I'm not top-notch but using with ease and pleasure
-    description: |
-                  Mainly in ML 
-                  (e.g. pytorch, flask, sphinx, underscore methods, decorators)
-  - name: Linux, Bash, CLI
-    value: 70%
-    tooltip: "zsh, fish, vim, docker with compose, built-in like: man pages, grep, awk, tail, iptables, ... a lot of aliases, guake terminal, mc, every popular desktop environment"
-    description: Geeky - everything must be customized and comfortable
+    value: 90%
+    tooltip: Using it everywhere possible (beginning with simple mathematical scripts, through small CLI projects, ending with neural network models and backend applications)
+    description: My Swiss Army Knife
+
+  - name: Linux
+    value: 80%
+    tooltip: zsh, guake terminal, mc, vim, aliases, man pages, grep, awk, etc.
+    description: Geeky - everything must be customized. Using terminal with passion.
 
   - name: Ruby
     value: 70%
-    tooltip: Fluent with syntax, able to write daemons, scripts
-    description: Pretty good
+    tooltip: 
+    description: My first beloved high-level language
 
   - name: Rails
     value: 65%
-    tooltip: MVC, Active Record, popular gems (e.g. devise, administrate, cancan, rolify, awesome_print, better_errors, pry, factory_girl, rspec)
-    description: Junior level
+    tooltip: |
+      MVC, Active Record, gems: devise, administrate, cancan, rolify, awesome_print, better_errors, pry, factory_girl, rspec
+    description: Junior level - my most preferred framework for web development
 
-  - name: Docker with docker-compose
+  - name: Docker CE/docker-compose
     value: 65%
     tooltip: Deployed Rails, Flask and .NET core 2.0 applications
-    description: Commonly used tool
+    description: Using images wherever possible
 
+  - name: Java, C#, C++
+    value: 10%
+    description: Not iterested in them right now
 
 # Disabled section right now
 additional:
