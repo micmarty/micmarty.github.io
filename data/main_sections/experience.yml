@@ -1,6 +1,42 @@
 jobs:
+  - position: Architect & Lead backend developer (Python)
+    at: TensorHive
+    link: https://github.com/roscisz/TensorHive
+    time_range: May 2018 - now
+    short_description: |
+                    Working remotely, contributing to open source project
+    full_description: |
+                    <hr class='divider'>
+                    Tools:
+                    <ul>
+                      <li>Python 3.5+ (pytest, Flask, SQLAlchemy, Alembic, parallel-ssh, configparser, flake8, type annotations, decorators, properties, lambdas)</li>
+                      <li>Swagger UI/OpenAPI (interactive documentation of endpoints)</li>
+                      <li>Git with GitFlow strategy</li>
+                    </ul>
+                    Tasks:
+                    <ul>
+                      <li>Rewriting project from scratch using modular architecture and REST communication</li>
+                      <li>Incorporating parallel-ssh library for multinode communication</li>
+                      <li>Implementing GPU monitoring module using custom written nvidia-smi parser</li>
+                      <li>Adding GPU reservation mechanism with resource protection</li>
+                      <li>Introducing automated tests, database migration etc.</li>
+                    </ul>
+                    Workflow:
+                    <ul>
+                      <li>Adding issues on Github, using Kanban board, Slack for communication</li>
+                      <li>Encapsulating features into pull requests with extensive description (changes and implications digest, screenshots, how to run/test changes)</li>
+                      <li>Code review and refactoring sessions</li>
+                      <li>In-person meetings for resolving advanced problems and discussing further development</li>
+                      <li>Markdown everywhere (much better expression capabilities, significantly improves readability for team members)
+                    </ul>
+                    More info:
+                    <a href='https://github.com/roscisz/TensorHive'>TensorHive repo on Github</a>
+
+                  
+
   - position: Ruby on Rails Developer (full-stack)
     at: Cirrus
+    link: http://www.en.cirrus.pl/about-us/
     time_range: May 2017 - Sep 2017
     short_description: |
                         Developing an app for a business client.
@@ -27,6 +63,7 @@ jobs:
 
   - position: Apprentice Backend Developer, mainly in Ruby on Rails
     at: Cirrus
+    link: http://www.en.cirrus.pl/about-us/
     time_range: Jul 2016 - Sep 2016
     short_description: |
                       Working on web interface for managing e-mails caught in a Spam Trap, analyzing and profiling Perl scripts, digging around PHP code.
@@ -42,6 +79,7 @@ jobs:
 
   - position: Apprentice
     at: Cirrus
+    link: http://www.en.cirrus.pl/about-us/
     time_range: Jul 2015 - Sep 2015
     short_description: |
                         Working in small team with peers, trying to make a web module for prehistoric Rails 3 and jQuery.

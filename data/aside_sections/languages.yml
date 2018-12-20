@@ -9,13 +9,13 @@ list:
     level: Advanced Proficiency (C1)
     stars: 4
     tooltip: |
-              Feeling quite comfortable while speaking, especially about tech. 
-              No problems while watching videos, reading or writing documentation. 
-              I constantly improve my accent watching TV series and listening to podcasts.
+              Comfortable while speaking, especially about tech.
+              Reading or writing documentation without problems.
+              I am constantly improving my accent by watching TV series and listening to podcasts.
 
   - name: German
     level: Intermediate (B1)
     stars: 1
     tooltip: |
               I used to be somewhere around B2/C1 but since I graduated my High School, didn't really have to use that skill.
-              Reading is feasable, writing needs more focus, talk can be a chaotic.
+              Reading is feasable, writing needs more focus, talking is very limiting right now.
