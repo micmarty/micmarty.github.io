@@ -10,31 +10,43 @@ main:
     value: 90%
     tooltip: Using it everywhere possible (beginning with simple mathematical scripts, through small CLI projects, ending with neural network models and backend applications)
     description: My Swiss Army Knife
+    expertise: Advanced
+    #expertise_tooltip: tooltip text
 
   - name: Linux
     value: 80%
     tooltip: zsh, guake terminal, mc, vim, aliases, man pages, grep, awk, etc.
     description: Geeky - everything must be customized. Using terminal with passion.
+    expertise: Using on daily basis
+    #expertise_tooltip: tooltip text
 
   - name: Ruby
     value: 70%
     tooltip: 
     description: My first beloved high-level language
+    expertise: Huge fan
+    #expertise_tooltip: tooltip text
 
   - name: Rails
     value: 65%
     tooltip: |
       MVC, Active Record, gems: devise, administrate, cancan, rolify, awesome_print, better_errors, pry, factory_girl, rspec
     description: Junior level - my most preferred framework for web development
+    expertise: Junior level
+    expertise_tooltip: As of now, my knowledge may be outdated
 
   - name: Docker CE/docker-compose
     value: 65%
-    tooltip: Deployed Rails, Flask and .NET core 2.0 applications
+    tooltip: Deployed a few Rails, Flask and one .NET core 2.0 app. Using mostly images from Dockerhub and modifying/rebuilding them to fit my needs.
     description: Using images wherever possible
+    expertise: Basic usage
+    #expertise_tooltip: tooltip text
 
   - name: Java, C#, C++
     value: 10%
     description: Not iterested in them right now
+    expertise: Basics (never used in production)
+    #expertise_tooltip: tooltip text
 
 # Disabled section right now
 additional:

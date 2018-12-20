@@ -8,7 +8,13 @@
             <div class="skillset">
                 <% data.aside_sections.skills.main.each do |skill| %>
                 <div class="item">
-                    <h3 class="level-title"><%= skill.name %><span class="level-label" data-toggle="tooltip" data-placement="auto left" data-animation="true" title="Someone who isn't surprised how it works, someone fluent with syntax, methodologies">Advanced</span></h3>
+                    <h3 class="level-title"><%= skill.name %>
+                        <span class="level-label" data-toggle="tooltip" 
+                        data-placement="auto left" data-animation="true" 
+                        title="<%= skill&.expertise_tooltip %>">
+                            <%= skill&.expertise %>
+                        </span>
+                    </h3>
                     <div class="level-bar">
                         <span class="level-label" data-toggle="tooltip" data-placement="auto left" data-animation="true" title="<%= skill&.tooltip%>">
                         <div class="level-bar-inner" data-level="<%= skill.value %>"></div>
