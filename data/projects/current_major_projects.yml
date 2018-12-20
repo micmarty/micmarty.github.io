@@ -19,7 +19,7 @@ first_project:
         </ul>
         The project has started within <a href="http://gradient.eti.pg.gda.pl/" target="_blank"><img src="images/gradient_logo_small.png" style="margin-bottom: 0px"><b>GradientPG</b></a> (Student Research Group I participate in).
     
-  image_path: images/projects/major/tensorhive_dashboard.png
+  image_path: images/projects/major/tensorhive_dashboard.jpeg
   link: https://github.com/roscisz/TensorHive
 
   badge: false
@@ -27,6 +27,12 @@ first_project:
     - 
       name: Source Code
       link: https://github.com/roscisz/TensorHive
+    - 
+      name: Article (PL)
+      link: https://gradient.eti.pg.gda.pl/projekty/2017/10/07/projekt-tensor-hive.html
+    - 
+      name: Article (ENG)
+      link: https://gradient.eti.pg.gda.pl/en/projects/2017/10/07/projekt-tensor-hive.html
 
   
 # --------------------------------------------------------------------------------------------------------------------

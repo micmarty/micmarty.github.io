@@ -45,7 +45,7 @@ first_project:
         <li>Classifier based on Google's MobileNet CNN architecture</li>
         <li>Material Design web app written in Python (Flask) and JavaScript</li>
   image_path: false
-  video_path: https://videos2.sendvid.com/bb/61/40740549.mp4
+  video_path: <iframe src="https://drive.google.com/file/d/16lWAnKBLpJX2q6TF5IhN_g_R7hfFom8Y/preview" width="640" height="320" frameborder="0" allowfullscreen></iframe>
   # Edit link: http://sendvid.com/40740549?secret=2140d27f-7f80-4e36-bfaf-4c3943f3b61a
   link: https://github.com/micmarty/Instronizer 
 
@@ -78,8 +78,8 @@ second_project:
         I was able to turn on paging, protected 64-bit mode and execute Rust unsafe code (which runs even on barebone metal, without kernel libraries obviously).
         There is generated ISO image, which is enough to run inside QEMU + debugger (e.g. gdb).
 
-        <b>I'm proud of it</b>, but for those, who haven't experienced writing own OS firsthand, it may look crappy and straightforward.
-        Even my lecturer wasn't 100% sure if it's feasable in Rust <i class="fa fa-smile-o" aria-hidden="true"></i>.
+        <b>I am proud of it</b>, but for those, who haven't experienced writing own OS firsthand, it may look crappy and straightforward.
+        Even my lecturer wasn't 100% sure if it is feasable in Rust <i class="fa fa-smile-o" aria-hidden="true"></i>.
     
   image_path: false
   video_path: images/projects/major/rustos_in_qemu.mp4
@@ -104,7 +104,7 @@ third_project:
       expandable: false
       paragraph: |
         One of my very first apps, but now I know <b>what was wrong</b>.
-        There's not much Ruby code, mostly vanilla JavaScript.
+        There is not much of Ruby code, mostly vanilla JavaScript.
         It has bugs <i class="fa fa-smile-o" aria-hidden="true"></i>
     - 
       expandable: false
