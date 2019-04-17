@@ -4,20 +4,20 @@ section_title: Current Projects
 # 1.
 first_project:
   project_title: Self-driving car in a simulated environment
-  short_description: My Master's thesis research about lane keeping, obstacle avoidance and overtaking maneuver using Imitation Learning and Reinforcement Learning methods
+  short_description: My Master's thesis about fully autonomous driving in real-world scenarios
   long_description:
     - 
       expandable: false
       paragraph: |
 
-        My work is at the very beginning - having to choose the most appropriate environement, modify it, build it and train on it.
-        As of now I am getting my hands dirty with multiple environments: <b>DeepDrive/Carla/Microsoft AirSim</b> (all of them are built using Unreal Engine 4)
-        <h4>Progress about this project will be regularly updated over the next few months.</h4>
+        <h4>Presentation above includes demo videos</h4>
+        Currently me and my team are competing in <a href="https://carlachallenge.org">CARLA Challenge organized by CVPR2019</a> (Computer Vision and Pattern Recognition Conference).
+        Since the last post progress is <b>huge</b>!
+        Slides above were presented by me during seminar for students on 15.04.2019.
+
+        <h4>Info about this project will be regularly updated over the next few months.</h4>
   video_path: |
-    <video width="100%" height="auto" controls loop>
-      <source src="videos/carla.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTmvj-SDdWNfiVog7QPM46hl0yPuGJNOPKxTQ2YOwWcCZHKsUk-BWXZx2XPgyCXjzWwRA9ejxzCkopq/embed?start=true&loop=true&delayms=3000" frameborder="0" width="100%" height="490" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
   badge: SDC
   buttons: []
