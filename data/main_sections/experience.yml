@@ -16,8 +16,8 @@ jobs:
                     Tasks:
                     <ul>
                       <li>Rewriting project from scratch using modular architecture and REST communication</li>
-                      <li>Incorporating parallel-ssh library for multinode communication</li>
-                      <li>Implementing GPU monitoring module using custom written nvidia-smi parser</li>
+                      <li>Incorporating parallel-ssh library for multi-node communication</li>
+                      <li>Implementing GPU monitoring module using custom-written nvidia-smi parser</li>
                       <li>Adding GPU reservation mechanism with resource protection</li>
                       <li>Introducing automated tests, database migration etc.</li>
                     </ul>
@@ -46,7 +46,7 @@ jobs:
                   It consisted of 4 important parts: 
                   <ul>
                     <li>Dashboard for administrators - Web app for managing users and their access, additionaly WYSIWYG editors, email sending, ACL logs</li>
-                    <li>Web interface for clients - displays responsive, platform-specific content (iOS, Android, PC) prepared by an admin in WYSIWYG editor before</li>
+                    <li>Web interface for clients - displays responsive, platform-specific content (iOS, Android, PC) prepared by an admin in WYSIWYG editor</li>
                     <li>Linux daemon - my own iptables manager written in Ruby, which controls the life of every rule and talks to the database periodically</li>
                     <li>Database project</li>
                   </ul>

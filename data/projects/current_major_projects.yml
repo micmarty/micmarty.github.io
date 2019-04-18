@@ -17,7 +17,7 @@ first_project:
 
         <h4>Info about this project will be regularly updated over the next few months.</h4>
   video_path: |
-    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTmvj-SDdWNfiVog7QPM46hl0yPuGJNOPKxTQ2YOwWcCZHKsUk-BWXZx2XPgyCXjzWwRA9ejxzCkopq/embed?start=true&loop=true&delayms=3000" frameborder="0" width="100%" height="490" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTmvj-SDdWNfiVog7QPM46hl0yPuGJNOPKxTQ2YOwWcCZHKsUk-BWXZx2XPgyCXjzWwRA9ejxzCkopq/embed?start=true&loop=true&delayms=2000" frameborder="0" width="100%" height="490" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
   badge: SDC
   buttons: []
