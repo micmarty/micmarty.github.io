@@ -45,7 +45,7 @@ first_project:
         <li>Classifier based on Google's MobileNet CNN architecture</li>
         <li>Material Design web app written in Python (Flask) and JavaScript</li>
   image_path: false
-  video_path: <iframe src="https://drive.google.com/file/d/16lWAnKBLpJX2q6TF5IhN_g_R7hfFom8Y/preview" width="640" height="320" frameborder="0" allowfullscreen></iframe>
+  video_path: <iframe src="https://drive.google.com/file/d/16lWAnKBLpJX2q6TF5IhN_g_R7hfFom8Y/preview" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
   # Edit link: http://sendvid.com/40740549?secret=2140d27f-7f80-4e36-bfaf-4c3943f3b61a
   link: https://github.com/micmarty/Instronizer 
 
@@ -82,7 +82,10 @@ second_project:
         Even my lecturer wasn't 100% sure if it is feasable in Rust <i class="fa fa-smile-o" aria-hidden="true"></i>.
     
   image_path: false
-  video_path: images/projects/major/rustos_in_qemu.mp4
+  video_path: <video min-width="100%" width="100%" height="100%" min-height="100%" controls>
+    <source src="images/projects/major/rustos_in_qemu.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   link: https://github.com/micmarty/RustOS_toy_project
 
   badge: low-level
