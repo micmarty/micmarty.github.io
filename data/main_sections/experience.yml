@@ -1,4 +1,13 @@
 jobs:
+  - position: NLP & backend developer (Python)
+    at: VoiceLab
+    link: https://www.voicelab.ai/
+    time_range: July 2019 - now
+    short_description: |
+                    Language modeling, voice/chatbots engineering
+    full_description:
+                    Update is coming...
+
   - position: Architect & Lead backend developer (Python)
     at: TensorHive
     link: https://github.com/roscisz/TensorHive
