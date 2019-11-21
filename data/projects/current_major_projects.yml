@@ -4,23 +4,42 @@ section_title: Current Projects
 # 1.
 first_project:
   project_title: Self-driving car in a simulated environment
-  short_description: My Master's thesis about fully autonomous driving in real-world scenarios
+  short_description: My master's thesis about fully autonomous agent including perception, planning and control
   long_description:
     - 
       expandable: false
       paragraph: |
 
-        <h4>Presentation above includes demo videos</h4>
-        Currently me and my team are competing in <a href="https://carlachallenge.org">CARLA Challenge organized by CVPR2019</a> (Computer Vision and Pattern Recognition Conference).
-        Since the last post progress is <b>huge</b>!
-        Slides above were presented by me during seminar for students on 15.04.2019.
+        My agent is able to <b>navigate from A to B</b> with respect to human input, like: turn left, right, keep lane, go straight (GPS-like navigation). The only input given for the planning module (neural network) is: 224x224 RGB image + command. 
+        Output is a ~15m trajectory ahead of agent's car. Most important thing to note is that <b>predicted trajectory does not says "how to drive" but "where is the legal path that should be followed"</b>.
 
-        <h4>Info about this project will be regularly updated over the next few months.</h4>
+        Besides planning, agent can detect and react to traffic lights (simple perception module made with TensorFlow Object Detection API).
+        
+        Proposed method of <b>Reference Trajectory Approximation</b> allows for better visual understanding how agent percives the environment in the long run.
+        Although the internals of this system are not that much compilcated as it may seem (in comparison with real-world systems), but it took a very long time to do research, gather data, implement and evaluate.
+
+        <b>More videos + extras (MLinPL):</b> <a href="https://drive.google.com/open?id=1Qrm5noTVHSC7yQw0NQTOlLunUHTke4lN" target="_blank">link</a>
+        Feel free to <b>contact me directly if we have common research interests</b> or my work just caught your eye 😉.
+        <!-- Seminarka PG 15.04.2019 (ENG) - milestones: <a href="https://docs.google.com/presentation/d/10EDFtKnHjQCcLoQ4SHXRuZHgmUHgD-azZSHZeRViCzE/edit?usp=sharing -->
   video_path: |
-    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTmvj-SDdWNfiVog7QPM46hl0yPuGJNOPKxTQ2YOwWcCZHKsUk-BWXZx2XPgyCXjzWwRA9ejxzCkopq/embed?start=true&loop=true&delayms=2000" frameborder="0" width="100%" height="490" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
+    <iframe width="100%" height="490" src="https://www.youtube.com/embed/d3xyjut2gWw?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTmvj-SDdWNfiVog7QPM46hl0yPuGJNOPKxTQ2YOwWcCZHKsUk-BWXZx2XPgyCXjzWwRA9ejxzCkopq/embed?start=true&loop=true&delayms=3000" frameborder="0" width="100%" height="490" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+    <!-- <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQuGj9DRZ-LfheFwRGICpl93mzybDCpEaEPvKzPeP1J9QoaKTgFu2vTwf_Ey_8jm-nIg8apjwb0Mr5x/embed?start=true&loop=true&delayms=3000" frameborder="0" width="100%" height="490" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+    
   badge: SDC
-  buttons: []
+  buttons: 
+    - 
+      name: MLinPL Poster
+      link: https://drive.google.com/open?id=1pNrkshVnNiNE9TEEa6w1Rsv8v9JEYcB5
+    -
+      name: Slides (PL)
+      link: https://docs.google.com/presentation/d/1tYvrb2V2jFKyLoOG7gv7SI-dvm0hFReAXf3-vtPfwWs/edit?usp=sharing
+    -
+      name: Thesis PDF (PL)
+      link: https://drive.google.com/open?id=13CXULSNrVkydnqRSUOggkUtkPCJcKUOi
+    
+    
+    # TODO Dodać prezkę co na Gradiencie z Sebkiem pokazywaliśmy
 
 # --------------------------------------------------------------------------------------------------------------------
 # 2.
