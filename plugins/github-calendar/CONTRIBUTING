@@ -1,0 +1,64 @@
+<h1>:eight<em>spoked</em>asterisk: :stars: :sparkles: :dizzy: :star2: :star2: :sparkles: :dizzy: :star2: :star2: Contributing :star: :star2: :dizzy: :sparkles:  :star: :star2: :dizzy: :sparkles: :stars: :eight<em>spoked</em>asterisk:</h1>
+
+<p>So, you want to contribute to this project! That&#39;s awesome. However, before
+doing so, please read the following simple steps how to contribute. This will
+make the life easier and will avoid wasting time on things which are not
+requested. :sparkles:</p>
+
+<h2>Discuss the changes before doing them</h2>
+
+<ul>
+<li><p>First of all, open an issue in the repository, using the <a href="https://github.com/IonicaBizau/github-calendar/issues">bug tracker</a>,
+describing the contribution you would like to make, the bug you found or any
+other ideas you have. This will help us to get you started on the right
+foot.</p></li>
+<li><p>If it makes sense, add the platform and software information (e.g. operating
+system, Node.JS version etc.), screenshots (so we can see what you are
+seeing).</p></li>
+<li><p>It is recommended to wait for feedback before continuing to next steps.
+However, if the issue is clear (e.g. a typo) and the fix is simple, you can
+continue and fix it.</p></li>
+</ul>
+
+<h2>Fixing issues</h2>
+
+<ul>
+<li><p>Fork the project in your account and create a branch with your fix:
+<code>some-great-feature</code> or <code>some-issue-fix</code>.</p></li>
+<li><p>Commit your changes in that branch, writing the code following the
+<a href="https://github.com/IonicaBizau/code-style">code style</a>. If the project contains tests (generally, the <code>test</code>
+directory), you are encouraged to add a test as well. :memo:</p></li>
+<li><p>If the project contains a <code>package.json</code> or a <code>bower.json</code> file add yourself
+in the <code>contributors</code> array (or <code>authors</code> in the case of <code>bower.json</code>;
+if the array does not exist, create it):</p></li>
+</ul>
+
+<pre><code class="json">   {
+      &quot;contributors&quot;: [
+         &quot;Your Name &lt;and@email.address&gt; (http://your.website)&quot;
+      ]
+   }
+</code></pre>
+
+<h2>Creating a pull request</h2>
+
+<ul>
+<li><p>Open a pull request, and reference the initial issue in the pull request
+message (e.g. <em>fixes #<your-issue-number></em>). Write a good description and
+title, so everybody will know what is fixed/improved.</p></li>
+<li><p>If it makes sense, add screenshots, gifs etc., so it is easier to see what
+is going on.</p></li>
+</ul>
+
+<h2>Wait for feedback</h2>
+
+<p>Before accepting your contributions, we will review them. You may get feedback
+about what should be fixed in your modified code. If so, just keep committing
+in your branch and the pull request will be updated automatically.</p>
+
+<h2>Everyone is happy!</h2>
+
+<p>Finally, your contributions will be merged, and everyone will be happy! :smile:
+Contributions are more than welcome!</p>
+
+<p>Thanks! :sweat_smile:</p>

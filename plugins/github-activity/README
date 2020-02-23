@@ -1,0 +1,72 @@
+<h1>GitHub Activity Stream Widget</h1>
+
+<p>This is a small Javascript plugin that creates a stream of your recent GitHub activity. It displays the user&#39;s name, username, photo, and a list of each individual activity type. Click <a href="https://caseyscarborough.github.io/github-activity">here</a> for a demo.</p>
+
+<p>A sample image of the activity stream is shown below:</p>
+
+<p><img src="https://raw.githubusercontent.com/caseyscarborough/github-activity/gh-pages/images/matz.png" alt="Matz" /></p>
+
+<h2>Dependencies</h2>
+
+<p>The two dependencies for the plugin are the <a href="https://github.com/janl/mustache.js/">Mustache</a> templating library and <a href="https://octicons.github.com/">Octicons</a> (if you want the icons to show). You can include these along with the scripts for the plugin in the head of your page with the following HTML:</p>
+
+<pre><code class="html">&lt;link rel=&quot;stylesheet&quot; href=&quot;//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;github-activity-0.1.4.min.css&quot;&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;github-activity-0.1.4.min.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+
+<p>The files can be downloaded from the <a href="https://github.com/caseyscarborough/github-activity/releases">releases page</a>.</p>
+
+<p>If you&#39;d like to build the files yourself:</p>
+
+<pre><code class="bash"># Ensure you have grunt and bower installed
+npm install bower
+npm install grunt-cli
+
+# Clone the repository
+git clone https://github.com/caseyscarborough/github-activity.git
+cd github-activity
+
+# Install dependencies
+bower install
+
+# Build dist
+grunt
+</code></pre>
+
+<h2>Usage</h2>
+
+<p>To use the library, begin by creating a new div with an id in the body of your page:</p>
+
+<pre><code class="html">&lt;div id=&quot;feed&quot;&gt;&lt;/div&gt;
+</code></pre>
+
+<p>Then call the feed method via Javascript:</p>
+
+<pre><code class="js">GitHubActivity.feed({
+    username: &quot;your-username&quot;,
+    repository: &quot;your-repo&quot;, // optional
+    selector: &quot;#feed&quot;,
+    limit: 20 // optional
+});
+</code></pre>
+
+<h2>Credits</h2>
+
+<ul>
+<li><a href="http://www.myersdaily.org/joseph/javascript/md5-text.html">MD5 Methods</a></li>
+</ul>
+
+<h2>Fork and Enjoy</h2>
+
+<p>Please feel free to contribute to the application by following the steps below:</p>
+
+<ol>
+<li>Fork it</li>
+<li>Create your feature branch (<code>git checkout -b my-new-feature</code>)</li>
+<li>Commit your changes (<code>git commit -am &#39;Add some feature&#39;</code>)</li>
+<li>Push to the branch (<code>git push origin my-new-feature</code>)</li>
+<li>Create new Pull Request</li>
+</ol>

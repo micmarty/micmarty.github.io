@@ -1,0 +1,175 @@
+<h2>Change Log</h2>
+
+<p>All notable changes to this project will be documented in this file.</p>
+
+<h2>v3.2.0</h2>
+
+<h3>Added</h3>
+
+<ul>
+<li>Possibility to specify the date locale via moment.js</li>
+</ul>
+
+<h2>v3.1.0</h2>
+
+<h3>Changed</h3>
+
+<ul>
+<li>Re-added support for SSL</li>
+</ul>
+
+<h2>v3.0.1</h2>
+
+<h3>Changed</h3>
+
+<ul>
+<li>Use www.feedrapp.info instead of feedrapp.info</li>
+</ul>
+
+<h2>v3.0.0</h2>
+
+<h3>Changed</h3>
+
+<ul>
+<li>Replace Google Feed API with <a href="https://github.com/sdepold/feedr">feedr</a></li>
+</ul>
+
+<h2>v2.0.0</h2>
+
+<h3>Changed</h3>
+
+<ul>
+<li>moment.js is now optional</li>
+<li>Please note that the format of dates might change when moment.js is available and no <code>dateFormat</code> option is specified. In that scenario all dates will be transformed to the format <code>dddd MMM Do</code>.</li>
+</ul>
+
+<h2>v1.5.1</h2>
+
+<h3>Fixed</h3>
+
+<ul>
+<li>moment.js deprecation warning</li>
+</ul>
+
+<h2>v1.5.0</h2>
+
+<h3>Added</h3>
+
+<ul>
+<li><code>onData</code> callback which gets triggered after receiving the data but before the rendering.</li>
+</ul>
+
+<h2>v1.4.0</h2>
+
+<h3>Added</h3>
+
+<ul>
+<li>Pass the feeds meta data to the tokens object.</li>
+</ul>
+
+<h2>v1.3.0</h2>
+
+<h3>Added</h3>
+
+<ul>
+<li>Error and success callback. (thanks to eliten00b)</li>
+</ul>
+
+<h3>Fixed</h3>
+
+<ul>
+<li>forEach loop. (thanks to aegisrunestone)</li>
+</ul>
+
+<h2>v1.2.0</h2>
+
+<h3>Added</h3>
+
+<ul>
+<li>Possibility to define effects for the appearance of entries</li>
+</ul>
+
+<h2>v1.1.0</h2>
+
+<h3>Added</h3>
+
+<ul>
+<li>XSS protection</li>
+</ul>
+
+<h3>Changed</h3>
+
+<ul>
+<li>Switched to busterjs for tests</li>
+<li>Implemented tests for XSS protection</li>
+</ul>
+
+<h2>v1.0.0</h2>
+
+<h3>Changed</h3>
+
+<ul>
+<li>Complete test coverage with mocha</li>
+</ul>
+
+<h2>v0.4.0</h2>
+
+<h3>Added</h3>
+
+<ul>
+<li>Possibility to define the output method of google request</li>
+</ul>
+
+<h3>Changed</h3>
+
+<ul>
+<li>Separate layout template from entry template (thanks to ChaosSteffen)</li>
+</ul>
+
+<h2>v0.3.0</h2>
+
+<h3>Added</h3>
+
+<ul>
+<li>Callback, which is triggered after rendering of all entries (thanks to cm0s)</li>
+</ul>
+
+<h3>Changed</h3>
+
+<ul>
+<li>Evaluate token map before passing it to custom token functions</li>
+<li>Moved minified version into <code>dist</code> folder (thanks to markrambow)</li>
+</ul>
+
+<h2>v0.2.2</h2>
+
+<h3>Fixed</h3>
+
+<ul>
+<li>Array#indexOf IE bug</li>
+</ul>
+
+<h2>v0.2.1</h2>
+
+<h3>Fixed</h3>
+
+<ul>
+<li>Catch failures while extracting images</li>
+</ul>
+
+<h2>v0.2.0</h2>
+
+<h3>Added</h3>
+
+<ul>
+<li>The tokens <code>index</code> and <code>totalEntries</code></li>
+<li>Preparation for jasmine tests</li>
+</ul>
+
+<h2>v0.1.1</h2>
+
+<h3>Added</h3>
+
+<ul>
+<li>Entry filtering</li>
+</ul>
