@@ -1,12 +1,36 @@
 jobs:
+  - position: Software Engineer
+    at: deepsense.ai
+    link: https://deepsense.ai
+    time_range: January 2020 - now
+    short_description: |
+                    Self-driving cars, Reinforcement Learning, Simulation to reality
+    full_description: |
+                    <hr class='divider'>
+                    Top secret for now :)
+
   - position: NLP & backend developer (Python)
     at: VoiceLab
     link: https://www.voicelab.ai/
     time_range: July 2019 - now
     short_description: |
                     Language modeling, voice/chatbots engineering
-    full_description:
-                    Update is coming...
+    full_description: |
+                    <hr class='divider'>
+                    Tools:
+                    <ul>
+                      <li>Python 3.7+ (fast.ai, guild.ai, FastAPI, pytest, SQLAlchemy, Alembic, black formatter, type annotations)</li>
+                      <li>Swagger UI/OpenAPI (interactive documentation of endpoints)</li>
+                      <li>Linux, Docker, PostgreSQL, lazygit</li>
+                    </ul>
+                    Tasks:
+                    <ul>
+                      <li>Prototyping conversation graphs for voice/chatbots</li>
+                      <li>Multi-label classification with fast.ai framework</li>
+                      <li>C4 architecture modeling for microservices</li>
+                      <li>Code review, technical interview</li>
+                      <li>Weekly paper readings</li>
+                    </ul>
 
   - position: Architect & Lead backend developer (Python)
     at: TensorHive
