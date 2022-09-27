@@ -11,6 +11,12 @@ main:
     tooltip: Using it everywhere possible (beginning with simple mathematical scripts, through small CLI projects, ending with neural network models and backend applications)
     description: My Swiss Army Knife
     expertise: Advanced
+    
+  - name: Terraform
+    value: 90%
+    tooltip: Using it everywhere possible (beginning with simple mathematical scripts, through small CLI projects, ending with neural network models and backend applications)
+    description: My Swiss Army Knife
+    expertise: Advanced
     #expertise_tooltip: tooltip text
 
   - name: Linux
@@ -18,6 +24,13 @@ main:
     tooltip: zsh, guake terminal, mc, vim, aliases, man pages, grep, awk, etc.
     description: Geeky - everything must be customized. Using terminal with passion.
     expertise: Using on daily basis
+    #expertise_tooltip: tooltip text
+
+  - name: Rust
+    value: 70%
+    tooltip: 
+    description: My first beloved high-level language
+    expertise: Huge fan
     #expertise_tooltip: tooltip text
 
   - name: Ruby
