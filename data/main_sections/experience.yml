@@ -1,4 +1,66 @@
 jobs:
+  - position: MLOps / Software Engineer in Machine Learning
+    at: deepsense.ai
+    link: https://www.deepsense.ai/
+    time_range: August 2021 - now
+    short_description: |
+                    MLOps tooling consultant, AWS, working in Infra team
+                    
+    full_description: |
+                    Main driver behind the Feature Store selection process for client’s AI department
+                    Responsible for leading the process of standardizing DVC for datasets versioning
+                    In summary: 2 RFCs delivered, 1 approved and 1 rejected
+                    In the meantime, interviewing candidates for SE in ML roles.
+                    <ul>
+                      <li>Python</li>
+                      <li>SageMaker for pipelines, CodeBuild, CodePipeline, IAM, EC2, S3</li>
+                      <li>IaaC in Terraform</li>
+                      <li>Hopsworks and Tecton as Feature Stores</li>
+                      <li>DVC for data versioning</li>
+                      <li>neptune.ai for experiment tracking</li>
+                      <li>Github, Jira, Miro</li>
+                    </ul>
+
+  - position: NLP Engineer / SE in ML (Python/Java)
+    at: deepsense.ai
+    link: https://www.deepsense.ai/
+    time_range: November 2020 - August 2021
+    short_description: |
+                    NLU, Voice Assistant, TDD 
+                    
+    full_description: |
+                    Extending NLU component for a Voice Assistant by developing a custom 
+                    engine for parsing natural language expressions. Introducing unit tests, TDD
+                    Conducting an internal presentation about efficient terminal workflows and tools
+                    <ul>
+                      <li>Python</li>
+                      <li>Java</li>
+                      <li>ANTLR</li>
+                    </ul>
+  - position: NLP Engineer / SE in ML (Python/Java)
+    at: deepsense.ai
+    link: https://www.deepsense.ai/
+    time_range: January 2020 - September 2020
+    short_description: |
+                    Reinforcement Learning, self-driving cars, paper co-author, PyPI package
+    full_description: |
+                    RL-based approach to self-driving cars, simulation to reality transfer
+                    Research conducted for a big car manufacturer
+                    Co-author of an article submitted to conferences, e.g. BayLearn (arxiv)
+                    https://drive.google.com/file/d/1XbOLh5N-m3M6cjUOHdcPF3dr2o4IViQe/view?usp=sharing
+                    
+                    <a href='' target='_blank'>BayLearn</a>
+                    (<a href='https://arxiv.org/pdf/2012.11329.pdf' target='_blank'>arxiv</a>)
+                    <a href='https://sites.google.com/view/piotrmilosstudentsprojects#h.8v2old9ekyj6' target='_blank'>summary</a>
+                    Main author of <a href='https://pypi.org/project/carla-birdeye-view/' target='_blank'>this PyPI package</a> (<a href='https://github.com/deepsense-ai/carla-birdeye-view' target='_blank'>Github repo</a>)
+
+                    Stack:
+                    <ul>
+                      <li>Tensorflow</li>
+                      <li>NumPy</li>
+                      <li>neptune.ai for experiment tracking</li>
+                    </ul>
+                    
   - position: NLP & backend developer (Python)
     at: VoiceLab
     link: https://www.voicelab.ai/
