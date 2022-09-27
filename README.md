@@ -2,9 +2,12 @@
 
 ## How to run
 
-- Download Ruby and Middleman
+1. Download Ruby and Middleman
+```bash
+rvm install 2.4.2
+```
 
-To run with live-reload feature
+2. To run with live-reload feature
 ```bash
 middleman server
 ```
