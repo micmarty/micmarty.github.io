@@ -40,6 +40,7 @@
         <% project.long_description.each do |description| %>
             <% visibility = description.expandable ? "hideContent" : "showContent" %>
             <div class="content <%= visibility %>">
+                <%= partial(description.html_partial_path) if description.html_partial_path %>
                 <p><%= description.paragraph %></p>
             </div>
 
