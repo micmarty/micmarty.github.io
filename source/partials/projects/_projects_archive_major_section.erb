@@ -1,0 +1,23 @@
+<%# Aliases %>
+<% projects_archive_major = data.projects.projects_archive_major %>
+
+<section class="latest section">
+    <div class="section-inner">
+        <h2 class="heading">
+            <!-- Recent Major Projects Section Title -->
+            <%= projects_archive_major.section_title %>
+        </h2>
+        <div class="content">
+            <!-- First Recent Major Project -->
+            <%= partial project_partial_path('major_project_template'), locals: { project: projects_archive_major[:first_project] } %>
+            <hr class="divider" />
+
+            <!-- Second Recent Major Project -->
+            <%= partial project_partial_path('major_project_template'), locals: { project: projects_archive_major[:second_project] } %>
+            <hr class="divider" />
+
+            <!-- Third Recent Major Project -->
+            <%= partial project_partial_path('major_project_template'), locals: { project: projects_archive_major[:third_project] } %>
+        </div>
+    </div>
+</section>

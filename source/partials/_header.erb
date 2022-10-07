@@ -1,6 +1,6 @@
 <% index_path = '/index.html' %>
-<% current_projects_page_path = '/current_projects.html' %>
 <% recent_projects_page_path = '/recent_projects.html' %>
+<% projects_archive_page_path = '/projects_archive.html' %>
 
 <header class="header">
     <div class="container">
@@ -40,18 +40,19 @@
             </ul>
         </div>
 
-        <!-- Current Projects Button -->
-        <a class="btn btn-cta-primary pull-left" 
-            style="margin-right: 20px;margin-left: 20px;" 
-            href="<%= current_projects_page_path %>">
-          <i class="fa fa-coffee" aria-hidden="true"></i>Current Projects
-        </a>
-
         <!-- Recent Projects Button -->
         <a class="btn btn-cta-primary pull-left" 
+            style="margin-right: 20px;margin-left: 20px;" 
             href="<%= recent_projects_page_path %>">
-          <i class="fa fa-archive" aria-hidden="true"></i>
+          <i class="fa fa-coffee" aria-hidden="true"></i>
           Recent Projects
+        </a>
+
+        <!-- Projects Archive Button -->
+        <a class="btn btn-cta-primary pull-left" 
+            href="<%= projects_archive_page_path %>">
+          <i class="fa fa-archive" aria-hidden="true"></i>
+          Projects Archive
         </a>
 
         <!-- LinkedIn Contact Button -->
@@ -72,4 +73,3 @@
     </div>
     <!--//container-->
 </header>
-<!--//header-->
