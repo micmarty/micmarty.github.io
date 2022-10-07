@@ -10,14 +10,14 @@ additional_intro: |
 main:
   - name: Python
     value: 80%
-    tooltip: Using it everywhere possible (beginning with simple mathematical scripts, through small CLI projects, ending with neural network models and backend applications)
+    tooltip: ML, backend, CLI tools, scripting, teaching
     description: My Swiss Army knife
     # expertise: Advanced
 
-  - name: AWS
-    value: 50%
-    tooltip:
-    description: A lot upon me, still learning its oddities
+  - name: MLOps
+    value: 60%
+    tooltip: SageMaker Pipelines, Hopsworks Feature Store, DVC, Neptune.ai and more
+    description: AWS + Terraform = 🤌
     # expertise: Advanced
     #expertise_tooltip: tooltip text
 
@@ -30,17 +30,17 @@ main:
 
   - name: Rust
     value: 80%
-    tooltip:
-    description: Learning it opens my eyes
+    tooltip: Currently developing an SDK for Miro's REST API
+    description: Investing my time in learning it, truly eye-opening
     # expertise: Huge fan
-    expertise_tooltip: tooltip text
+    # expertise_tooltip:
 
   - name: Ruby (also on Rails)
     value: 60%
-    tooltip:
+    tooltip: Not actively developing with it (besides this web page)
     description: My first beloved high-level language
     # expertise: Huge fan
-    expertise_tooltip: Not actively developing (besides this web page)
+    # expertise_tooltip:
 
   # - name: Rails
   # value: 65%
@@ -57,6 +57,7 @@ main:
   #expertise_tooltip: tooltip text
   - name: Java, C#, C++
     value: 20%
+    tooltip: Maybe I should give them another shot...
     description: Not that iterested in them right now
     # expertise: Basics (never used in production)
     #expertise_tooltip: tooltip text
@@ -66,23 +67,6 @@ additional:
   - name: Machine Learning
     value: 40%
     description: A member of GradientPG (student research group).
-
-  - name: Java, Android SDK, C#, C++
-    description: I can use them but not really fascinated that much right now
-
-  - name: Technologies Landscape
-    value: 80%
-    description: IT podcasts, vlogs and blogs
-
-  - name: Self-organization
-    value: 70%
-
-  - name: Sense of style
-    value: 80%
-
-  - name: Fun from customizing my own environment, learning new things and using geeky tools
-    value: 99%
-    description: Jupyter notebooks for Python and Ruby, Zsh, ohmyzsh, fish, guake, ...
 
   - name: Keyboard shortcuts ;)
     value: 90%
