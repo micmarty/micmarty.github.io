@@ -1,15 +1,13 @@
 section_title: Recent Projects
-
 # --------------------------------------------------------------------------------------------------------------------
-# 1.
 first_project:
-  project_title: Self-driving car in a simulated environment
+  project_title: Command-driven trajectory planning and following for a self-driving car in a simulated environment
   labels:
-    - MSc
+    - CARLA simulator
+    - vision-based
     - supervised
-    - vision-only
   badge: My MSc
-  short_description: My master's thesis about fully autonomous agent including perception, planning and control
+  short_description: My master's thesis about fully autonomous agent that includes perception, planning and control
   long_description:
     - expandable: false
       paragraph: |
@@ -32,16 +30,37 @@ first_project:
   buttons:
     - name: MLinPL Poster
       link: https://drive.google.com/open?id=1pNrkshVnNiNE9TEEa6w1Rsv8v9JEYcB5
-    - name: Slides (PL)
-      link: https://docs.google.com/presentation/d/1tYvrb2V2jFKyLoOG7gv7SI-dvm0hFReAXf3-vtPfwWs/edit?usp=sharing
     - name: Thesis PDF (PL)
       link: https://drive.google.com/open?id=13CXULSNrVkydnqRSUOggkUtkPCJcKUOi
-
-    # TODO Dodać prezkę co na Gradiencie z Sebkiem pokazywaliśmy
-
+    - name: Project summary on YouTube (ENG)
+      link: https://youtu.be/PkTxzsUUCgc
+    # - Slides (PL) -> not relevant anymore
+    #   https://docs.google.com/presentation/d/1tYvrb2V││
 # --------------------------------------------------------------------------------------------------------------------
-# 2.
 second_project:
+  project_title: Bird-eye's view for CARLA
+  labels:
+    - open source
+    - deepsense.ai
+  badge: SDC
+  short_description: 2D Visualization tool has been used as one of possible inputs to our RL model in CARLA Real Traffic Scenarios evaluation
+  long_description:
+    - expandable: true
+      html_partial_path: partials/projects/birdview_table
+      paragraph: This proj
+
+  image_path: images/projects/recent/ngsim-freeway.gif
+  buttons:
+    - name: PyPI package
+      link: https://pypi.org/project/carla-birdeye-view/
+    - name: Source Code
+      link: https://github.com/deepsense-ai/carla-birdeye-view
+    - name: Research results
+      link: https://sites.google.com/view/carla-real-traffic-scenarios/home
+    - name: Paper on arxiv
+      link: https://arxiv.org/abs/2012.11329
+# --------------------------------------------------------------------------------------------------------------------
+third_project:
   project_title: TensorHive
   labels:
     - nvidia-smi
@@ -70,10 +89,8 @@ second_project:
       link: https://gradient.eti.pg.gda.pl/projekty/2017/10/07/projekt-tensor-hive.html
     - name: Article (ENG)
       link: https://gradient.eti.pg.gda.pl/en/projects/2017/10/07/projekt-tensor-hive.html
-
 # --------------------------------------------------------------------------------------------------------------------
-# 3. Librosa, Jupyter Notebook
-third_project:
+fourth_project:
   project_title: Audio signal analysis in Python with Librosa
   labels:
     - audio
@@ -92,23 +109,3 @@ third_project:
   buttons:
     - name: Source Code
       link: https://github.com/micmarty/audio-preprocessing-exercises-with-librosa/blob/master/librosa_sandbox_1.ipynb
-
-# --------------------------------------------------------------------------------------------------------------------
-# 4.
-fourth_project:
-  project_title: Bird-eye's view for CARLA
-  labels:
-    - open source
-  badge: SDC
-  short_description: Visualization tool for making our RL experiments faster
-  long_description:
-    - expandable: false
-      paragraph: tmp
-  image_path: images/projects/recent/ngsim-freeway.gif
-  buttons:
-    - name: PyPI package
-      link: https://pypi.org/project/carla-birdeye-view/
-    - name: Slides (PL)
-      link: https://docs.google.com/presentation/d/1tYvrb2V2jFKyLoOG7gv7SI-dvm0hFReAXf3-vtPfwWs/edit?usp=sharing
-    - name: Thesis PDF (PL)
-      link: https://drive.google.com/open?id=13CXULSNrVkydnqRSUOggkUtkPCJcKUOi
