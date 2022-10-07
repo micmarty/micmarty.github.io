@@ -21,10 +21,10 @@ main:
     # expertise: Advanced
     #expertise_tooltip: tooltip text
 
-  - name: Linux
+  - name: Linux, Vim, CLI/TUI
     value: 90%
     tooltip: bspwm, alacritty, guake terminal, mc, vim, aliases
-    description: Ricer <a href='https://jie-fang.github.io/blog/basics-of-ricing'>(who?)</a> which simply enjoys customization
+    description: Ricing <a href='https://jie-fang.github.io/blog/basics-of-ricing'>(what?)</a> is simply fulfilling
     # expertise: Using on daily basis
     #expertise_tooltip: tooltip text
 
