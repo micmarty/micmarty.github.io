@@ -1,0 +1,105 @@
+section_title: Recent Projects
+
+# --------------------------------------------------------------------------------------------------------------------
+# 1.
+first_project:
+  project_title: Self-driving car in a simulated environment
+  short_description: My master's thesis about fully autonomous agent including perception, planning and control
+  long_description:
+    - expandable: false
+      paragraph: |
+
+        My agent is able to <b>navigate from A to B</b> with respect to human input, like: turn left, right, keep lane, go straight (GPS-like navigation). The only input given for the planning module (neural network) is: 224x224 RGB image + command. 
+        Output is a ~15m trajectory ahead of agent's car. Most important thing to note is that <b>predicted trajectory does not says "how to drive" but "where is the legal path that should be followed"</b>.
+
+        Besides planning, agent can detect and react to traffic lights (simple perception module made with TensorFlow Object Detection API).
+
+        Proposed method of <b>Reference Trajectory Approximation</b> allows for better visual understanding how agent percives the environment in the long run.
+        Although the internals of this system are not that much compilcated as it may seem (in comparison with real-world systems), but it took a very long time to do research, gather data, implement and evaluate.
+
+        <b>More videos + extras (MLinPL):</b> <a href="https://drive.google.com/open?id=1Qrm5noTVHSC7yQw0NQTOlLunUHTke4lN" target="_blank">link</a>
+        Feel free to <b>contact me directly if we have common research interests</b> or my work just caught your eye 😉.
+        <!-- Seminarka PG 15.04.2019 (ENG) - milestones: <a href="https://docs.google.com/presentation/d/10EDFtKnHjQCcLoQ4SHXRuZHgmUHgD-azZSHZeRViCzE/edit?usp=sharing -->
+  video_path: |
+    <iframe width="100%" height="490" src="https://www.youtube.com/embed/d3xyjut2gWw?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTmvj-SDdWNfiVog7QPM46hl0yPuGJNOPKxTQ2YOwWcCZHKsUk-BWXZx2XPgyCXjzWwRA9ejxzCkopq/embed?start=true&loop=true&delayms=3000" frameborder="0" width="100%" height="490" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+    <!-- <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQuGj9DRZ-LfheFwRGICpl93mzybDCpEaEPvKzPeP1J9QoaKTgFu2vTwf_Ey_8jm-nIg8apjwb0Mr5x/embed?start=true&loop=true&delayms=3000" frameborder="0" width="100%" height="490" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+
+  badge: SDC
+  buttons:
+    - name: MLinPL Poster
+      link: https://drive.google.com/open?id=1pNrkshVnNiNE9TEEa6w1Rsv8v9JEYcB5
+    - name: Slides (PL)
+      link: https://docs.google.com/presentation/d/1tYvrb2V2jFKyLoOG7gv7SI-dvm0hFReAXf3-vtPfwWs/edit?usp=sharing
+    - name: Thesis PDF (PL)
+      link: https://drive.google.com/open?id=13CXULSNrVkydnqRSUOggkUtkPCJcKUOi
+
+    # TODO Dodać prezkę co na Gradiencie z Sebkiem pokazywaliśmy
+
+# --------------------------------------------------------------------------------------------------------------------
+# 2.
+second_project:
+  project_title: TensorHive
+  short_description: Lightweight computing resource management tool for executing machine learning applications in distributed TensorFlow
+  long_description:
+    - expandable: false
+      paragraph: |
+        We've just started making an open-source solution for distributed trainings in TensorFlow.
+        It will:
+        <ul>
+          <li>Launch with a single command</li>
+          <li>Have a dashboard built with Material Design components (Google Android style)
+          <li>Communicate over ssh</li>
+          <li>Monitor resources like: GPU, memory load, etc.</li>
+        </ul>
+        The project has started within <a href="http://gradient.eti.pg.gda.pl/" target="_blank"><img src="images/gradient_logo_small.png" style="margin-bottom: 0px"><b>GradientPG</b></a> (Student Research Group I participate in).
+
+  image_path: images/projects/major/tensorhive_dashboard.jpeg
+  link: https://github.com/roscisz/TensorHive
+
+  badge: false
+  buttons:
+    - name: Source Code
+      link: https://github.com/roscisz/TensorHive
+    - name: Article (PL)
+      link: https://gradient.eti.pg.gda.pl/projekty/2017/10/07/projekt-tensor-hive.html
+    - name: Article (ENG)
+      link: https://gradient.eti.pg.gda.pl/en/projects/2017/10/07/projekt-tensor-hive.html
+
+# --------------------------------------------------------------------------------------------------------------------
+# 3. Librosa, Jupyter Notebook
+third_project:
+  project_title: Audio signal analysis in Python with Librosa
+  short_description: |
+    I had to do some research about choosing the best model for my neural network.
+    My journey started with librosa - it can transform an audio excerpt into many visual representations, 
+    e.g. spectogram or chroma and has very useful features like beat detection.
+  long_description:
+    - expandable: false
+      paragraph: "" # NO DESCRIPTION
+
+  image_path: images/projects/major/librosa_chroma.png
+  link: https://github.com/micmarty/audio-preprocessing-exercises-with-librosa/blob/master/librosa_sandbox_1.ipynb
+
+  badge: hobby
+  buttons:
+    - name: Source Code
+      link: https://github.com/micmarty/audio-preprocessing-exercises-with-librosa/blob/master/librosa_sandbox_1.ipynb
+
+# --------------------------------------------------------------------------------------------------------------------
+# 4.
+fourth_project:
+  project_title: Bird-eye's view for CARLA
+  short_description: Visualization tool for making our RL experiments faster
+  long_description:
+    - expandable: false
+      paragraph: tmp
+  image_path: images/projects/recent/ngsim-freeway.gif
+  badge: SDC
+  buttons:
+    - name: PyPI package
+      link: https://pypi.org/project/carla-birdeye-view/
+    - name: Slides (PL)
+      link: https://docs.google.com/presentation/d/1tYvrb2V2jFKyLoOG7gv7SI-dvm0hFReAXf3-vtPfwWs/edit?usp=sharing
+    - name: Thesis PDF (PL)
+      link: https://drive.google.com/open?id=13CXULSNrVkydnqRSUOggkUtkPCJcKUOi
