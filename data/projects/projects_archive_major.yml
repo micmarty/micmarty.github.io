@@ -8,6 +8,7 @@ first_project:
     - BSc
     - audio
     - machine learning
+  badge: My BSc
   short_description: Musical instruments identification system based on usage of Deep Neural Networks
   long_description:
     - expandable: false
@@ -51,7 +52,6 @@ first_project:
   # Edit link: http://sendvid.com/40740549?secret=2140d27f-7f80-4e36-bfaf-4c3943f3b61a
   link: https://github.com/micmarty/Instronizer
 
-  badge: ML
   buttons:
     - name: ResearchGate
       link: https://www.researchgate.net/project/Musical-instruments-recognition-in-polyphonic-audio-deep-neural-network
@@ -68,6 +68,7 @@ second_project:
   project_title: RustOS
   labels:
     - low-level
+  badge: toy project
   short_description: A proof-of-concept operating system written in awesome Rust language + some assembly code
   long_description:
     - expandable: false
@@ -88,7 +89,6 @@ second_project:
     </video>
   link: https://github.com/micmarty/RustOS_toy_project
 
-  badge: low-level
   buttons:
     - name: Source code
       link: https://github.com/micmarty/RustOS_toy_project
@@ -101,6 +101,7 @@ third_project:
     Fund Tracker
   labels:
     - ruby on rails
+  badge: toy app
   short_description: App which renders a single chart from market shares data (as CSV file) and calculates the benefit from bank deposit.
   long_description:
     - expandable: false
@@ -121,7 +122,6 @@ third_project:
   image_path: images/projects/major/fund_tracker_chart.png
   link: https://github.com/micmarty/fund_tracker
 
-  badge: toy app
   buttons:
     - name: Source Code
       link: https://github.com/micmarty/fund_tracker
