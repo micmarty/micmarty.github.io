@@ -4,6 +4,10 @@ section_title: Recent Projects
 # 1.
 first_project:
   project_title: Self-driving car in a simulated environment
+  labels:
+    - MSc
+    - supervised
+    - vision-only
   short_description: My master's thesis about fully autonomous agent including perception, planning and control
   long_description:
     - expandable: false
@@ -40,6 +44,9 @@ first_project:
 # 2.
 second_project:
   project_title: TensorHive
+  labels:
+    - nvidia-smi
+    - open source
   short_description: Lightweight computing resource management tool for executing machine learning applications in distributed TensorFlow
   long_description:
     - expandable: false
@@ -70,6 +77,9 @@ second_project:
 # 3. Librosa, Jupyter Notebook
 third_project:
   project_title: Audio signal analysis in Python with Librosa
+  labels:
+    - audio
+    - own research
   short_description: |
     I had to do some research about choosing the best model for my neural network.
     My journey started with librosa - it can transform an audio excerpt into many visual representations, 
@@ -90,6 +100,8 @@ third_project:
 # 4.
 fourth_project:
   project_title: Bird-eye's view for CARLA
+  labels:
+    - open source
   short_description: Visualization tool for making our RL experiments faster
   long_description:
     - expandable: false

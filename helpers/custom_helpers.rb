@@ -21,7 +21,9 @@ module CustomHelpers
     "<a href=\"#{link}\" #{bg_color} #{target}><i class=\"fa fa-#{icon_name}\" aria-hidden=\"true\" #{fg_color}></i></a>"
   end
 
-
+  def render_label(text)
+    "<span class=\"label label-theme\">#{text}</span>"
+  end
 
   def start(time)
     # time is in format: _h_m_s or _m_s or _s

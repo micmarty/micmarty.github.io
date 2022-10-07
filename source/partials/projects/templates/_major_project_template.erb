@@ -4,6 +4,9 @@
             <!-- Project Title -->
             <%= project.project_title %>
         </a>
+        <% project.labels.each do |label_text| %>
+            <%= render_label label_text %>
+        <% end %>
     </h3>
 
     <p class="summary">
@@ -17,7 +20,7 @@
             <%= project.video_path %>
         <% else %>
             <a href="<%= project.link %>" target="_blank">
-                <img class="img-responsive project-image" src="<%= project.image_path %>" alt="project name" />
+                <img class="img-responsive project-image" src="<%= project.image_path %>" alt="<%= project.project_title %>" />
             </a>
         <% end %>
 
@@ -56,4 +59,3 @@
         </a>
     <% end %>
         
-</div>

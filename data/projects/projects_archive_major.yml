@@ -4,6 +4,10 @@ section_title: Projects Archive - Major
 # 0. Instronizer
 first_project:
   project_title: Instronizer
+  labels:
+    - BSc
+    - audio
+    - machine learning
   short_description: Musical instruments identification system based on usage of Deep Neural Networks
   long_description:
     - expandable: false
