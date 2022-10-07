@@ -2,13 +2,13 @@ max_stars_amout: 6
 list:
   - name: Polish
     level: Native Speaker
-    stars: 6 
-    tooltip: 
+    stars: 6
+    tooltip:
 
   - name: English
     level: Advanced Proficiency (C1)
     stars: 4
-    tooltip: |
-              Comfortable while speaking, especially about tech.
-              Reading or writing documentation without problems.
-              I am constantly improving my accent by watching TV series and listening to podcasts.
+    # tooltip: |
+    #           Comfortable speaking, especially about tech topics.
+    #           Reading or writing documentation on daily basis.
+    #           I am constantly improving my accent by watching TV series and listening to podcasts.
