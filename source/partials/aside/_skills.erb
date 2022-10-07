@@ -1,32 +1,47 @@
 <!-- Main Skills -->
 <aside class="skills aside section">
     <div class="section-inner">
-        <h2 class="heading">My toolset</h2>
+        <h2 class="heading">My enthusiasm levels (not skills)</h2>
         <div class="content">
+                    <!--
             <p class="intro"><%= data.aside_sections.skills.main_intro %></p>
 
+                    -->
             <div class="skillset">
                 <% data.aside_sections.skills.main.each do |skill| %>
                 <div class="item">
-                    <h3 class="level-title"><%= skill.name %>
-                        <span class="level-label" data-toggle="tooltip" 
-                        data-placement="auto left" data-animation="true" 
-                        title="<%= skill&.expertise_tooltip %>">
-                            <%= skill&.expertise %>
+                    <h3 class="custom-level-title"><%= skill.name %>
+                        <span 
+                            class="custom-level-label left" 
+                            data-toggle="tooltip" 
+                            data-placement="auto left" 
+                            data-animation="true" 
+                            title="<%= skill&.expertise_tooltip %>"
+                            style="right: auto; left: 0"
+                        >Nah
+                        </span>
+                        
+                        <span 
+                            class="custom-level-label right" 
+                            data-toggle="tooltip" 
+                            data-placement="auto left" 
+                            data-animation="true" 
+                            title="<%= skill&.expertise_tooltip %>"
+                        >Pure fun
                         </span>
                     </h3>
                     <div class="level-bar">
                         <span class="level-label" data-toggle="tooltip" data-placement="auto left" data-animation="true" title="<%= skill&.tooltip%>">
                         <div class="level-bar-inner" data-level="<%= skill.value %>"></div>
                         </span>
-                    </div><!--//level-bar-->
+                    </div>
                     <p><%= skill&.description %></p>
-                </div><!--//item-->
+                </div>
                 <% end %>
             </div>
-        </div><!--//content-->
-    </div><!--//section-inner-->
-</aside><!--//section-->
+        </div>
+    </div>
+</aside>
 
 
 
