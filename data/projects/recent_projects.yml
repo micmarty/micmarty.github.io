@@ -42,14 +42,16 @@ second_project:
   labels:
     - open source
     - deepsense.ai
-  badge: SDC
-  short_description: 2D Visualization tool has been used as one of possible inputs to our RL model in CARLA Real Traffic Scenarios evaluation
+    - Volkswagen
+  badge: CRTS
+  short_description: 2D Visualization tool has been used as one of possible inputs to our RL model <br> in CARLA Real Traffic Scenarios evaluation
   long_description:
     - expandable: true
       html_partial_path: partials/projects/birdview_table
-      paragraph: This proj
+      paragraph: |
+        https://deepsense.ai/deepsense-ai-research-presented-at-neurips-2020/
 
-  image_path: images/projects/recent/ngsim-freeway.gif
+  image_path: images/projects/recent/ngsim-full.gif
   buttons:
     - name: PyPI package
       link: https://pypi.org/project/carla-birdeye-view/
@@ -66,7 +68,7 @@ third_project:
     - nvidia-smi
     - open source
   badge: false
-  short_description: Lightweight computing resource management tool for executing machine learning applications in distributed TensorFlow
+  short_description: Lightweight multi-node Nvidia GPU reservation guard
   long_description:
     - expandable: false
       paragraph: |
@@ -78,7 +80,7 @@ third_project:
           <li>Communicate over ssh</li>
           <li>Monitor resources like: GPU, memory load, etc.</li>
         </ul>
-        The project has started within <a href="http://gradient.eti.pg.gda.pl/" target="_blank"><img src="images/gradient_logo_small.png" style="margin-bottom: 0px"><b>GradientPG</b></a> (Student Research Group I participate in).
+        The project has started within <a href="http://gradient.eti.pg.gda.pl/" target="_blank"><img src="images/gradient_logo_small.png" style="margin-bottom: 0px"><b>GradientPG</b></a> (Student Research Group)
 
   image_path: images/projects/major/tensorhive_dashboard.jpeg
   link: https://github.com/roscisz/TensorHive
