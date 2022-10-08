@@ -4,166 +4,177 @@ jobs:
     link: https://www.deepsense.ai/
     time_range: August 2021 - now
     short_description: |
-                    MLOps tooling consultant, AWS, working in Infra team
-                    
+      MLOps tooling consultant, AWS, working in Infra team
+    labels:
+      - something
     full_description: |
-                    Main driver behind the Feature Store selection process for client’s AI department
-                    Responsible for leading the process of standardizing DVC for datasets versioning
-                    In summary: 2 RFCs delivered, 1 approved and 1 rejected
-                    In the meantime, interviewing candidates for SE in ML roles.
-                    <ul>
-                      <li>Python</li>
-                      <li>SageMaker for pipelines, CodeBuild, CodePipeline, IAM, EC2, S3</li>
-                      <li>IaaC in Terraform</li>
-                      <li>Hopsworks and Tecton as Feature Stores</li>
-                      <li>DVC for data versioning</li>
-                      <li>neptune.ai for experiment tracking</li>
-                      <li>Github, Jira, Miro</li>
-                    </ul>
+      Main driver behind the Feature Store selection process for client’s AI department
+      Responsible for leading the process of standardizing DVC for datasets versioning
+      In summary: 2 RFCs delivered, 1 approved and 1 rejected
+      In the meantime, interviewing candidates for SE in ML roles.
+      Stack: 
+      <ul>
+        <li>Python</li>
+        <li>AWS: SageMaker Pipelines, CodeBuild, CodePipeline, IAM, EC2, S3, EMR, Secrets Manager</li>
+        <li>IaaC: Terraform</li>
+        <li>Feature Stores: Hopsworks and Tecton</li>
+        <li>DVC for data versioning</li>
+        <li>Neptune.ai for experiment tracking</li>
+        <li>Github, Jira, Miro</li>
+      </ul>
 
   - position: NLP Engineer / SE in ML (Python/Java)
     at: deepsense.ai
     link: https://www.deepsense.ai/
     time_range: November 2020 - August 2021
     short_description: |
-                    NLU, Voice Assistant, TDD 
-                    
+      NLU, Voice Assistant, TDD
+    labels:
+      - something
     full_description: |
-                    Extending NLU component for a Voice Assistant by developing a custom 
-                    engine for parsing natural language expressions. Introducing unit tests, TDD
-                    Conducting an internal presentation about efficient terminal workflows and tools
-                    <ul>
-                      <li>Python</li>
-                      <li>Java</li>
-                      <li>ANTLR</li>
-                    </ul>
+      Extending NLU component for a Voice Assistant by developing a custom 
+      engine for parsing natural language expressions. Introducing unit tests, TDD
+      Conducting an internal presentation about efficient terminal workflows and tools
+      <ul>
+        <li>Python</li>
+        <li>Java</li>
+        <li>ANTLR</li>
+      </ul>
   - position: NLP Engineer / SE in ML (Python/Java)
     at: deepsense.ai
     link: https://www.deepsense.ai/
     time_range: January 2020 - September 2020
     short_description: |
-                    Reinforcement Learning, self-driving cars, paper co-author, PyPI package
+      Reinforcement Learning, self-driving cars, paper co-author, PyPI package
+    labels:
+      - something
     full_description: |
-                    RL-based approach to self-driving cars, simulation to reality transfer
-                    Research conducted for a big car manufacturer
-                    Co-author of an article submitted to conferences, e.g. BayLearn (arxiv)
-                    https://drive.google.com/file/d/1XbOLh5N-m3M6cjUOHdcPF3dr2o4IViQe/view?usp=sharing
-                    
-                    <a href='' target='_blank'>BayLearn</a>
-                    (<a href='https://arxiv.org/pdf/2012.11329.pdf' target='_blank'>arxiv</a>)
-                    <a href='https://sites.google.com/view/piotrmilosstudentsprojects#h.8v2old9ekyj6' target='_blank'>summary</a>
-                    Main author of <a href='https://pypi.org/project/carla-birdeye-view/' target='_blank'>this PyPI package</a> (<a href='https://github.com/deepsense-ai/carla-birdeye-view' target='_blank'>Github repo</a>)
+      RL-based approach to self-driving cars, simulation to reality transfer
+      Research conducted for a big car manufacturer
+      Co-author of an article submitted to conferences, e.g. BayLearn (arxiv)
+      https://drive.google.com/file/d/1XbOLh5N-m3M6cjUOHdcPF3dr2o4IViQe/view?usp=sharing
 
-                    Stack:
-                    <ul>
-                      <li>Tensorflow</li>
-                      <li>NumPy</li>
-                      <li>neptune.ai for experiment tracking</li>
-                    </ul>
-                    
+      <a href='' target='_blank'>BayLearn</a>
+      (<a href='https://arxiv.org/pdf/2012.11329.pdf' target='_blank'>arxiv</a>)
+      <a href='https://sites.google.com/view/piotrmilosstudentsprojects#h.8v2old9ekyj6' target='_blank'>summary</a>
+      Main author of <a href='https://pypi.org/project/carla-birdeye-view/' target='_blank'>this PyPI package</a> (<a href='https://github.com/deepsense-ai/carla-birdeye-view' target='_blank'>Github repo</a>)
+
+      Stack:
+      <ul>
+        <li>Tensorflow</li>
+        <li>NumPy</li>
+        <li>neptune.ai for experiment tracking</li>
+      </ul>
+
   - position: NLP & backend developer (Python)
     at: VoiceLab
     link: https://www.voicelab.ai/
     time_range: July 2019 - now
     short_description: |
-                    Language modeling, voice/chatbots engineering
-    full_description:
-                    Update is coming...
+      Language modeling, voice/chatbots engineering
+    labels:
+      - something
+    full_description: Update is coming...
 
   - position: Architect & Lead backend developer (Python)
     at: TensorHive
     link: https://github.com/roscisz/TensorHive
     time_range: May 2018 - now
     short_description: |
-                    Working remotely, contributing to open source project
+      Working remotely, contributing to open source project
+    labels:
+      - something
     full_description: |
-                    <hr class='divider'>
-                    Tools:
-                    <ul>
-                      <li>Python 3.5+ (pytest, Flask, SQLAlchemy, Alembic, parallel-ssh, configparser, flake8, type annotations, decorators, properties, lambdas)</li>
-                      <li>Swagger UI/OpenAPI (interactive documentation of endpoints)</li>
-                      <li>Git with GitFlow strategy</li>
-                    </ul>
-                    Tasks:
-                    <ul>
-                      <li>Rewriting project from scratch using modular architecture and REST communication</li>
-                      <li>Incorporating parallel-ssh library for multi-node communication</li>
-                      <li>Implementing GPU monitoring module using custom-written nvidia-smi parser</li>
-                      <li>Adding GPU reservation mechanism with resource protection</li>
-                      <li>Introducing automated tests, database migration etc.</li>
-                    </ul>
-                    Workflow:
-                    <ul>
-                      <li>Adding issues on Github, using Kanban board, Slack for communication</li>
-                      <li>Encapsulating features into pull requests with extensive description (changes and implications digest, screenshots, how to run/test changes)</li>
-                      <li>Code review and refactoring sessions</li>
-                      <li>In-person meetings for resolving advanced problems and discussing further development</li>
-                      <li>Markdown everywhere (much better expression capabilities, significantly improves readability for team members)
-                    </ul>
-                    More info:
-                    <a href='https://github.com/roscisz/TensorHive'>TensorHive repo on Github</a>
-
-                  
+      <hr class='divider'>
+      Tools:
+      <ul>
+        <li>Python 3.5+ (pytest, Flask, SQLAlchemy, Alembic, parallel-ssh, configparser, flake8, type annotations, decorators, properties, lambdas)</li>
+        <li>Swagger UI/OpenAPI (interactive documentation of endpoints)</li>
+        <li>Git with GitFlow strategy</li>
+      </ul>
+      Tasks:
+      <ul>
+        <li>Rewriting project from scratch using modular architecture and REST communication</li>
+        <li>Incorporating parallel-ssh library for multi-node communication</li>
+        <li>Implementing GPU monitoring module using custom-written nvidia-smi parser</li>
+        <li>Adding GPU reservation mechanism with resource protection</li>
+        <li>Introducing automated tests, database migration etc.</li>
+      </ul>
+      Workflow:
+      <ul>
+        <li>Adding issues on Github, using Kanban board, Slack for communication</li>
+        <li>Encapsulating features into pull requests with extensive description (changes and implications digest, screenshots, how to run/test changes)</li>
+        <li>Code review and refactoring sessions</li>
+        <li>In-person meetings for resolving advanced problems and discussing further development</li>
+        <li>Markdown everywhere (much better expression capabilities, significantly improves readability for team members)
+      </ul>
+      More info:
+      <a href='https://github.com/roscisz/TensorHive'>TensorHive repo on Github</a>
 
   - position: Ruby on Rails Developer (full-stack)
     at: Cirrus
     link: http://www.en.cirrus.pl/about-us/
     time_range: May 2017 - Sep 2017
     short_description: |
-                        Developing an app for a business client.
+      Developing an app for a business client.
+    labels:
+      - something
 
     full_description: |
-                  <hr class='divider'>
-                  It consisted of 4 important parts: 
-                  <ul>
-                    <li>Dashboard for administrators - Web app for managing users and their access, additionaly WYSIWYG editors, email sending, ACL logs</li>
-                    <li>Web interface for clients - displays responsive, platform-specific content (iOS, Android, PC) prepared by an admin in WYSIWYG editor</li>
-                    <li>Linux daemon - my own iptables manager written in Ruby, which controls the life of every rule and talks to the database periodically</li>
-                    <li>Database project</li>
-                  </ul>
-                  <br/>
-                  I've learned a little bit about:
-                  <ul>
-                    <li>How to containerize Rails applications with Docker (docker-compose), how neat it is in deployment and maintainance</li>
-                    <li>Managing my time</li>
-                    <li>Customizing gem's source code</li>
-                    <li>Ruby Metaprogramming</li>
-                    <li>That automating my work really matters</li>
-                    <li>What real-world clients might expect from the end product</li>
-                  </ul>
+      <hr class='divider'>
+      It consisted of 4 important parts: 
+      <ul>
+        <li>Dashboard for administrators - Web app for managing users and their access, additionaly WYSIWYG editors, email sending, ACL logs</li>
+        <li>Web interface for clients - displays responsive, platform-specific content (iOS, Android, PC) prepared by an admin in WYSIWYG editor</li>
+        <li>Linux daemon - my own iptables manager written in Ruby, which controls the life of every rule and talks to the database periodically</li>
+        <li>Database project</li>
+      </ul>
+      <br/>
+      I've learned a little bit about:
+      <ul>
+        <li>How to containerize Rails applications with Docker (docker-compose), how neat it is in deployment and maintainance</li>
+        <li>Managing my time</li>
+        <li>Customizing gem's source code</li>
+        <li>Ruby Metaprogramming</li>
+        <li>That automating my work really matters</li>
+        <li>What real-world clients might expect from the end product</li>
+      </ul>
 
   - position: Apprentice Backend Developer, mainly in Ruby on Rails
     at: Cirrus
     link: http://www.en.cirrus.pl/about-us/
     time_range: Jul 2016 - Sep 2016
     short_description: |
-                      Working on web interface for managing e-mails caught in a Spam Trap, analyzing and profiling Perl scripts, digging around PHP code.
+      Working on web interface for managing e-mails caught in a Spam Trap, analyzing and profiling Perl scripts, digging around PHP code.
+    labels:
+      - something
 
     full_description: |
-                  <hr class='divider'>
-                  I've learned a little bit about:
-                  <ul>
-                    <li>SMTP</li>
-                    <li>Bash and Perl scripting</li>
-                    <li>My fear from PHP syntax</li>
-                  </ul>
+      <hr class='divider'>
+      I've learned a little bit about:
+      <ul>
+        <li>SMTP</li>
+        <li>Bash and Perl scripting</li>
+        <li>My fear from PHP syntax</li>
+      </ul>
 
   - position: Apprentice
     at: Cirrus
     link: http://www.en.cirrus.pl/about-us/
     time_range: Jul 2015 - Sep 2015
     short_description: |
-                        Working in small team with peers, trying to make a web module for prehistoric Rails 3 and jQuery.
-                        
-    full_description: |
-                  <hr class='divider'>
-                  It was looking prety good, even working, but was difficult to merge into original codebase.
-                  Additionaly we were working with refactoring hardware's firmware written in C.
+      Working in small team with peers, trying to make a web module for prehistoric Rails 3 and jQuery.
+    labels:
+      - something
 
-                  I've learned a little bit about:
-                  <ul>
-                    <li>Git</li>
-                    <li>MVC architecture</li>
-                    <li>Using rake, Active Record, templating html and much much more</li>
-                  </ul>
-                  
+    full_description: |
+      <hr class='divider'>
+      It was looking prety good, even working, but was difficult to merge into original codebase.
+      Additionaly we were working with refactoring hardware's firmware written in C.
+
+      I've learned a little bit about:
+      <ul>
+        <li>Git</li>
+        <li>MVC architecture</li>
+        <li>Using rake, Active Record, templating html and much much more</li>
+      </ul>
