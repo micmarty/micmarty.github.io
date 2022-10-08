@@ -4,11 +4,12 @@
             <!-- Project Title -->
             <%= project.project_title %>
         </a>
+    </h3>
+    <h3 class="title">
         <% project.labels.each do |label_text| %>
             <%= render_label label_text %>
         <% end %>
     </h3>
-
     <p class="summary">
         <!-- Short Description -->
         <%= project.short_description %>
