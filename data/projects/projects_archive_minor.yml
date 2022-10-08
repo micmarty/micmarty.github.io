@@ -1,22 +1,21 @@
-section_title: Projects Archive - Minor
-
+section_title: Minor projects
 
 projects:
   - title: DNA sequence analyzer | RNA translation
     short_description: |
-                        Python 3.7 implementation of Needleman-Wunsch and Smith-Waterman algorithms
+      Python 3.7 implementation of Needleman-Wunsch and Smith-Waterman algorithms
     link: https://github.com/micmarty/dna-sequence-analyzer
     image_path: <script src="https://asciinema.org/a/5isHXyxS8jE1uCfNOM83rRv9t.js" id="asciicast-5isHXyxS8jE1uCfNOM83rRv9t" async data-rows="16" data-preload="1" data-autoplay="1" data-loop="1"></script>
 
   - title: Wild world simulator
     short_description: |
-                        Animals and plants are fighting for their lifes using their unique skills
-                        Game written in Python 3
-                        All of the rules and instructions are described in README file
+      Animals and plants are fighting for their lifes using their unique skills
+      Game written in Python 3
+      All of the rules and instructions are described in README file
 
     link: https://github.com/micmarty/WildWorld-the-Game
     image_path: images/projects/minor/wildworld.png
-    
+
   - title: Disk usage color list
     short_description: Bash & Awk scripts which makes my terminal nicer
     link: https://github.com/micmarty/disk_usage_color_list
