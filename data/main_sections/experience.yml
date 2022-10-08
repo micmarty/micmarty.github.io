@@ -1,17 +1,23 @@
 jobs:
-  - position: MLOps / Software Engineer in Machine Learning
+  - position: Software Engineer in ML / MLOps
     at: deepsense.ai
     link: https://www.deepsense.ai/
-    time_range: August 2021 - now
+    time_range: Aug. 2021 - now
     short_description: |
       MLOps tooling consultant, AWS, working in Infra team
     labels:
       - something
     full_description: |
-      Main driver behind the Feature Store selection process for client’s AI department
-      Responsible for leading the process of standardizing DVC for datasets versioning
-      In summary: 2 RFCs delivered, 1 approved and 1 rejected
-      In the meantime, interviewing candidates for SE in ML roles.
+      Responsibilities:
+      <ul>
+        <li>feature store selection process for client's AI department (RFC),</li>
+        <li>leading the process of datasets versioning standarization (RFC),</li>
+        <li>occasionally interviewing candidates for SE in ML roles,</li>
+        <li>developing a SageMaker pipeline template and more</li>
+      </ul>
+      In summary: 2 RFCs delivered, 1 approved, 1 rejected. <br>
+      This project gave me a significant knowledge boost in areas in which I previously only scratch the surface.
+      <br>
       Stack: 
       <ul>
         <li>Python</li>
@@ -26,7 +32,7 @@ jobs:
   - position: NLP Engineer / SE in ML (Python/Java)
     at: deepsense.ai
     link: https://www.deepsense.ai/
-    time_range: November 2020 - August 2021
+    time_range: Nov. 2020 - Aug. 2021
     short_description: |
       NLU, Voice Assistant, TDD
     labels:
@@ -40,10 +46,10 @@ jobs:
         <li>Java</li>
         <li>ANTLR</li>
       </ul>
-  - position: NLP Engineer / SE in ML (Python/Java)
+  - position: Software Engineer in ML
     at: deepsense.ai
     link: https://www.deepsense.ai/
-    time_range: January 2020 - September 2020
+    time_range: Jan. 2020 - Sep. 2020
     short_description: |
       Reinforcement Learning, self-driving cars, paper co-author, PyPI package
     labels:
@@ -74,7 +80,16 @@ jobs:
       Language modeling, voice/chatbots engineering
     labels:
       - something
-    full_description: Update is coming...
+    full_description: |
+      NLU-based chatbots and voicebots development, multi-label text classification with fastai
+      Attempts to introduce reproducible ML pipelines and experiment tracking methodology
+      Reading ASR-related papers
+      Stack: 
+      <ul>
+       <li>Python (FastAPI, SQLAlchemy, fastai)</li>
+       <li>Docker</li>
+       <li>DVC and Guild AI for experiment tracking</li>
+      </ul>
 
   - position: Architect & Lead backend developer (Python)
     at: TensorHive
@@ -85,7 +100,6 @@ jobs:
     labels:
       - something
     full_description: |
-      <hr class='divider'>
       Tools:
       <ul>
         <li>Python 3.5+ (pytest, Flask, SQLAlchemy, Alembic, parallel-ssh, configparser, flake8, type annotations, decorators, properties, lambdas)</li>
@@ -114,14 +128,13 @@ jobs:
   - position: Ruby on Rails Developer (full-stack)
     at: Cirrus
     link: http://www.en.cirrus.pl/about-us/
-    time_range: May 2017 - Sep 2017
+    time_range: May 2017 - Sep. 2017
     short_description: |
       Developing an app for a business client.
     labels:
       - something
 
     full_description: |
-      <hr class='divider'>
       It consisted of 4 important parts: 
       <ul>
         <li>Dashboard for administrators - Web app for managing users and their access, additionaly WYSIWYG editors, email sending, ACL logs</li>
@@ -140,17 +153,16 @@ jobs:
         <li>What real-world clients might expect from the end product</li>
       </ul>
 
-  - position: Apprentice Backend Developer, mainly in Ruby on Rails
+  - position: Internship (Ruby on Rails)
     at: Cirrus
     link: http://www.en.cirrus.pl/about-us/
-    time_range: Jul 2016 - Sep 2016
+    time_range: Jul 2016 - Sep. 2016
     short_description: |
       Working on web interface for managing e-mails caught in a Spam Trap, analyzing and profiling Perl scripts, digging around PHP code.
     labels:
       - something
 
     full_description: |
-      <hr class='divider'>
       I've learned a little bit about:
       <ul>
         <li>SMTP</li>
@@ -161,20 +173,18 @@ jobs:
   - position: Apprentice
     at: Cirrus
     link: http://www.en.cirrus.pl/about-us/
-    time_range: Jul 2015 - Sep 2015
+    time_range: July 2015 - Sep. 2015
     short_description: |
-      Working in small team with peers, trying to make a web module for prehistoric Rails 3 and jQuery.
+      Working in small team with peers, building a web module for legacy app in Rails 3 and jQuery.
     labels:
       - something
 
     full_description: |
-      <hr class='divider'>
-      It was looking prety good, even working, but was difficult to merge into original codebase.
       Additionaly we were working with refactoring hardware's firmware written in C.
 
-      I've learned a little bit about:
+      I've learned a lot there, including:
       <ul>
         <li>Git</li>
         <li>MVC architecture</li>
-        <li>Using rake, Active Record, templating html and much much more</li>
+        <li>Rake, Active Record, templating html and more</li>
       </ul>
