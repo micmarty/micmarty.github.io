@@ -22,6 +22,10 @@
                     </h3>
                     <div>
                         <%= job.short_description %>
+                            <% job.labels.each do |label_text| %>
+                                <!-- Disabled -->
+                                <% render_label label_text %>
+                            <% end %>
                         <div class="content hideContent">
                             <p><%= job.full_description %></p>
                         </div>
