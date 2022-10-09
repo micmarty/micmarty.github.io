@@ -40,28 +40,62 @@ first_project:
     #   https://docs.google.com/presentation/d/1tYvrb2V││
 # --------------------------------------------------------------------------------------------------------------------
 second_project:
-  project_title: CARLA Real-traffic scenarios and bird-eye's view visualization library <a>
+  project_title: CARLA Real-traffic scenarios (CRTS) and bird-eye's view visualization library <a>
   link: https://sites.google.com/view/carla-real-traffic-scenarios/home
   anchor: crts
   labels:
-    - open source
     - deepsense.ai
     - Volkswagen
+    - open source
   badge: CRTS
-  short_description: 2D Visualization tool has been used as one of possible inputs to our RL model in CARLA Real Traffic Scenarios evaluation
+  short_description: |
+    <b>Real-world traffic transferred to CARLA,<br> RL agent experiments 2D Visualization tool</b>
   long_description:
-    - expandable: true
+    - expandable: false
       html_partial_path: partials/projects/birdview_table
       paragraph: |
-        https://deepsense.ai/deepsense-ai-research-presented-at-neurips-2020/
+        We have transferred the data of real-world car traffic to the simulation.
+        The released scenarios cover maneuvers like overtaking on US freeways or exiting roundabouts.
+
+        Datasets that were used:
+        <ul>
+           <li><a href="https://arxiv.org/abs/2007.08463">openDD (roundabouts)</a></li>
+           <li><a href="https://www.fhwa.dot.gov/publications/research/operations/07030/">NGSIM (US freeways)</a></li>
+        </ul>
+
+        Our research resulted not only in creating the benchamark scenarios but also <b>evaluating different RL policies</b> (reward schemes) and <b>observation types</b>: 
+        <ul>
+          <li>bird's-eye view with ablations
+            <ul>
+              <li>front visibility only</li>
+              <li>front+read visibility, without centerline</li>
+              <li>fron+read visibility + framestack (memory)</li>
+            </ul>
+          </li>
+          <li>RGB camera</li>
+          <li>RGB camera + LIDAR</li>
+        </ul>
+
+        Experimentally, we find that bird's-eye view and dense rewards combined with a penalty for a failure to complete an episode <b>generalizes best</b> to validation scenarios.
+        <br><br>
+
+        My role in the project:
+        <ul>
+          <li>Main author of the <a href='https://pypi.org/project/carla-birdeye-view/' target='_blank'>bird-eye's visualization library on PyPI</a> (<a href='https://github.com/deepsense-ai/carla-birdeye-view' target='_blank'>Github repo</a>)
+          <li>Transfer of real-world maps for CARLA (UE4) using <a href="https://www.mathworks.com/products/roadrunner.html" target='_blank'>RoadRunner</a>
+          <li>Co-author of an <a href="https://www.ont.com.pl/wp-content/uploads/artykuly/Lane_change_CoRL.pdf" target='_blank'>article</a> accepted to the <a href="https://deepsense.ai/deepsense-ai-research-presented-at-neurips-2020/" target='_blank'>Autonomous Driving Workshop</a> at NeurIPS 2020 (<a href='https://arxiv.org/abs/2012.11329.pdf' target='_blank'>arxiv version</a>)</li>
+        </ul>
+        <b>Extensive description can be found <a href="https://deepsense.ai/deepsense-ai-research-presented-at-neurips-2020/">in this blog post</a></b>.
+        <br>
+        <b>Credits</b>: Błażej Osiński, Piotr Miłoś, Adam Jakubowski, Paweł Zięcina, Michał Martyniak, Christopher Galias, Antonia Breuer, Silviu Homoceanu, Henryk MichalewskiBłażej Osiński, Piotr Miłoś, Adam Jakubowski, Paweł Zięcina, Krzysztof Galias, Henryk Michalewski.
 
   image_path: images/projects/recent/ngsim-full.gif
   buttons:
-    - name: PyPI package
+    - name: Birdview - PyPI package
       link: https://pypi.org/project/carla-birdeye-view/
-    - name: Source Code
+    - name: Birdview - Source Code
       link: https://github.com/deepsense-ai/carla-birdeye-view
-    - name: Research results
+    - name: RL Research results
       link: https://sites.google.com/view/carla-real-traffic-scenarios/home
     - name: Paper on arxiv
       link: https://arxiv.org/abs/2012.11329
@@ -85,7 +119,7 @@ third_project:
           <li>If reservation gets violeted, the intruder (+admin) will be notified </li>
           <li>It can monitor node resources like: GPU, memory load, etc.</li>
         </ul>
-        The project has started within <a href="http://gradient.eti.pg.gda.pl/" target="_blank"><img src="images/gradient_logo_small.png" style="margin-bottom: 0px"><b>GradientPG</b></a> (Student Research Group)
+        The project has started within <a href="http://gradient.eti.pg.gda.pl/en/" target="_blank"><img src="images/gradient_logo_small.png" style="margin-bottom: 0px"><b>GradientPG</b></a> (Student Research Group)
   image_path: images/projects/major/tensorhive_dashboard_multigpu.png
   link: https://github.com/roscisz/TensorHive
   buttons:
