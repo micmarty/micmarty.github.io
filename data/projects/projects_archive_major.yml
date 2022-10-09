@@ -47,9 +47,7 @@ first_project:
         <li>Classifier based on Google's MobileNet CNN architecture</li>
         <li>Material Design web app written in Python (Flask) and JavaScript</li>
   image_path: false
-  video_path:
-    <iframe src="https://drive.google.com/file/d/16lWAnKBLpJX2q6TF5IhN_g_R7hfFom8Y/preview" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
-    <iframe width="100%" height="490" src="https://drive.google.com/file/d/16lWAnKBLpJX2q6TF5IhN_g_R7hfFom8Y/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  video_path: <iframe width="100%" height="490" src="https://www.youtube-nocookie.com/embed/y9PxS5gOlJU?autoplay=1?start=356" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   # Edit link: http://sendvid.com/40740549?secret=2140d27f-7f80-4e36-bfaf-4c3943f3b61a
   link: https://github.com/micmarty/Instronizer
 
