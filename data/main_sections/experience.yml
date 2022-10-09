@@ -4,20 +4,21 @@ jobs:
     link: https://www.deepsense.ai/
     time_range: Aug. 2021 - now
     short_description: |
-      MLOps tooling consultant, AWS, working in Infra team
+      MLOps tooling consultant in an AWS-oriented Infra team
     labels:
       - something
     full_description: |
       Responsibilities:
       <ul>
+        <li>leading the process of datasets versioning tool standarization (RFC),</li>
         <li>feature store selection process for client's AI department (RFC),</li>
-        <li>leading the process of datasets versioning standarization (RFC),</li>
         <li>occasionally interviewing candidates for SE in ML roles,</li>
         <li>developing a SageMaker pipeline template and more</li>
       </ul>
       In summary: 2 RFCs delivered, 1 approved, 1 rejected. <br>
-      This project gave me a significant knowledge boost in areas in which I previously only scratch the surface.
-      <br>
+      This project gave me a significant knowledge boost in areas in which I had only scratched the surface before.
+      <br><br>
+
       Stack: 
       <ul>
         <li>Python</li>
@@ -34,13 +35,14 @@ jobs:
     link: https://www.deepsense.ai/
     time_range: Nov. 2020 - Aug. 2021
     short_description: |
-      NLU, Voice Assistant, TDD
+      Extending NLU component of a Voice Assistant
     labels:
       - something
     full_description: |
-      Extending NLU component for a Voice Assistant by developing a custom 
-      engine for parsing natural language expressions. Introducing unit tests, TDD
-      Conducting an internal presentation about efficient terminal workflows and tools
+      Building a custom engine for parsing natural language expressions with TDD approach.
+      Besides that I had a chance to do an internal presentation about effective terminal workflows and tools.
+
+      Stack:
       <ul>
         <li>Python</li>
         <li>Java</li>
@@ -51,26 +53,29 @@ jobs:
     link: https://www.deepsense.ai/
     time_range: Jan. 2020 - Sep. 2020
     short_description: |
-      Reinforcement Learning, self-driving cars, paper co-author, PyPI package
+      Applying RL to a self-driving car in CARLA simulator, article co-author, visualization library author
     labels:
       - something
+      # https://drive.google.com/file/d/1XbOLh5N-m3M6cjUOHdcPF3dr2o4IViQe/view?usp=sharing
+      # BayLearn, NeurIPS, CoRL
     full_description: |
-      RL-based approach to self-driving cars, simulation to reality transfer
-      Research conducted for a big car manufacturer
-      Co-author of an article submitted to conferences, e.g. BayLearn (arxiv)
-      https://drive.google.com/file/d/1XbOLh5N-m3M6cjUOHdcPF3dr2o4IViQe/view?usp=sharing
+      We have transferred the data of real-world car traffic to the simulation.
+      The released scenarios cover maneuvers like overtaking on freeways or exiting roundabouts.
+      This research and the extensive set of experiments is a result of collaboration with a big car manufacturer.
 
-      <a href='' target='_blank'>BayLearn</a>
-      (<a href='https://arxiv.org/pdf/2012.11329.pdf' target='_blank'>arxiv</a>)
-      <a href='https://sites.google.com/view/piotrmilosstudentsprojects#h.8v2old9ekyj6' target='_blank'>summary</a>
-      Main author of <a href='https://pypi.org/project/carla-birdeye-view/' target='_blank'>this PyPI package</a> (<a href='https://github.com/deepsense-ai/carla-birdeye-view' target='_blank'>Github repo</a>)
-
+      In short:
+      <ul>
+        <li>Main author of the <a href='https://pypi.org/project/carla-birdeye-view/' target='_blank'>bird-eye's visualization library on PyPI</a> (<a href='https://github.com/deepsense-ai/carla-birdeye-view' target='_blank'>Github repo</a>)
+        <li>Recreating real-world maps for CARLA (UE4) using <a href="https://www.mathworks.com/products/roadrunner.html" target='_blank'>RoadRunner</a>
+        <li>Co-author of an <a href="https://www.ont.com.pl/wp-content/uploads/artykuly/Lane_change_CoRL.pdf" target='_blank'>article</a> accepted to the <a href="https://deepsense.ai/deepsense-ai-research-presented-at-neurips-2020/" target='_blank'>Autonomous Driving Workshop</a> at NeurIPS 2020 (<a href='https://arxiv.org/abs/2012.11329.pdf' target='_blank'>arxiv version</a>)</li>
+      </ul>
       Stack:
       <ul>
-        <li>Tensorflow</li>
-        <li>NumPy</li>
-        <li>neptune.ai for experiment tracking</li>
+        <li>Python (Tensorflow, NumPy)</li>
+        <li>CARLA + RoadRunner</li>
+        <li>Neptune.ai for experiment tracking</li>
       </ul>
+      <b>For more, check out the description of <a href="./recent_projects.html#crts">this project</a></b>
 
   - position: NLP & backend developer (Python)
     at: VoiceLab
