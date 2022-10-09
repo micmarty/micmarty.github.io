@@ -260,7 +260,8 @@ iframe {
 }
 
 .latest .featured .summary {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  margin-bottom: 0px;
   color: #778492;
 }
 
