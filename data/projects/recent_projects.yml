@@ -48,7 +48,7 @@ second_project:
     - deepsense.ai
     - Volkswagen
   badge: CRTS
-  short_description: 2D Visualization tool has been used as one of possible inputs to our RL model <br> in CARLA Real Traffic Scenarios evaluation
+  short_description: 2D Visualization tool has been used as one of possible inputs to our RL model in CARLA Real Traffic Scenarios evaluation
   long_description:
     - expandable: true
       html_partial_path: partials/projects/birdview_table
@@ -73,21 +73,20 @@ third_project:
     - nvidia-smi
     - open source
   badge: false
-  short_description: Lightweight multi-node Nvidia GPU reservation guard
+  short_description: Lightweight multi-node Nvidia GPU reservation guard.
   long_description:
     - expandable: false
+      html_partial_path: partials/projects/tensorhive_table
       paragraph: |
-        We've just started making an open-source solution for distributed trainings in TensorFlow.
-        It will:
+        TensorHive functionalities are as follows:
         <ul>
-          <li>Launch with a single command</li>
-          <li>Have a dashboard built with Material Design components (Google Android style)
-          <li>Communicate over ssh</li>
-          <li>Monitor resources like: GPU, memory load, etc.</li>
+          <li>Users can use calendar view to make a reservation for a particular set GPUs</li>
+          <li>Reserved resources will be protected from running other user's processes</li>
+          <li>If reservation gets violeted, the intruder (+admin) will be notified </li>
+          <li>It can monitor node resources like: GPU, memory load, etc.</li>
         </ul>
         The project has started within <a href="http://gradient.eti.pg.gda.pl/" target="_blank"><img src="images/gradient_logo_small.png" style="margin-bottom: 0px"><b>GradientPG</b></a> (Student Research Group)
-
-  image_path: images/projects/major/tensorhive_dashboard.jpeg
+  image_path: images/projects/major/tensorhive_dashboard_multigpu.png
   link: https://github.com/roscisz/TensorHive
   buttons:
     - name: Source Code
