@@ -2,6 +2,8 @@ section_title: Recent Projects
 # --------------------------------------------------------------------------------------------------------------------
 first_project:
   project_title: Command-driven trajectory planning and following for a self-driving car in a simulated environment
+  link: https://youtu.be/PkTxzsUUCgc
+  anchor: carla-trajector-prediction
   labels:
     - CARLA simulator
     - vision-based
@@ -38,7 +40,9 @@ first_project:
     #   https://docs.google.com/presentation/d/1tYvrb2V││
 # --------------------------------------------------------------------------------------------------------------------
 second_project:
-  project_title: Bird-eye's view for CARLA
+  project_title: CARLA Real-traffic scenarios and bird-eye's view visualization library <a>
+  link: https://sites.google.com/view/carla-real-traffic-scenarios/home
+  anchor: crts
   labels:
     - open source
     - deepsense.ai
@@ -64,6 +68,7 @@ second_project:
 # --------------------------------------------------------------------------------------------------------------------
 third_project:
   project_title: TensorHive
+  anchor: tensorhive
   labels:
     - nvidia-smi
     - open source
@@ -94,6 +99,7 @@ third_project:
 # --------------------------------------------------------------------------------------------------------------------
 fourth_project:
   project_title: Audio signal analysis in Python with Librosa
+  anchor: audio
   labels:
     - audio
     - own research
