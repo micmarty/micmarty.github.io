@@ -1,0 +1,41 @@
+<p>TensorHive originated from my university which wanted to solve the problem of conflicts/time collisions between users after purchasing the <a href="https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/dgx-station/nvidia-dgx-station-datasheet-uk.pdf">NVIDIA DGX STATION</a>.
+Slurm, Kubernetes or other queueing systems would be an overkill (or an unnecessary layer of complexity for students), thus we so came up with something more straightforward.</p>
+
+<div class="table-responsive">
+  <h4>Users can reliably make a reservation for GPUs on a shared cluster</h4>
+  <table class="table">
+  <caption>Reservations are being made via <b>calendar</b>. Running unprivileged trainings will lead to violation and thus result in <b>sending warning notifications or even killing the job</b> (depending on defined policy):</caption>
+    <thead>
+      <tr>
+        <th scope="col">admin sees (e-mail)</th>
+        <th scope="col">What intruder sees (e-mail)</th>
+        <th scope="col">Intruder gets a notification on TTY</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+        <a href="images/projects/major/tensorhive/admin_warning_screenshot.png">
+          <img class="img-responsive project-image"
+            src="images/projects/major/tensorhive/admin_warning_screenshot.png"
+            alt="freeway-oriented shape" />
+          </a>
+        </td>
+        <td>
+        <a href="images/projects/major/tensorhive/email_warning_screenshot.png">
+          <img class="img-responsive project-image"
+            src="images/projects/major/tensorhive/email_warning_screenshot.png"
+            alt="with centerlines layer" />
+            </a>
+        </td>
+        <td>
+        <a href="images/projects/major/tensorhive/terminal_warning_screenshot.png">
+          <img class="img-responsive project-image"
+            src="images/projects/major/tensorhive/terminal_warning_screenshot.png"
+            alt="square-shaped" />
+            </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
