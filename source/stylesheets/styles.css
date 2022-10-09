@@ -144,6 +144,8 @@ iframe {
 
 .header .profile-image {
   margin-right: 30px;
+  width: 180px;
+  height: 180px;
 }
 
 .header .profile-content .name {
