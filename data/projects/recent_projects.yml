@@ -30,11 +30,11 @@ first_project:
     <!-- <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTmvj-SDdWNfiVog7QPM46hl0yPuGJNOPKxTQ2YOwWcCZHKsUk-BWXZx2XPgyCXjzWwRA9ejxzCkopq/embed?start=true&loop=true&delayms=3000" frameborder="0" width="100%" height="490" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
     <!-- <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQuGj9DRZ-LfheFwRGICpl93mzybDCpEaEPvKzPeP1J9QoaKTgFu2vTwf_Ey_8jm-nIg8apjwb0Mr5x/embed?start=true&loop=true&delayms=3000" frameborder="0" width="100%" height="490" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
   buttons:
-    - name: MLinPL Poster
+    - name: Poster presented at ML in PL 2019
       link: https://drive.google.com/open?id=1pNrkshVnNiNE9TEEa6w1Rsv8v9JEYcB5
     - name: Thesis PDF (PL)
       link: https://drive.google.com/open?id=13CXULSNrVkydnqRSUOggkUtkPCJcKUOi
-    - name: Project summary on YouTube (ENG)
+    - name: Video summary for EEML 2020 (ENG)
       link: https://youtu.be/PkTxzsUUCgc
     # - Slides (PL) -> not relevant anymore
     #   https://docs.google.com/presentation/d/1tYvrb2V││
