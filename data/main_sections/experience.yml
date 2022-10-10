@@ -105,30 +105,23 @@ jobs:
     labels:
       - something
     full_description: |
-      Tools:
+
+      Highlights:
       <ul>
-        <li>Python 3.5+ (pytest, Flask, SQLAlchemy, Alembic, parallel-ssh, configparser, flake8, type annotations, decorators, properties, lambdas)</li>
+        <li>Co-author of a <a href="https://www.researcher-app.com/paper/9187561" target="_blank">paper published in JMLR</a> (Journal of Machine Learning Research)</li>
+        <li>Designing a modular architecture and REST API</li>
+        <li>Incorporating parallel-ssh library for multi-node communication</li>
+        <li>Implementing GPU monitoring module using custom-written <b>nvidia-smi</b> parser</li>
+        <li>Adding <b>GPU reservation mechanism</b> with resource protection</li>
+        <li>Introducing automated tests, database migration etc.</li>
+      </ul>
+      Stack:
+      <ul>
+        <li>Python 3.5+ (pytest, Flask, SQLAlchemy, Alembic, parallel-ssh, flake8)</li>
         <li>Swagger UI/OpenAPI (interactive documentation of endpoints)</li>
         <li>Git with GitFlow strategy</li>
       </ul>
-      Tasks:
-      <ul>
-        <li>Rewriting project from scratch using modular architecture and REST communication</li>
-        <li>Incorporating parallel-ssh library for multi-node communication</li>
-        <li>Implementing GPU monitoring module using custom-written nvidia-smi parser</li>
-        <li>Adding GPU reservation mechanism with resource protection</li>
-        <li>Introducing automated tests, database migration etc.</li>
-      </ul>
-      Workflow:
-      <ul>
-        <li>Adding issues on Github, using Kanban board, Slack for communication</li>
-        <li>Encapsulating features into pull requests with extensive description (changes and implications digest, screenshots, how to run/test changes)</li>
-        <li>Code review and refactoring sessions</li>
-        <li>In-person meetings for resolving advanced problems and discussing further development</li>
-        <li>Markdown everywhere (much better expression capabilities, significantly improves readability for team members)
-      </ul>
-      More info:
-      <a href='https://github.com/roscisz/TensorHive'>TensorHive repo on Github</a>
+      More info can be found <a href="./recent_projects.html#tensorhive">here</a>
 
   - position: Ruby on Rails Developer (full-stack)
     at: Cirrus
