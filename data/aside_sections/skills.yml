@@ -55,6 +55,10 @@ main:
   #   description: Using images wherever possible
   # expertise: Basic usage
   #expertise_tooltip: tooltip text
+  - name: Frontend
+    value: 30%
+    tooltip: I think that it's not aligned with the domain I want to specialize in
+    description: Currently, not aligned with my specialization
   - name: Java, C#, C++
     value: 20%
     tooltip: Maybe I should give them another shot...
