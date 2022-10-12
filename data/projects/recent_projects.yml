@@ -129,6 +129,8 @@ third_project:
       link: https://gradient.eti.pg.gda.pl/projekty/2017/10/07/projekt-tensor-hive.html
     - name: Article (ENG)
       link: https://gradient.eti.pg.gda.pl/en/projects/2017/10/07/projekt-tensor-hive.html
+    - name: Publication in JMLR
+      link: https://www.researcher-app.com/paper/9187561
 # --------------------------------------------------------------------------------------------------------------------
 fourth_project:
   project_title: Audio signal analysis in Python with Librosa
